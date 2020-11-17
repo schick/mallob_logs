@@ -1,7 +1,7 @@
 from dataclasses import dataclass, fields
 import sys
 import re
-import glob
+from glob import glob
 
 
 @dataclass
@@ -18,9 +18,7 @@ class Job:
     start_generate_cubes: str = "NONE"
     end_generate_cubes: str = "NONE"
 
-    tree_size: int = 1
     root_node: str = "NONE"
-    solver_index: str = "NONE"
 
     number_send_cubes: int = 0
     number_returned_cubes: int = 0
@@ -29,14 +27,31 @@ class Job:
     def __str__(self):
         return " ".join([str(getattr(self, field.name)) for field in fields(self)])
 
+# Get identifier as int for sort
+def getID(job):
+    return int(job.identifier)
 
-def extract_jobs(jobdir):
+# Get the node index of the client
+def getClientIndex(jobdir):
+
+    # Get the folder index for sorting
+    def getFolderName(path):
+        return int(re.search(r'\/(\d+)\/$', path).group(1))
+
+    node_folders = sorted(glob(jobdir + "/*/"), key=getFolderName, reverse=True)
+
+    return getFolderName(node_folders[0])
+
+def parse_mallob(jobdir):
 
     jobs = dict()
 
-    for line in open(jobdir + "/31/log.31", "r").readlines():
+    client_index = str(getClientIndex(jobdir)) 
+
+    # Open client log
+    for line in open(jobdir + "/" +  client_index + "/log." + client_index, "r").readlines():
         # Example: 1000.443 31 Introducing job #9 => [26]
-        intro_match = re.search(r'^(?P<time>\d+.\d+) 31 Introducing job #(?P<jobid>\d+) => \[(?P<rootrank>\d+)\]', line)
+        intro_match = re.search(r'^(?P<time>\d+.\d+) \d+ Introducing job #(?P<jobid>\d+) => \[(?P<rootrank>\d+)\]', line)
 
         if intro_match is not None:
             # Create job
@@ -45,7 +60,7 @@ def extract_jobs(jobdir):
             jobs[intro_match.group("jobid")] = job
 
         # Example: 935.274 31 SOLUTION #7 UNSAT rev. 0
-        solution_match = re.search(r'^(?P<time>\d+.\d+) 31 SOLUTION #(?P<jobid>\d+) (?P<result>UNSAT|SAT)', line)
+        solution_match = re.search(r'^(?P<time>\d+.\d+) \d+ SOLUTION #(?P<jobid>\d+) (?P<result>UNSAT|SAT)', line)
 
         if solution_match is not None:
             # Add end_time and result to job
@@ -54,15 +69,15 @@ def extract_jobs(jobdir):
             jobs[solution_match.group("jobid")].result = solution_match.group("result")
 
         # Example: 1030.619 31 TIMEOUT #5 1000.008545 <= [18]
-        timeout_match = re.search(r'^(?P<time>\d+.\d+) 31 TIMEOUT #(?P<jobid>\d+)', line)
+        timeout_match = re.search(r'^(?P<time>\d+.\d+) \d+ TIMEOUT #(?P<jobid>\d+)', line)
 
         if timeout_match is not None:
             # Add end_time
-            jobs[timeout_match.group("jobid")].end_time = float(timeout_match.group("time"))    
+            jobs[timeout_match.group("jobid")].end_time = float(timeout_match.group("time"))
             jobs[timeout_match.group("jobid")].duration = jobs[timeout_match.group("jobid")].end_time - jobs[timeout_match.group("jobid")].start_time
 
-    # Parse all job logs
-    logfiles = glob.glob(jobdir + "/*/log*#*")
+    # Parse all job logs (This is cnc specific)
+    logfiles = glob(jobdir + "/*/log*#*")
     for logfile in logfiles:
 
         logfile_match = re.search(r'(?P<node>\d+)#(?P<jobid>\d+)$', logfile)
@@ -97,8 +112,10 @@ def extract_jobs(jobdir):
             if recv_failed_cubes_match is not None:
                 jobs[jobid].number_returned_cubes += int(recv_failed_cubes_match.group("count"))
 
-    return jobs
+    jobs_list = list(jobs.values())
+    jobs_list.sort(key=getID)
 
+    return jobs_list
 
 def get_baseline():
 
