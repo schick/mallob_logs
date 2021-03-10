@@ -1,0 +1,45 @@
+67226 <c-44#386> Created logger
+67226.1 <c-44#386> appl_initialize was called
+67226.1 <c-44#386:25> Logger was updated
+67226.1 <c-44#386:25> Started intializing cube lib
+67226.1 <c-44#386:25> Finished intializing cube lib with worker, starting to work
+67227.2 <c-44#386:25> requestCubes => [32] Buffer size: 0
+67227.2 <c-44#386:25> Sent requestCubes signal to root
+67227.2 <c-44#386:25> Received 1 cubes from root
+67227.2 <c-44#386:25> The main loop continues
+67227.2 <c-44#386:25> Started solving a cube
+67262.7 <c-44#386:25> appl_pause was called
+67262.7 <c-44#386:25> Set suspended
+67262.7 <c-44#386:25> Suspending worker
+67262.7 <c-44#386:25> SUSPEND (0.02s since last cb)
+67300.8 <c-44#386:25> appl_unpause was called
+67300.8 <c-44#386:25> Set unsuspended
+67300.8 <c-44#386:25> Resuming worker
+67300.8 <c-44#386:25> RESUME
+67315.7 <c-44#386:25> appl_pause was called
+67315.7 <c-44#386:25> Set suspended
+67315.7 <c-44#386:25> Suspending worker
+67316.4 <c-44#386:25> SUSPEND (0.88s since last cb)
+67555.1 <c-44#386:25> appl_interrupt was called
+67555.1 <c-44#386:25> Interrupting worker
+67555.1 <c-44#386:25> Resuming worker to allow interruption
+67555.1 <c-44#386:25> RESUME
+67555.1 <c-44#386:25> STOP after suspension
+67555.1 <c-44#386:25> Solving interrupted
+67555.1 <c-44#386:25> The main loop continues
+67555.1 <c-44#386:25> Leaving the main loop due to an interruption
+67555.1 <c-44#386:25> appl_interrupt was called
+67555.1 <c-44#386:25> appl_withdraw was called
+67555.1 <c-44#386:25> Started withdraw thread
+67555.1 <c-44#386:25> Finished withdrawing lib
+67555.1 <c-44#386:25> Enter destructor of CubeWorker
+67555.1 <c-44#386:25> Time waiting for messages: 0.000
+67555.5 <c-44#386:25> Enter destructor of CubeWorkerInterface
+67555.5 <c-44#386:25> Enter destructor of CubeRoot
+67555.5 <c-44#386:25> Finished withdraw thread
+67615.8 <c-44#386:25> Enter destructor
+67615.8 <c-44#386:25> Time working: 14.898
+67615.8 <c-44#386:25> Time suspended: 239.453
+67615.8 <c-44#386:25> Joined cleanup thread
+67615.8 <c-44#386:25> Exit destructor
+67615.8 <c-44#386:25> Destructing logger

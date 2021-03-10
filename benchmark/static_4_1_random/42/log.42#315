@@ -1,0 +1,45 @@
+54133 <c-42#315> Created logger
+54133 <c-42#315> appl_initialize was called
+54133 <c-42#315:31> Logger was updated
+54133 <c-42#315:31> Started intializing cube lib
+54133 <c-42#315:31> Finished intializing cube lib with worker, starting to work
+54133 <c-42#315:31> requestCubes => [12] Buffer size: 0
+54133 <c-42#315:31> Sent requestCubes signal to root
+54133 <c-42#315:31> Received 1 cubes from root
+54133 <c-42#315:31> The main loop continues
+54133 <c-42#315:31> Started solving a cube
+54157.6 <c-42#315:31> appl_pause was called
+54157.6 <c-42#315:31> Set suspended
+54157.6 <c-42#315:31> Suspending worker
+54157.6 <c-42#315:31> SUSPEND (0.00s since last cb)
+54643.8 <c-42#315:31> appl_unpause was called
+54643.8 <c-42#315:31> Set unsuspended
+54643.8 <c-42#315:31> Resuming worker
+54643.8 <c-42#315:31> RESUME
+54683.7 <c-42#315:31> appl_pause was called
+54683.7 <c-42#315:31> Set suspended
+54683.7 <c-42#315:31> Suspending worker
+54683.7 <c-42#315:31> SUSPEND (0.00s since last cb)
+54990.6 <c-42#315:31> appl_interrupt was called
+54990.6 <c-42#315:31> Interrupting worker
+54990.6 <c-42#315:31> Resuming worker to allow interruption
+54990.6 <c-42#315:31> RESUME
+54990.6 <c-42#315:31> STOP after suspension
+54990.6 <c-42#315:31> Solving interrupted
+54990.6 <c-42#315:31> appl_interrupt was called
+54990.6 <c-42#315:31> appl_withdraw was called
+54990.6 <c-42#315:31> The main loop continues
+54990.6 <c-42#315:31> Leaving the main loop due to an interruption
+54990.6 <c-42#315:31> Started withdraw thread
+54990.6 <c-42#315:31> Finished withdrawing lib
+54990.6 <c-42#315:31> Enter destructor of CubeWorker
+54990.6 <c-42#315:31> Time waiting for messages: 0.000
+54990.6 <c-42#315:31> Enter destructor of CubeWorkerInterface
+54990.6 <c-42#315:31> Enter destructor of CubeRoot
+54990.6 <c-42#315:31> Finished withdraw thread
+55051.6 <c-42#315:31> Enter destructor
+55051.6 <c-42#315:31> Time working: 39.812
+55051.6 <c-42#315:31> Time suspended: 306.918
+55051.6 <c-42#315:31> Joined cleanup thread
+55051.6 <c-42#315:31> Exit destructor
+55051.6 <c-42#315:31> Destructing logger

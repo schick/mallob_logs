@@ -1,0 +1,45 @@
+24761.2 <c-39#137> Created logger
+24761.3 <c-39#137> appl_initialize was called
+24761.3 <c-39#137:24> Logger was updated
+24761.3 <c-39#137:24> Started intializing cube lib
+24761.3 <c-39#137:24> Finished intializing cube lib with worker, starting to work
+24762.2 <c-39#137:24> requestCubes => [1] Buffer size: 0
+24762.2 <c-39#137:24> Sent requestCubes signal to root
+24762.2 <c-39#137:24> Received 4 cubes from root
+24762.2 <c-39#137:24> The main loop continues
+24762.2 <c-39#137:24> Started solving a cube
+25072.3 <c-39#137:24> appl_pause was called
+25072.3 <c-39#137:24> Set suspended
+25072.3 <c-39#137:24> Suspending worker
+25072.3 <c-39#137:24> SUSPEND (0.00s since last cb)
+25199.9 <c-39#137:24> appl_unpause was called
+25199.9 <c-39#137:24> Set unsuspended
+25199.9 <c-39#137:24> Resuming worker
+25199.9 <c-39#137:24> RESUME
+25211.3 <c-39#137:24> appl_pause was called
+25211.3 <c-39#137:24> Set suspended
+25211.3 <c-39#137:24> Suspending worker
+25211.3 <c-39#137:24> SUSPEND (0.00s since last cb)
+25485.9 <c-39#137:24> appl_interrupt was called
+25485.9 <c-39#137:24> Interrupting worker
+25485.9 <c-39#137:24> Resuming worker to allow interruption
+25485.9 <c-39#137:24> RESUME
+25485.9 <c-39#137:24> STOP after suspension
+25485.9 <c-39#137:24> Solving interrupted
+25485.9 <c-39#137:24> The main loop continues
+25485.9 <c-39#137:24> Leaving the main loop due to an interruption
+25485.9 <c-39#137:24> appl_interrupt was called
+25485.9 <c-39#137:24> appl_withdraw was called
+25485.9 <c-39#137:24> Started withdraw thread
+25485.9 <c-39#137:24> Finished withdrawing lib
+25485.9 <c-39#137:24> Enter destructor of CubeWorker
+25485.9 <c-39#137:24> Time waiting for messages: 0.000
+25486 <c-39#137:24> Enter destructor of CubeWorkerInterface
+25486 <c-39#137:24> Enter destructor of CubeRoot
+25486 <c-39#137:24> Finished withdraw thread
+25548.5 <c-39#137:24> Enter destructor
+25548.5 <c-39#137:24> Time working: 11.320
+25548.5 <c-39#137:24> Time suspended: 274.621
+25548.5 <c-39#137:24> Joined cleanup thread
+25548.5 <c-39#137:24> Exit destructor
+25548.5 <c-39#137:24> Destructing logger

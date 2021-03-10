@@ -1,0 +1,41 @@
+30707 <c-15#182> Created logger
+30707 <c-15#182> appl_initialize was called
+30707 <c-15#182:10> Logger was updated
+30707 <c-15#182:10> Started intializing cube lib
+30707 <c-15#182:10> Finished intializing cube lib with worker, starting to work
+30707.1 <c-15#182:10> requestCubes => [10] Buffer size: 0
+30707.1 <c-15#182:10> Sent requestCubes signal to root
+30707.1 <c-15#182:10> Received 1 cubes from root
+30707.1 <c-15#182:10> The main loop continues
+30707.1 <c-15#182:10> Started solving a cube
+30818.1 <c-15#182:10> Cube failed
+30818.1 <c-15#182:10> Added failed cube
+30818.1 <c-15#182:10> returnFailedCubes => [10] Buffer size: 3
+30818.1 <c-15#182:10> Sent 1 failed cubes to root
+30818.1 <c-15#182:10> Received receivedFailedCubes signal from root
+30818.1 <c-15#182:10> requestCubes => [10] Buffer size: 0
+30818.1 <c-15#182:10> Sent requestCubes signal to root
+30818.1 <c-15#182:10> Received 1 cubes from root
+30818.1 <c-15#182:10> The main loop continues
+30818.1 <c-15#182:10> Started solving a cube
+31080.7 <c-15#182:10> appl_interrupt was called
+31080.7 <c-15#182:10> Interrupting worker
+31080.7 <c-15#182:10> appl_interrupt was called
+31080.7 <c-15#182:10> appl_withdraw was called
+31080.7 <c-15#182:10> Started withdraw thread
+31080.7 <c-15#182:10> STOP (0.00s since last cb)
+31080.7 <c-15#182:10> Solving interrupted
+31080.7 <c-15#182:10> The main loop continues
+31080.7 <c-15#182:10> Leaving the main loop due to an interruption
+31080.7 <c-15#182:10> Finished withdrawing lib
+31080.7 <c-15#182:10> Enter destructor of CubeWorker
+31080.7 <c-15#182:10> Time waiting for messages: 0.002
+31080.7 <c-15#182:10> Enter destructor of CubeWorkerInterface
+31080.7 <c-15#182:10> Enter destructor of CubeRoot
+31080.7 <c-15#182:10> Finished withdraw thread
+31142.2 <c-15#182:10> Enter destructor
+31142.2 <c-15#182:10> Time working: 373.668
+31142.2 <c-15#182:10> Time suspended: 0.000
+31142.2 <c-15#182:10> Joined cleanup thread
+31142.2 <c-15#182:10> Exit destructor
+31142.2 <c-15#182:10> Destructing logger

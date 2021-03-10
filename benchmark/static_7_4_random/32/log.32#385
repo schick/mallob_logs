@@ -1,0 +1,49 @@
+70788.4 <c-32#385> Created logger
+70788.6 <c-32#385> appl_initialize was called
+70788.6 <c-32#385:3> Logger was updated
+70788.6 <c-32#385:3> Started intializing cube lib
+70788.6 <c-32#385:3> Finished intializing cube lib with worker, starting to work
+70792 <c-32#385:3> requestCubes => [54] Buffer size: 0
+70792 <c-32#385:3> Sent requestCubes signal to root
+70792 <c-32#385:3> Received 4 cubes from root
+70792 <c-32#385:3> The main loop continues
+70792 <c-32#385:3> Started solving a cube
+70792.8 <c-32#385:3> Cube failed
+70792.8 <c-32#385:3> Added failed cube
+70792.8 <c-32#385:3> Started solving a cube
+71100.2 <c-32#385:3> Cube failed
+71100.2 <c-32#385:3> Added failed cube
+71100.2 <c-32#385:3> Started solving a cube
+71131.6 <c-32#385:3> Cube failed
+71131.6 <c-32#385:3> Added failed cube
+71131.6 <c-32#385:3> Started solving a cube
+71131.6 <c-32#385:3> Skipped cube
+71131.6 <c-32#385:3> returnFailedCubes => [54] Buffer size: 12
+71131.6 <c-32#385:3> Sent 3 failed cubes to root
+71131.6 <c-32#385:3> Received receivedFailedCubes signal from root
+71131.6 <c-32#385:3> requestCubes => [54] Buffer size: 0
+71131.6 <c-32#385:3> Sent requestCubes signal to root
+71131.6 <c-32#385:3> Received 3 cubes from root
+71131.6 <c-32#385:3> The main loop continues
+71131.6 <c-32#385:3> Started solving a cube
+71144.9 <c-32#385:3> appl_interrupt was called
+71144.9 <c-32#385:3> Interrupting worker
+71144.9 <c-32#385:3> appl_interrupt was called
+71144.9 <c-32#385:3> appl_withdraw was called
+71144.9 <c-32#385:3> STOP (0.02s since last cb)
+71144.9 <c-32#385:3> Solving interrupted
+71144.9 <c-32#385:3> The main loop continues
+71144.9 <c-32#385:3> Leaving the main loop due to an interruption
+71144.9 <c-32#385:3> Started withdraw thread
+71144.9 <c-32#385:3> Finished withdrawing lib
+71144.9 <c-32#385:3> Enter destructor of CubeWorker
+71144.9 <c-32#385:3> Time waiting for messages: 0.000
+71145.2 <c-32#385:3> Enter destructor of CubeWorkerInterface
+71145.2 <c-32#385:3> Enter destructor of CubeRoot
+71145.3 <c-32#385:3> Finished withdraw thread
+71207.8 <c-32#385:3> Enter destructor
+71207.8 <c-32#385:3> Time working: 356.305
+71207.8 <c-32#385:3> Time suspended: 0.000
+71207.8 <c-32#385:3> Joined cleanup thread
+71207.8 <c-32#385:3> Exit destructor
+71207.8 <c-32#385:3> Destructing logger

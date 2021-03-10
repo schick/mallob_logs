@@ -1,0 +1,45 @@
+24566.8 <c-38#143> Created logger
+24567.2 <c-38#143> appl_initialize was called
+24567.2 <c-38#143:17> Logger was updated
+24567.2 <c-38#143:17> Started intializing cube lib
+24567.2 <c-38#143:17> Finished intializing cube lib with worker, starting to work
+24575.2 <c-38#143:17> requestCubes => [13] Buffer size: 0
+24575.2 <c-38#143:17> Sent requestCubes signal to root
+24575.2 <c-38#143:17> Received 1 cubes from root
+24575.2 <c-38#143:17> The main loop continues
+24575.2 <c-38#143:17> Started solving a cube
+24605.6 <c-38#143:17> appl_pause was called
+24605.6 <c-38#143:17> Set suspended
+24605.6 <c-38#143:17> Suspending worker
+24605.6 <c-38#143:17> SUSPEND (0.01s since last cb)
+24757 <c-38#143:17> appl_unpause was called
+24757 <c-38#143:17> Set unsuspended
+24757 <c-38#143:17> Resuming worker
+24757 <c-38#143:17> RESUME
+24796.8 <c-38#143:17> appl_pause was called
+24796.8 <c-38#143:17> Set suspended
+24796.8 <c-38#143:17> Suspending worker
+24797 <c-38#143:17> SUSPEND (1.04s since last cb)
+24809 <c-38#143:17> appl_interrupt was called
+24809 <c-38#143:17> Interrupting worker
+24809 <c-38#143:17> Resuming worker to allow interruption
+24809 <c-38#143:17> RESUME
+24809 <c-38#143:17> STOP after suspension
+24809 <c-38#143:17> appl_interrupt was called
+24809 <c-38#143:17> appl_withdraw was called
+24809 <c-38#143:17> Started withdraw thread
+24811.1 <c-38#143:17> Solving interrupted
+24811.1 <c-38#143:17> The main loop continues
+24811.1 <c-38#143:17> Leaving the main loop due to an interruption
+24811.1 <c-38#143:17> Finished withdrawing lib
+24811.1 <c-38#143:17> Enter destructor of CubeWorker
+24811.1 <c-38#143:17> Time waiting for messages: 0.000
+24811.5 <c-38#143:17> Enter destructor of CubeWorkerInterface
+24811.5 <c-38#143:17> Enter destructor of CubeRoot
+24811.5 <c-38#143:17> Finished withdraw thread
+24871.5 <c-38#143:17> Enter destructor
+24871.5 <c-38#143:17> Time working: 39.826
+24871.5 <c-38#143:17> Time suspended: 12.236
+24871.5 <c-38#143:17> Joined cleanup thread
+24871.5 <c-38#143:17> Exit destructor
+24871.5 <c-38#143:17> Destructing logger

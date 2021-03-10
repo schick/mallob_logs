@@ -1,0 +1,49 @@
+19418.6 <c-23#110> Created logger
+19418.6 <c-23#110> appl_initialize was called
+19418.6 <c-23#110:5> Logger was updated
+19418.6 <c-23#110:5> Started intializing cube lib
+19418.6 <c-23#110:5> Finished intializing cube lib with worker, starting to work
+19418.7 <c-23#110:5> requestCubes => [7] Buffer size: 0
+19418.7 <c-23#110:5> Sent requestCubes signal to root
+19418.7 <c-23#110:5> Received 4 cubes from root
+19418.7 <c-23#110:5> The main loop continues
+19418.7 <c-23#110:5> Started solving a cube
+19424.1 <c-23#110:5> Cube failed
+19424.1 <c-23#110:5> Added failed cube
+19424.1 <c-23#110:5> Started solving a cube
+19424.4 <c-23#110:5> Cube failed
+19424.4 <c-23#110:5> Added failed cube
+19424.4 <c-23#110:5> Started solving a cube
+19477.4 <c-23#110:5> Cube failed
+19477.4 <c-23#110:5> Added failed cube
+19477.4 <c-23#110:5> Started solving a cube
+19479.6 <c-23#110:5> Cube failed
+19479.6 <c-23#110:5> Added failed cube
+19479.6 <c-23#110:5> returnFailedCubes => [7] Buffer size: 27
+19479.6 <c-23#110:5> Sent 4 failed cubes to root
+19479.6 <c-23#110:5> Received receivedFailedCubes signal from root
+19479.6 <c-23#110:5> requestCubes => [7] Buffer size: 0
+19479.6 <c-23#110:5> Sent requestCubes signal to root
+19479.6 <c-23#110:5> Received 4 cubes from root
+19479.6 <c-23#110:5> The main loop continues
+19479.6 <c-23#110:5> Started solving a cube
+20104.7 <c-23#110:5> Found a solution: SAT
+20104.7 <c-23#110:5> Leaving the main loop because a solution was found
+20104.7 <c-23#110:5> Found result SAT
+20104.7 <c-23#110:5> appl_interrupt was called
+20104.7 <c-23#110:5> Interrupting worker
+20104.7 <c-23#110:5> appl_interrupt was called
+20104.7 <c-23#110:5> appl_withdraw was called
+20104.7 <c-23#110:5> Started withdraw thread
+20104.7 <c-23#110:5> Finished withdrawing lib
+20104.7 <c-23#110:5> Enter destructor of CubeWorker
+20104.7 <c-23#110:5> Time waiting for messages: 0.002
+20104.7 <c-23#110:5> Enter destructor of CubeWorkerInterface
+20104.7 <c-23#110:5> Enter destructor of CubeRoot
+20104.7 <c-23#110:5> Finished withdraw thread
+20166.2 <c-23#110:5> Enter destructor
+20166.2 <c-23#110:5> Time working: 686.104
+20166.2 <c-23#110:5> Time suspended: 0.000
+20166.2 <c-23#110:5> Joined cleanup thread
+20166.2 <c-23#110:5> Exit destructor
+20166.2 <c-23#110:5> Destructing logger

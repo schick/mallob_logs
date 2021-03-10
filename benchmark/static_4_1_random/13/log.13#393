@@ -1,0 +1,41 @@
+67322.5 <c-13#393> Created logger
+67322.5 <c-13#393> appl_initialize was called
+67322.5 <c-13#393:12> Logger was updated
+67322.5 <c-13#393:12> Started intializing cube lib
+67322.5 <c-13#393:12> Finished intializing cube lib with worker, starting to work
+67322.6 <c-13#393:12> requestCubes => [7] Buffer size: 0
+67322.6 <c-13#393:12> Sent requestCubes signal to root
+67322.6 <c-13#393:12> Received 1 cubes from root
+67322.6 <c-13#393:12> The main loop continues
+67322.6 <c-13#393:12> Started solving a cube
+67345.5 <c-13#393:12> Cube failed
+67345.5 <c-13#393:12> Added failed cube
+67345.5 <c-13#393:12> returnFailedCubes => [7] Buffer size: 5
+67345.5 <c-13#393:12> Sent 1 failed cubes to root
+67345.5 <c-13#393:12> Received receivedFailedCubes signal from root
+67345.5 <c-13#393:12> requestCubes => [7] Buffer size: 0
+67345.5 <c-13#393:12> Sent requestCubes signal to root
+67345.5 <c-13#393:12> Received 1 cubes from root
+67345.5 <c-13#393:12> The main loop continues
+67345.5 <c-13#393:12> Started solving a cube
+68300.8 <c-13#393:12> appl_interrupt was called
+68300.8 <c-13#393:12> Interrupting worker
+68300.8 <c-13#393:12> appl_interrupt was called
+68300.8 <c-13#393:12> appl_withdraw was called
+68300.8 <c-13#393:12> Started withdraw thread
+68300.8 <c-13#393:12> STOP (0.01s since last cb)
+68300.8 <c-13#393:12> Solving interrupted
+68300.8 <c-13#393:12> The main loop continues
+68300.8 <c-13#393:12> Leaving the main loop due to an interruption
+68300.8 <c-13#393:12> Finished withdrawing lib
+68300.8 <c-13#393:12> Enter destructor of CubeWorker
+68300.8 <c-13#393:12> Time waiting for messages: 0.000
+68300.8 <c-13#393:12> Enter destructor of CubeWorkerInterface
+68300.8 <c-13#393:12> Enter destructor of CubeRoot
+68300.8 <c-13#393:12> Finished withdraw thread
+68361 <c-13#393:12> Enter destructor
+68361 <c-13#393:12> Time working: 978.281
+68361 <c-13#393:12> Time suspended: 0.000
+68361 <c-13#393:12> Joined cleanup thread
+68361 <c-13#393:12> Exit destructor
+68361 <c-13#393:12> Destructing logger

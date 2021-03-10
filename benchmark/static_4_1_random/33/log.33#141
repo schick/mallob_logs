@@ -1,0 +1,49 @@
+23605.2 <c-33#141> Created logger
+23605.2 <c-33#141> appl_initialize was called
+23605.2 <c-33#141:19> Logger was updated
+23605.2 <c-33#141:19> Started intializing cube lib
+23605.2 <c-33#141:19> Finished intializing cube lib with worker, starting to work
+23605.2 <c-33#141:19> requestCubes => [50] Buffer size: 0
+23605.2 <c-33#141:19> Sent requestCubes signal to root
+23605.2 <c-33#141:19> Received 1 cubes from root
+23605.2 <c-33#141:19> The main loop continues
+23605.2 <c-33#141:19> Started solving a cube
+23676.2 <c-33#141:19> appl_pause was called
+23676.2 <c-33#141:19> Set suspended
+23676.2 <c-33#141:19> Suspending worker
+23676.2 <c-33#141:19> SUSPEND (0.03s since last cb)
+23755.1 <c-33#141:19> appl_unpause was called
+23755.1 <c-33#141:19> Set unsuspended
+23755.1 <c-33#141:19> Resuming worker
+23755.1 <c-33#141:19> RESUME
+23756.6 <c-33#141:19> Cube failed
+23756.6 <c-33#141:19> Added failed cube
+23756.7 <c-33#141:19> returnFailedCubes => [50] Buffer size: 5
+23756.7 <c-33#141:19> Sent 1 failed cubes to root
+23756.7 <c-33#141:19> Received receivedFailedCubes signal from root
+23756.7 <c-33#141:19> requestCubes => [50] Buffer size: 0
+23756.7 <c-33#141:19> Sent requestCubes signal to root
+23756.7 <c-33#141:19> Received 1 cubes from root
+23756.7 <c-33#141:19> The main loop continues
+23756.7 <c-33#141:19> Started solving a cube
+23808.4 <c-33#141:19> appl_interrupt was called
+23808.4 <c-33#141:19> Interrupting worker
+23808.4 <c-33#141:19> appl_interrupt was called
+23808.4 <c-33#141:19> appl_withdraw was called
+23808.4 <c-33#141:19> Started withdraw thread
+23808.4 <c-33#141:19> STOP (0.00s since last cb)
+23808.4 <c-33#141:19> Solving interrupted
+23808.4 <c-33#141:19> The main loop continues
+23808.4 <c-33#141:19> Leaving the main loop due to an interruption
+23808.4 <c-33#141:19> Finished withdrawing lib
+23808.4 <c-33#141:19> Enter destructor of CubeWorker
+23808.4 <c-33#141:19> Time waiting for messages: 0.000
+23808.4 <c-33#141:19> Enter destructor of CubeWorkerInterface
+23808.4 <c-33#141:19> Enter destructor of CubeRoot
+23808.4 <c-33#141:19> Finished withdraw thread
+23870.8 <c-33#141:19> Enter destructor
+23870.8 <c-33#141:19> Time working: 53.322
+23870.8 <c-33#141:19> Time suspended: 78.949
+23870.8 <c-33#141:19> Joined cleanup thread
+23870.8 <c-33#141:19> Exit destructor
+23870.8 <c-33#141:19> Destructing logger

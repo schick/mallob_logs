@@ -1,0 +1,49 @@
+28544 <c-39#157> Created logger
+28544.1 <c-39#157> appl_initialize was called
+28544.1 <c-39#157:7> Logger was updated
+28544.1 <c-39#157:7> Started intializing cube lib
+28544.1 <c-39#157:7> Finished intializing cube lib with worker, starting to work
+28544.7 <c-39#157:7> requestCubes => [56] Buffer size: 0
+28544.7 <c-39#157:7> Sent requestCubes signal to root
+28544.7 <c-39#157:7> Received 4 cubes from root
+28544.7 <c-39#157:7> The main loop continues
+28544.7 <c-39#157:7> Started solving a cube
+28572.9 <c-39#157:7> Cube failed
+28572.9 <c-39#157:7> Added failed cube
+28572.9 <c-39#157:7> Started solving a cube
+28586.3 <c-39#157:7> Cube failed
+28586.3 <c-39#157:7> Added failed cube
+28586.3 <c-39#157:7> Started solving a cube
+28586.3 <c-39#157:7> Skipped cube
+28586.3 <c-39#157:7> Started solving a cube
+28590.4 <c-39#157:7> Cube failed
+28590.4 <c-39#157:7> Added failed cube
+28590.4 <c-39#157:7> returnFailedCubes => [56] Buffer size: 16
+28590.4 <c-39#157:7> Sent 3 failed cubes to root
+28590.4 <c-39#157:7> Received receivedFailedCubes signal from root
+28590.4 <c-39#157:7> requestCubes => [56] Buffer size: 0
+28590.4 <c-39#157:7> Sent requestCubes signal to root
+28590.4 <c-39#157:7> Received 1 cubes from root
+28590.4 <c-39#157:7> The main loop continues
+28590.4 <c-39#157:7> Started solving a cube
+29078.4 <c-39#157:7> appl_interrupt was called
+29078.4 <c-39#157:7> Interrupting worker
+29078.4 <c-39#157:7> appl_interrupt was called
+29078.4 <c-39#157:7> appl_withdraw was called
+29078.4 <c-39#157:7> STOP (0.00s since last cb)
+29078.4 <c-39#157:7> Solving interrupted
+29078.4 <c-39#157:7> The main loop continues
+29078.4 <c-39#157:7> Leaving the main loop due to an interruption
+29078.4 <c-39#157:7> Started withdraw thread
+29078.4 <c-39#157:7> Finished withdrawing lib
+29078.4 <c-39#157:7> Enter destructor of CubeWorker
+29078.4 <c-39#157:7> Time waiting for messages: 0.000
+29078.5 <c-39#157:7> Enter destructor of CubeWorkerInterface
+29078.5 <c-39#157:7> Enter destructor of CubeRoot
+29078.5 <c-39#157:7> Finished withdraw thread
+29138.9 <c-39#157:7> Enter destructor
+29138.9 <c-39#157:7> Time working: 534.322
+29138.9 <c-39#157:7> Time suspended: 0.000
+29138.9 <c-39#157:7> Joined cleanup thread
+29138.9 <c-39#157:7> Exit destructor
+29138.9 <c-39#157:7> Destructing logger

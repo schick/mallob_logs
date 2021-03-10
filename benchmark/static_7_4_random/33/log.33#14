@@ -1,0 +1,49 @@
+2307.69 <c-33#14> Created logger
+2307.7 <c-33#14> appl_initialize was called
+2307.7 <c-33#14:2> Logger was updated
+2307.7 <c-33#14:2> Started intializing cube lib
+2307.7 <c-33#14:2> Finished intializing cube lib with worker, starting to work
+2307.98 <c-33#14:2> requestCubes => [47] Buffer size: 0
+2307.98 <c-33#14:2> Sent requestCubes signal to root
+2307.98 <c-33#14:2> Received 4 cubes from root
+2307.98 <c-33#14:2> The main loop continues
+2307.98 <c-33#14:2> Started solving a cube
+2307.99 <c-33#14:2> Cube failed
+2307.99 <c-33#14:2> Added failed cube
+2307.99 <c-33#14:2> Started solving a cube
+2308 <c-33#14:2> Cube failed
+2308 <c-33#14:2> Added failed cube
+2308 <c-33#14:2> Started solving a cube
+2308 <c-33#14:2> Skipped cube
+2308 <c-33#14:2> Started solving a cube
+2308 <c-33#14:2> Cube failed
+2308 <c-33#14:2> Added failed cube
+2308 <c-33#14:2> returnFailedCubes => [47] Buffer size: 9
+2308 <c-33#14:2> Sent 3 failed cubes to root
+2308.01 <c-33#14:2> Received receivedFailedCubes signal from root
+2308.02 <c-33#14:2> requestCubes => [47] Buffer size: 0
+2308.02 <c-33#14:2> Sent requestCubes signal to root
+2308.02 <c-33#14:2> Received 4 cubes from root
+2308.02 <c-33#14:2> The main loop continues
+2308.02 <c-33#14:2> Started solving a cube
+2310.42 <c-33#14:2> appl_interrupt was called
+2310.42 <c-33#14:2> Interrupting worker
+2310.42 <c-33#14:2> appl_interrupt was called
+2310.42 <c-33#14:2> appl_withdraw was called
+2310.42 <c-33#14:2> Started withdraw thread
+2310.64 <c-33#14:2> STOP (0.38s since last cb)
+2310.85 <c-33#14:2> Solving interrupted
+2310.85 <c-33#14:2> The main loop continues
+2310.85 <c-33#14:2> Leaving the main loop due to an interruption
+2310.85 <c-33#14:2> Finished withdrawing lib
+2310.85 <c-33#14:2> Enter destructor of CubeWorker
+2310.85 <c-33#14:2> Time waiting for messages: 0.001
+2310.9 <c-33#14:2> Enter destructor of CubeWorkerInterface
+2310.9 <c-33#14:2> Enter destructor of CubeRoot
+2310.9 <c-33#14:2> Finished withdraw thread
+2371.01 <c-33#14:2> Enter destructor
+2371.01 <c-33#14:2> Time working: 2.716
+2371.01 <c-33#14:2> Time suspended: 0.000
+2371.01 <c-33#14:2> Joined cleanup thread
+2371.01 <c-33#14:2> Exit destructor
+2371.01 <c-33#14:2> Destructing logger

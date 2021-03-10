@@ -1,0 +1,41 @@
+36081.9 <c-16#206> Created logger
+36082.5 <c-16#206> appl_initialize was called
+36082.5 <c-16#206:12> Logger was updated
+36082.5 <c-16#206:12> Started intializing cube lib
+36082.5 <c-16#206:12> Finished intializing cube lib with worker, starting to work
+36093 <c-16#206:12> requestCubes => [48] Buffer size: 0
+36093 <c-16#206:12> Sent requestCubes signal to root
+36093 <c-16#206:12> Received 1 cubes from root
+36093 <c-16#206:12> The main loop continues
+36093 <c-16#206:12> Started solving a cube
+36141.4 <c-16#206:12> Cube failed
+36141.4 <c-16#206:12> Added failed cube
+36141.4 <c-16#206:12> returnFailedCubes => [48] Buffer size: 2
+36141.4 <c-16#206:12> Sent 1 failed cubes to root
+36141.4 <c-16#206:12> Received receivedFailedCubes signal from root
+36141.5 <c-16#206:12> requestCubes => [48] Buffer size: 0
+36141.5 <c-16#206:12> Sent requestCubes signal to root
+36141.5 <c-16#206:12> Received 1 cubes from root
+36141.5 <c-16#206:12> The main loop continues
+36141.5 <c-16#206:12> Started solving a cube
+36161.7 <c-16#206:12> appl_interrupt was called
+36161.7 <c-16#206:12> Interrupting worker
+36161.7 <c-16#206:12> appl_interrupt was called
+36161.7 <c-16#206:12> appl_withdraw was called
+36161.7 <c-16#206:12> Started withdraw thread
+36183 <c-16#206:12> STOP (23.55s since last cb)
+36184.8 <c-16#206:12> Solving interrupted
+36184.8 <c-16#206:12> The main loop continues
+36184.8 <c-16#206:12> Leaving the main loop due to an interruption
+36184.8 <c-16#206:12> Finished withdrawing lib
+36184.8 <c-16#206:12> Enter destructor of CubeWorker
+36184.8 <c-16#206:12> Time waiting for messages: 0.000
+36185 <c-16#206:12> Enter destructor of CubeWorkerInterface
+36185 <c-16#206:12> Enter destructor of CubeRoot
+36185 <c-16#206:12> Finished withdraw thread
+36223.3 <c-16#206:12> Enter destructor
+36223.3 <c-16#206:12> Time working: 79.148
+36223.3 <c-16#206:12> Time suspended: 0.000
+36223.3 <c-16#206:12> Joined cleanup thread
+36223.3 <c-16#206:12> Exit destructor
+36223.3 <c-16#206:12> Destructing logger

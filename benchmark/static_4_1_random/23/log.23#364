@@ -1,0 +1,45 @@
+63256 <c-23#364> Created logger
+63256.2 <c-23#364> appl_initialize was called
+63256.2 <c-23#364:50> Logger was updated
+63256.2 <c-23#364:50> Started intializing cube lib
+63256.2 <c-23#364:50> Finished intializing cube lib with worker, starting to work
+63258 <c-23#364:50> requestCubes => [22] Buffer size: 0
+63258 <c-23#364:50> Sent requestCubes signal to root
+63258 <c-23#364:50> Received 1 cubes from root
+63258 <c-23#364:50> The main loop continues
+63258 <c-23#364:50> Started solving a cube
+63268.1 <c-23#364:50> appl_pause was called
+63268.1 <c-23#364:50> Set suspended
+63268.1 <c-23#364:50> Suspending worker
+63268.1 <c-23#364:50> SUSPEND (0.00s since last cb)
+63270.2 <c-23#364:50> appl_unpause was called
+63270.2 <c-23#364:50> Set unsuspended
+63270.2 <c-23#364:50> Resuming worker
+63270.2 <c-23#364:50> RESUME
+63325.5 <c-23#364:50> appl_pause was called
+63325.5 <c-23#364:50> Set suspended
+63325.5 <c-23#364:50> Suspending worker
+63325.5 <c-23#364:50> SUSPEND (0.00s since last cb)
+63783.8 <c-23#364:50> appl_interrupt was called
+63783.8 <c-23#364:50> Interrupting worker
+63783.8 <c-23#364:50> Resuming worker to allow interruption
+63783.8 <c-23#364:50> RESUME
+63783.8 <c-23#364:50> STOP after suspension
+63783.8 <c-23#364:50> Solving interrupted
+63783.8 <c-23#364:50> The main loop continues
+63783.8 <c-23#364:50> Leaving the main loop due to an interruption
+63783.8 <c-23#364:50> appl_interrupt was called
+63783.8 <c-23#364:50> appl_withdraw was called
+63783.9 <c-23#364:50> Started withdraw thread
+63783.9 <c-23#364:50> Finished withdrawing lib
+63783.9 <c-23#364:50> Enter destructor of CubeWorker
+63783.9 <c-23#364:50> Time waiting for messages: 0.000
+63784.3 <c-23#364:50> Enter destructor of CubeWorkerInterface
+63784.3 <c-23#364:50> Enter destructor of CubeRoot
+63784.6 <c-23#364:50> Finished withdraw thread
+63844.7 <c-23#364:50> Enter destructor
+63844.7 <c-23#364:50> Time working: 55.246
+63844.7 <c-23#364:50> Time suspended: 458.348
+63844.7 <c-23#364:50> Joined cleanup thread
+63844.7 <c-23#364:50> Exit destructor
+63844.7 <c-23#364:50> Destructing logger

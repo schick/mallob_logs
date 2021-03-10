@@ -1,0 +1,51 @@
+4193.12 <c-59#24> Created logger
+4193.13 <c-59#24> appl_initialize was called
+4193.13 <c-59#24:1> Logger was updated
+4193.13 <c-59#24:1> Started intializing cube lib
+4193.13 <c-59#24:1> Finished intializing cube lib with worker, starting to work
+4193.23 <c-59#24:1> requestCubes => [42] Buffer size: 0
+4193.23 <c-59#24:1> Sent requestCubes signal to root
+4193.23 <c-59#24:1> Received 4 cubes from root
+4193.23 <c-59#24:1> The main loop continues
+4193.23 <c-59#24:1> Started solving a cube
+4197.23 <c-59#24:1> Cube failed
+4197.23 <c-59#24:1> Added failed cube
+4197.23 <c-59#24:1> Started solving a cube
+4197.23 <c-59#24:1> Skipped cube
+4197.23 <c-59#24:1> Started solving a cube
+4197.23 <c-59#24:1> Skipped cube
+4197.23 <c-59#24:1> Started solving a cube
+4197.25 <c-59#24:1> Cube failed
+4197.25 <c-59#24:1> Added failed cube
+4197.25 <c-59#24:1> returnFailedCubes => [42] Buffer size: 7
+4197.25 <c-59#24:1> Sent 2 failed cubes to root
+4197.25 <c-59#24:1> Received receivedFailedCubes signal from root
+4197.27 <c-59#24:1> requestCubes => [42] Buffer size: 0
+4197.27 <c-59#24:1> Sent requestCubes signal to root
+4197.27 <c-59#24:1> Received 4 cubes from root
+4197.27 <c-59#24:1> The main loop continues
+4197.27 <c-59#24:1> Started solving a cube
+4198.2 <c-59#24:1> Cube failed
+4198.2 <c-59#24:1> Added failed cube
+4198.2 <c-59#24:1> Started solving a cube
+5002.43 <c-59#24:1> appl_interrupt was called
+5002.43 <c-59#24:1> Interrupting worker
+5002.43 <c-59#24:1> appl_interrupt was called
+5002.43 <c-59#24:1> appl_withdraw was called
+5002.43 <c-59#24:1> Started withdraw thread
+5002.43 <c-59#24:1> STOP (0.00s since last cb)
+5002.43 <c-59#24:1> Solving interrupted
+5002.43 <c-59#24:1> The main loop continues
+5002.43 <c-59#24:1> Leaving the main loop due to an interruption
+5002.43 <c-59#24:1> Finished withdrawing lib
+5002.43 <c-59#24:1> Enter destructor of CubeWorker
+5002.43 <c-59#24:1> Time waiting for messages: 0.001
+5002.46 <c-59#24:1> Enter destructor of CubeWorkerInterface
+5002.46 <c-59#24:1> Enter destructor of CubeRoot
+5002.46 <c-59#24:1> Finished withdraw thread
+5062.83 <c-59#24:1> Enter destructor
+5062.83 <c-59#24:1> Time working: 809.301
+5062.83 <c-59#24:1> Time suspended: 0.000
+5062.83 <c-59#24:1> Joined cleanup thread
+5062.83 <c-59#24:1> Exit destructor
+5062.83 <c-59#24:1> Destructing logger

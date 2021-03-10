@@ -1,0 +1,48 @@
+43808 <c-43#238> Created logger
+43808.2 <c-43#238> appl_initialize was called
+43808.2 <c-43#238:4> Logger was updated
+43808.2 <c-43#238:4> Started intializing cube lib
+43808.2 <c-43#238:4> Finished intializing cube lib with worker, starting to work
+43811.7 <c-43#238:4> requestCubes => [20] Buffer size: 0
+43811.7 <c-43#238:4> Sent requestCubes signal to root
+43811.7 <c-43#238:4> Received 4 cubes from root
+43811.7 <c-43#238:4> The main loop continues
+43811.7 <c-43#238:4> Started solving a cube
+43811.7 <c-43#238:4> Cube failed
+43811.7 <c-43#238:4> Added failed cube
+43811.7 <c-43#238:4> Started solving a cube
+43811.7 <c-43#238:4> Cube failed
+43811.7 <c-43#238:4> Added failed cube
+43811.7 <c-43#238:4> Started solving a cube
+43811.7 <c-43#238:4> Cube failed
+43811.7 <c-43#238:4> Added failed cube
+43811.7 <c-43#238:4> Started solving a cube
+43811.7 <c-43#238:4> Skipped cube
+43811.7 <c-43#238:4> returnFailedCubes => [20] Buffer size: 9
+43811.7 <c-43#238:4> Sent 3 failed cubes to root
+43811.7 <c-43#238:4> Received receivedFailedCubes signal from root
+43811.7 <c-43#238:4> requestCubes => [20] Buffer size: 0
+43811.7 <c-43#238:4> Sent requestCubes signal to root
+43811.7 <c-43#238:4> Received 4 cubes from root
+43811.7 <c-43#238:4> The main loop continues
+43811.7 <c-43#238:4> Started solving a cube
+43823.3 <c-43#238:4> Found a solution: SAT
+43823.3 <c-43#238:4> Leaving the main loop because a solution was found
+43823.4 <c-43#238:4> Found result SAT
+43823.4 <c-43#238:4> appl_interrupt was called
+43823.4 <c-43#238:4> Interrupting worker
+43823.4 <c-43#238:4> appl_interrupt was called
+43823.4 <c-43#238:4> appl_withdraw was called
+43823.4 <c-43#238:4> Started withdraw thread
+43823.4 <c-43#238:4> Finished withdrawing lib
+43823.4 <c-43#238:4> Enter destructor of CubeWorker
+43823.4 <c-43#238:4> Time waiting for messages: 0.000
+43823.5 <c-43#238:4> Enter destructor of CubeWorkerInterface
+43823.5 <c-43#238:4> Enter destructor of CubeRoot
+43823.5 <c-43#238:4> Finished withdraw thread
+43885.7 <c-43#238:4> Enter destructor
+43885.7 <c-43#238:4> Time working: 15.191
+43885.7 <c-43#238:4> Time suspended: 0.000
+43885.7 <c-43#238:4> Joined cleanup thread
+43885.7 <c-43#238:4> Exit destructor
+43885.7 <c-43#238:4> Destructing logger

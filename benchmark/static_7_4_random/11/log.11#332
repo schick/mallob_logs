@@ -1,0 +1,48 @@
+61250.1 <c-11#332> Created logger
+61250.1 <c-11#332> appl_initialize was called
+61250.1 <c-11#332:2> Logger was updated
+61250.1 <c-11#332:2> Started intializing cube lib
+61250.1 <c-11#332:2> Finished intializing cube lib with worker, starting to work
+61250.1 <c-11#332:2> requestCubes => [5] Buffer size: 0
+61250.1 <c-11#332:2> Sent requestCubes signal to root
+61250.1 <c-11#332:2> Received 4 cubes from root
+61250.1 <c-11#332:2> The main loop continues
+61250.1 <c-11#332:2> Started solving a cube
+61250.1 <c-11#332:2> Cube failed
+61250.1 <c-11#332:2> Added failed cube
+61250.1 <c-11#332:2> Started solving a cube
+61251.9 <c-11#332:2> Cube failed
+61251.9 <c-11#332:2> Added failed cube
+61251.9 <c-11#332:2> Started solving a cube
+61251.9 <c-11#332:2> Skipped cube
+61251.9 <c-11#332:2> Started solving a cube
+61251.9 <c-11#332:2> Skipped cube
+61251.9 <c-11#332:2> returnFailedCubes => [5] Buffer size: 10
+61251.9 <c-11#332:2> Sent 2 failed cubes to root
+61251.9 <c-11#332:2> Received receivedFailedCubes signal from root
+61251.9 <c-11#332:2> requestCubes => [5] Buffer size: 0
+61251.9 <c-11#332:2> Sent requestCubes signal to root
+61251.9 <c-11#332:2> Received 4 cubes from root
+61251.9 <c-11#332:2> The main loop continues
+61251.9 <c-11#332:2> Started solving a cube
+62236.9 <c-11#332:2> appl_interrupt was called
+62236.9 <c-11#332:2> Interrupting worker
+62236.9 <c-11#332:2> appl_interrupt was called
+62236.9 <c-11#332:2> appl_withdraw was called
+62236.9 <c-11#332:2> Started withdraw thread
+62236.9 <c-11#332:2> STOP (0.00s since last cb)
+62236.9 <c-11#332:2> Solving interrupted
+62236.9 <c-11#332:2> The main loop continues
+62236.9 <c-11#332:2> Leaving the main loop due to an interruption
+62236.9 <c-11#332:2> Finished withdrawing lib
+62236.9 <c-11#332:2> Enter destructor of CubeWorker
+62236.9 <c-11#332:2> Time waiting for messages: 0.000
+62236.9 <c-11#332:2> Enter destructor of CubeWorkerInterface
+62236.9 <c-11#332:2> Enter destructor of CubeRoot
+62236.9 <c-11#332:2> Finished withdraw thread
+62297 <c-11#332:2> Enter destructor
+62297 <c-11#332:2> Time working: 986.785
+62297 <c-11#332:2> Time suspended: 0.000
+62297 <c-11#332:2> Joined cleanup thread
+62297 <c-11#332:2> Exit destructor
+62297 <c-11#332:2> Destructing logger

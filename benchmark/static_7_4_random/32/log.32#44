@@ -1,0 +1,45 @@
+8446.64 <c-32#44> Created logger
+8446.91 <c-32#44> appl_initialize was called
+8446.91 <c-32#44:25> Logger was updated
+8446.91 <c-32#44:25> Started intializing cube lib
+8446.91 <c-32#44:25> Finished intializing cube lib with worker, starting to work
+8450.16 <c-32#44:25> requestCubes => [12] Buffer size: 0
+8450.16 <c-32#44:25> Sent requestCubes signal to root
+8450.16 <c-32#44:25> Received 4 cubes from root
+8450.16 <c-32#44:25> The main loop continues
+8450.16 <c-32#44:25> Started solving a cube
+8493.87 <c-32#44:25> appl_pause was called
+8493.88 <c-32#44:25> Set suspended
+8493.88 <c-32#44:25> Suspending worker
+8493.91 <c-32#44:25> SUSPEND (0.05s since last cb)
+8552.69 <c-32#44:25> appl_unpause was called
+8552.69 <c-32#44:25> Set unsuspended
+8552.69 <c-32#44:25> Resuming worker
+8552.69 <c-32#44:25> RESUME
+8703.35 <c-32#44:25> appl_pause was called
+8703.35 <c-32#44:25> Set suspended
+8703.35 <c-32#44:25> Suspending worker
+8704.11 <c-32#44:25> SUSPEND (0.98s since last cb)
+8822.86 <c-32#44:25> appl_interrupt was called
+8822.86 <c-32#44:25> Interrupting worker
+8822.86 <c-32#44:25> Resuming worker to allow interruption
+8822.86 <c-32#44:25> RESUME
+8822.86 <c-32#44:25> STOP after suspension
+8822.86 <c-32#44:25> Solving interrupted
+8822.86 <c-32#44:25> The main loop continues
+8822.86 <c-32#44:25> appl_interrupt was called
+8822.86 <c-32#44:25> appl_withdraw was called
+8822.86 <c-32#44:25> Leaving the main loop due to an interruption
+8822.87 <c-32#44:25> Started withdraw thread
+8822.87 <c-32#44:25> Finished withdrawing lib
+8822.87 <c-32#44:25> Enter destructor of CubeWorker
+8822.87 <c-32#44:25> Time waiting for messages: 0.001
+8825.89 <c-32#44:25> Enter destructor of CubeWorkerInterface
+8825.89 <c-32#44:25> Enter destructor of CubeRoot
+8825.91 <c-32#44:25> Finished withdraw thread
+8883.31 <c-32#44:25> Enter destructor
+8883.31 <c-32#44:25> Time working: 150.652
+8883.31 <c-32#44:25> Time suspended: 119.513
+8883.31 <c-32#44:25> Joined cleanup thread
+8883.31 <c-32#44:25> Exit destructor
+8883.31 <c-32#44:25> Destructing logger

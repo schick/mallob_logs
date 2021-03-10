@@ -1,0 +1,48 @@
+36444.7 <c-58#198> Created logger
+36444.7 <c-58#198> appl_initialize was called
+36444.7 <c-58#198:11> Logger was updated
+36444.7 <c-58#198:11> Started intializing cube lib
+36444.7 <c-58#198:11> Finished intializing cube lib with worker, starting to work
+36444.7 <c-58#198:11> requestCubes => [4] Buffer size: 0
+36444.7 <c-58#198:11> Sent requestCubes signal to root
+36444.7 <c-58#198:11> Received 4 cubes from root
+36444.7 <c-58#198:11> The main loop continues
+36444.7 <c-58#198:11> Started solving a cube
+36619.4 <c-58#198:11> Cube failed
+36619.4 <c-58#198:11> Added failed cube
+36619.4 <c-58#198:11> Started solving a cube
+36619.4 <c-58#198:11> Cube failed
+36619.4 <c-58#198:11> Added failed cube
+36619.4 <c-58#198:11> Started solving a cube
+36619.4 <c-58#198:11> Cube failed
+36619.4 <c-58#198:11> Added failed cube
+36619.4 <c-58#198:11> Started solving a cube
+36619.4 <c-58#198:11> Skipped cube
+36619.4 <c-58#198:11> returnFailedCubes => [4] Buffer size: 10
+36619.4 <c-58#198:11> Sent 3 failed cubes to root
+36619.4 <c-58#198:11> Received receivedFailedCubes signal from root
+36619.4 <c-58#198:11> requestCubes => [4] Buffer size: 0
+36619.4 <c-58#198:11> Sent requestCubes signal to root
+36619.4 <c-58#198:11> Received 2 cubes from root
+36619.4 <c-58#198:11> The main loop continues
+36619.4 <c-58#198:11> Started solving a cube
+36664.2 <c-58#198:11> Found a solution: SAT
+36664.2 <c-58#198:11> Leaving the main loop because a solution was found
+36664.2 <c-58#198:11> Found result SAT
+36664.2 <c-58#198:11> appl_interrupt was called
+36664.2 <c-58#198:11> Interrupting worker
+36664.2 <c-58#198:11> appl_interrupt was called
+36664.2 <c-58#198:11> appl_withdraw was called
+36664.2 <c-58#198:11> Started withdraw thread
+36664.2 <c-58#198:11> Finished withdrawing lib
+36664.2 <c-58#198:11> Enter destructor of CubeWorker
+36664.2 <c-58#198:11> Time waiting for messages: 0.000
+36664.2 <c-58#198:11> Enter destructor of CubeWorkerInterface
+36664.2 <c-58#198:11> Enter destructor of CubeRoot
+36664.2 <c-58#198:11> Finished withdraw thread
+36724.7 <c-58#198:11> Enter destructor
+36724.7 <c-58#198:11> Time working: 219.504
+36724.7 <c-58#198:11> Time suspended: 0.000
+36724.7 <c-58#198:11> Joined cleanup thread
+36724.7 <c-58#198:11> Exit destructor
+36724.7 <c-58#198:11> Destructing logger

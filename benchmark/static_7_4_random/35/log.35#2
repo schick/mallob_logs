@@ -1,0 +1,45 @@
+26.7668 <c-35#2> Created logger
+26.7679 <c-35#2> appl_initialize was called
+26.7679 <c-35#2:43> Logger was updated
+26.7679 <c-35#2:43> Started intializing cube lib
+26.7681 <c-35#2:43> Finished intializing cube lib with worker, starting to work
+26.7877 <c-35#2:43> requestCubes => [25] Buffer size: 0
+26.7878 <c-35#2:43> Sent requestCubes signal to root
+26.7883 <c-35#2:43> Received 4 cubes from root
+26.7884 <c-35#2:43> The main loop continues
+26.7884 <c-35#2:43> Started solving a cube
+82.8227 <c-35#2:43> appl_pause was called
+82.8228 <c-35#2:43> Set suspended
+82.8228 <c-35#2:43> Suspending worker
+82.8244 <c-35#2:43> SUSPEND (0.00s since last cb)
+133.526 <c-35#2:43> appl_unpause was called
+133.526 <c-35#2:43> Set unsuspended
+133.526 <c-35#2:43> Resuming worker
+133.534 <c-35#2:43> RESUME
+289.881 <c-35#2:43> appl_pause was called
+289.881 <c-35#2:43> Set suspended
+289.881 <c-35#2:43> Suspending worker
+289.884 <c-35#2:43> SUSPEND (0.00s since last cb)
+1001.91 <c-35#2:43> appl_interrupt was called
+1001.91 <c-35#2:43> Interrupting worker
+1001.91 <c-35#2:43> Resuming worker to allow interruption
+1001.91 <c-35#2:43> RESUME
+1001.91 <c-35#2:43> STOP after suspension
+1001.91 <c-35#2:43> Solving interrupted
+1001.91 <c-35#2:43> The main loop continues
+1001.91 <c-35#2:43> Leaving the main loop due to an interruption
+1001.91 <c-35#2:43> appl_interrupt was called
+1001.91 <c-35#2:43> appl_withdraw was called
+1001.91 <c-35#2:43> Started withdraw thread
+1001.91 <c-35#2:43> Finished withdrawing lib
+1001.91 <c-35#2:43> Enter destructor of CubeWorker
+1001.91 <c-35#2:43> Time waiting for messages: 0.001
+1001.92 <c-35#2:43> Enter destructor of CubeWorkerInterface
+1001.92 <c-35#2:43> Enter destructor of CubeRoot
+1001.92 <c-35#2:43> Finished withdraw thread
+1062.6 <c-35#2:43> Enter destructor
+1062.6 <c-35#2:43> Time working: 156.355
+1062.6 <c-35#2:43> Time suspended: 712.033
+1062.6 <c-35#2:43> Joined cleanup thread
+1062.6 <c-35#2:43> Exit destructor
+1062.6 <c-35#2:43> Destructing logger

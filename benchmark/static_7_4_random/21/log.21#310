@@ -1,0 +1,50 @@
+56705 <c-21#310> Created logger
+56705 <c-21#310> appl_initialize was called
+56705 <c-21#310:9> Logger was updated
+56705 <c-21#310:9> Started intializing cube lib
+56705 <c-21#310:9> Finished intializing cube lib with worker, starting to work
+56705 <c-21#310:9> requestCubes => [48] Buffer size: 0
+56705 <c-21#310:9> Sent requestCubes signal to root
+56705 <c-21#310:9> Received 4 cubes from root
+56705 <c-21#310:9> The main loop continues
+56705 <c-21#310:9> Started solving a cube
+56707 <c-21#310:9> Cube failed
+56707 <c-21#310:9> Added failed cube
+56707 <c-21#310:9> Started solving a cube
+56732.6 <c-21#310:9> Cube failed
+56732.6 <c-21#310:9> Added failed cube
+56732.6 <c-21#310:9> Started solving a cube
+56738.2 <c-21#310:9> Cube failed
+56738.2 <c-21#310:9> Added failed cube
+56738.2 <c-21#310:9> Started solving a cube
+56910 <c-21#310:9> Cube failed
+56910 <c-21#310:9> Added failed cube
+56910 <c-21#310:9> returnFailedCubes => [48] Buffer size: 28
+56910 <c-21#310:9> Sent 4 failed cubes to root
+56910 <c-21#310:9> Received receivedFailedCubes signal from root
+56910 <c-21#310:9> requestCubes => [48] Buffer size: 0
+56910 <c-21#310:9> Sent requestCubes signal to root
+56910 <c-21#310:9> Received 3 cubes from root
+56910 <c-21#310:9> The main loop continues
+56910 <c-21#310:9> Started solving a cube
+56963.9 <c-21#310:9> appl_interrupt was called
+56963.9 <c-21#310:9> Interrupting worker
+56963.9 <c-21#310:9> appl_interrupt was called
+56963.9 <c-21#310:9> appl_withdraw was called
+56963.9 <c-21#310:9> Started withdraw thread
+56963.9 <c-21#310:9> STOP (0.00s since last cb)
+56963.9 <c-21#310:9> Solving interrupted
+56963.9 <c-21#310:9> The main loop continues
+56963.9 <c-21#310:9> Leaving the main loop due to an interruption
+56963.9 <c-21#310:9> Finished withdrawing lib
+56963.9 <c-21#310:9> Enter destructor of CubeWorker
+56963.9 <c-21#310:9> Time waiting for messages: 0.000
+56963.9 <c-21#310:9> Enter destructor of CubeWorkerInterface
+56963.9 <c-21#310:9> Enter destructor of CubeRoot
+56963.9 <c-21#310:9> Finished withdraw thread
+57024.9 <c-21#310:9> Enter destructor
+57024.9 <c-21#310:9> Time working: 258.895
+57024.9 <c-21#310:9> Time suspended: 0.000
+57024.9 <c-21#310:9> Joined cleanup thread
+57024.9 <c-21#310:9> Exit destructor
+57024.9 <c-21#310:9> Destructing logger

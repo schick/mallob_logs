@@ -1,0 +1,49 @@
+2022.83 <c-16#12> Created logger
+2022.83 <c-16#12> appl_initialize was called
+2022.83 <c-16#12:2> Logger was updated
+2022.83 <c-16#12:2> Started intializing cube lib
+2022.83 <c-16#12:2> Finished intializing cube lib with worker, starting to work
+2022.86 <c-16#12:2> requestCubes => [47] Buffer size: 0
+2022.86 <c-16#12:2> Sent requestCubes signal to root
+2022.86 <c-16#12:2> Received 4 cubes from root
+2022.86 <c-16#12:2> The main loop continues
+2022.86 <c-16#12:2> Started solving a cube
+2025.28 <c-16#12:2> Cube failed
+2025.28 <c-16#12:2> Added failed cube
+2025.28 <c-16#12:2> Started solving a cube
+2025.28 <c-16#12:2> Skipped cube
+2025.28 <c-16#12:2> Started solving a cube
+2025.32 <c-16#12:2> Cube failed
+2025.32 <c-16#12:2> Added failed cube
+2025.32 <c-16#12:2> Started solving a cube
+2025.4 <c-16#12:2> Cube failed
+2025.4 <c-16#12:2> Added failed cube
+2025.4 <c-16#12:2> returnFailedCubes => [47] Buffer size: 6
+2025.4 <c-16#12:2> Sent 3 failed cubes to root
+2025.4 <c-16#12:2> Received receivedFailedCubes signal from root
+2025.41 <c-16#12:2> requestCubes => [47] Buffer size: 0
+2025.41 <c-16#12:2> Sent requestCubes signal to root
+2025.41 <c-16#12:2> Received 1 cubes from root
+2025.41 <c-16#12:2> The main loop continues
+2025.41 <c-16#12:2> Started solving a cube
+2175.34 <c-16#12:2> appl_interrupt was called
+2175.34 <c-16#12:2> Interrupting worker
+2175.34 <c-16#12:2> appl_interrupt was called
+2175.34 <c-16#12:2> appl_withdraw was called
+2175.34 <c-16#12:2> Started withdraw thread
+2175.34 <c-16#12:2> STOP (0.00s since last cb)
+2175.34 <c-16#12:2> Solving interrupted
+2175.34 <c-16#12:2> The main loop continues
+2175.34 <c-16#12:2> Leaving the main loop due to an interruption
+2175.34 <c-16#12:2> Finished withdrawing lib
+2175.34 <c-16#12:2> Enter destructor of CubeWorker
+2175.34 <c-16#12:2> Time waiting for messages: 0.001
+2175.35 <c-16#12:2> Enter destructor of CubeWorkerInterface
+2175.35 <c-16#12:2> Enter destructor of CubeRoot
+2175.35 <c-16#12:2> Finished withdraw thread
+2236.01 <c-16#12:2> Enter destructor
+2236.01 <c-16#12:2> Time working: 152.511
+2236.01 <c-16#12:2> Time suspended: 0.000
+2236.01 <c-16#12:2> Joined cleanup thread
+2236.01 <c-16#12:2> Exit destructor
+2236.01 <c-16#12:2> Destructing logger

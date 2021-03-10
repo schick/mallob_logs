@@ -1,0 +1,44 @@
+3395.32 <c-12#23> Created logger
+3395.32 <c-12#23> appl_initialize was called
+3395.32 <c-12#23:13> Logger was updated
+3395.32 <c-12#23:13> Started intializing cube lib
+3395.32 <c-12#23:13> Finished intializing cube lib with worker, starting to work
+3395.34 <c-12#23:13> requestCubes => [24] Buffer size: 0
+3395.34 <c-12#23:13> Sent requestCubes signal to root
+3395.34 <c-12#23:13> Received 1 cubes from root
+3395.34 <c-12#23:13> The main loop continues
+3395.34 <c-12#23:13> Started solving a cube
+3475.67 <c-12#23:13> Cube failed
+3475.67 <c-12#23:13> Added failed cube
+3475.67 <c-12#23:13> returnFailedCubes => [24] Buffer size: 3
+3475.67 <c-12#23:13> Sent 1 failed cubes to root
+3475.68 <c-12#23:13> Received receivedFailedCubes signal from root
+3475.69 <c-12#23:13> requestCubes => [24] Buffer size: 0
+3475.69 <c-12#23:13> Sent requestCubes signal to root
+3475.69 <c-12#23:13> Received 1 cubes from root
+3475.69 <c-12#23:13> The main loop continues
+3475.69 <c-12#23:13> Started solving a cube
+4136.7 <c-12#23:13> Cube failed
+4136.7 <c-12#23:13> Added failed cube
+4136.7 <c-12#23:13> returnFailedCubes => [24] Buffer size: 5
+4136.71 <c-12#23:13> Sent 1 failed cubes to root
+4136.71 <c-12#23:13> Received receivedFailedCubes signal from root
+4136.71 <c-12#23:13> appl_interrupt was called
+4136.71 <c-12#23:13> Interrupting worker
+4136.71 <c-12#23:13> The main loop continues
+4136.71 <c-12#23:13> Leaving the main loop due to an interruption
+4136.71 <c-12#23:13> appl_interrupt was called
+4136.71 <c-12#23:13> appl_withdraw was called
+4136.71 <c-12#23:13> Started withdraw thread
+4136.71 <c-12#23:13> Finished withdrawing lib
+4136.71 <c-12#23:13> Enter destructor of CubeWorker
+4136.71 <c-12#23:13> Time waiting for messages: 0.008
+4136.72 <c-12#23:13> Enter destructor of CubeWorkerInterface
+4136.72 <c-12#23:13> Enter destructor of CubeRoot
+4136.72 <c-12#23:13> Finished withdraw thread
+4198.58 <c-12#23:13> Enter destructor
+4198.58 <c-12#23:13> Time working: 741.387
+4198.58 <c-12#23:13> Time suspended: 0.000
+4198.58 <c-12#23:13> Joined cleanup thread
+4198.58 <c-12#23:13> Exit destructor
+4198.58 <c-12#23:13> Destructing logger

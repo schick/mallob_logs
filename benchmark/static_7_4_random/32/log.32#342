@@ -1,0 +1,45 @@
+63431 <c-32#342> Created logger
+63431 <c-32#342> appl_initialize was called
+63431 <c-32#342:11> Logger was updated
+63431 <c-32#342:11> Started intializing cube lib
+63431 <c-32#342:11> Finished intializing cube lib with worker, starting to work
+63431.1 <c-32#342:11> requestCubes => [53] Buffer size: 0
+63431.1 <c-32#342:11> Sent requestCubes signal to root
+63431.1 <c-32#342:11> Received 4 cubes from root
+63431.1 <c-32#342:11> The main loop continues
+63431.1 <c-32#342:11> Started solving a cube
+63492.6 <c-32#342:11> appl_pause was called
+63492.6 <c-32#342:11> Set suspended
+63492.6 <c-32#342:11> Suspending worker
+63492.6 <c-32#342:11> SUSPEND (0.00s since last cb)
+63664.2 <c-32#342:11> appl_unpause was called
+63664.2 <c-32#342:11> Set unsuspended
+63664.2 <c-32#342:11> Resuming worker
+63664.2 <c-32#342:11> RESUME
+63873.4 <c-32#342:11> appl_pause was called
+63873.4 <c-32#342:11> Set suspended
+63873.4 <c-32#342:11> Suspending worker
+63873.4 <c-32#342:11> SUSPEND (0.00s since last cb)
+64039.3 <c-32#342:11> appl_interrupt was called
+64039.3 <c-32#342:11> Interrupting worker
+64039.3 <c-32#342:11> Resuming worker to allow interruption
+64039.3 <c-32#342:11> RESUME
+64039.3 <c-32#342:11> STOP after suspension
+64039.3 <c-32#342:11> Solving interrupted
+64039.3 <c-32#342:11> The main loop continues
+64039.3 <c-32#342:11> Leaving the main loop due to an interruption
+64039.3 <c-32#342:11> appl_interrupt was called
+64039.3 <c-32#342:11> appl_withdraw was called
+64039.3 <c-32#342:11> Started withdraw thread
+64039.3 <c-32#342:11> Finished withdrawing lib
+64039.3 <c-32#342:11> Enter destructor of CubeWorker
+64039.3 <c-32#342:11> Time waiting for messages: 0.000
+64039.3 <c-32#342:11> Enter destructor of CubeWorkerInterface
+64039.3 <c-32#342:11> Enter destructor of CubeRoot
+64039.3 <c-32#342:11> Finished withdraw thread
+64102.2 <c-32#342:11> Enter destructor
+64102.2 <c-32#342:11> Time working: 209.160
+64102.2 <c-32#342:11> Time suspended: 165.926
+64102.2 <c-32#342:11> Joined cleanup thread
+64102.2 <c-32#342:11> Exit destructor
+64102.2 <c-32#342:11> Destructing logger

@@ -1,0 +1,45 @@
+63256 <c-29#364> Created logger
+63256.2 <c-29#364> appl_initialize was called
+63256.2 <c-29#364:53> Logger was updated
+63256.2 <c-29#364:53> Started intializing cube lib
+63256.2 <c-29#364:53> Finished intializing cube lib with worker, starting to work
+63258 <c-29#364:53> requestCubes => [22] Buffer size: 0
+63258 <c-29#364:53> Sent requestCubes signal to root
+63258 <c-29#364:53> Received 1 cubes from root
+63258 <c-29#364:53> The main loop continues
+63258 <c-29#364:53> Started solving a cube
+63264.4 <c-29#364:53> appl_pause was called
+63264.4 <c-29#364:53> Set suspended
+63264.4 <c-29#364:53> Suspending worker
+63266.6 <c-29#364:53> SUSPEND (2.84s since last cb)
+63270.2 <c-29#364:53> appl_unpause was called
+63270.2 <c-29#364:53> Set unsuspended
+63270.2 <c-29#364:53> Resuming worker
+63270.2 <c-29#364:53> RESUME
+63320 <c-29#364:53> appl_pause was called
+63320 <c-29#364:53> Set suspended
+63320 <c-29#364:53> Suspending worker
+63320 <c-29#364:53> SUSPEND (0.00s since last cb)
+63783.8 <c-29#364:53> appl_interrupt was called
+63783.8 <c-29#364:53> Interrupting worker
+63783.8 <c-29#364:53> Resuming worker to allow interruption
+63783.8 <c-29#364:53> RESUME
+63783.8 <c-29#364:53> STOP after suspension
+63783.8 <c-29#364:53> Solving interrupted
+63783.8 <c-29#364:53> The main loop continues
+63783.8 <c-29#364:53> Leaving the main loop due to an interruption
+63783.8 <c-29#364:53> appl_interrupt was called
+63783.8 <c-29#364:53> appl_withdraw was called
+63783.9 <c-29#364:53> Started withdraw thread
+63783.9 <c-29#364:53> Finished withdrawing lib
+63783.9 <c-29#364:53> Enter destructor of CubeWorker
+63783.9 <c-29#364:53> Time waiting for messages: 0.000
+63784.3 <c-29#364:53> Enter destructor of CubeWorkerInterface
+63784.3 <c-29#364:53> Enter destructor of CubeRoot
+63784.5 <c-29#364:53> Finished withdraw thread
+63844.9 <c-29#364:53> Enter destructor
+63844.9 <c-29#364:53> Time working: 49.781
+63844.9 <c-29#364:53> Time suspended: 463.812
+63844.9 <c-29#364:53> Joined cleanup thread
+63844.9 <c-29#364:53> Exit destructor
+63844.9 <c-29#364:53> Destructing logger

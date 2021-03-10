@@ -1,0 +1,45 @@
+79834 <c-16#391> Created logger
+79834 <c-16#391> appl_initialize was called
+79834 <c-16#391:0> Logger was updated
+79834 <c-16#391:0> Started intializing cube lib
+79834 <c-16#391:0> Cube generation has started
+79848.5 <c-16#391:0> Cube generation has finished
+79848.5 <c-16#391:0> Shuffling created cubes
+79848.5 <c-16#391:0> Finished intializing cube lib with root and worker, starting to work
+79848.5 <c-16#391:0> requestCubes => [16] Buffer size: 0
+79848.5 <c-16#391:0> Sent requestCubes signal to root
+79848.5 <c-16#391:0> Received requestCubes signal from 16
+79848.5 <c-16#391:0> sendCubes => [16] Buffer size: 704
+79848.5 <c-16#391:0> Sent 64 cubes to 16
+79848.5 <c-16#391:0> Received 64 cubes from root
+79848.5 <c-16#391:0> The main loop continues
+79848.5 <c-16#391:0> Started solving a cube
+79848.5 <c-16#391:0> Cube failed
+79848.5 <c-16#391:0> Added failed cube
+79848.5 <c-16#391:0> Started solving a cube
+79848.5 <c-16#391:0> Cube failed
+79848.5 <c-16#391:0> Added failed cube
+79848.5 <c-16#391:0> Started solving a cube
+79848.5 <c-16#391:0> Cube failed
+79848.5 <c-16#391:0> Added failed cube
+79848.5 <c-16#391:0> Started solving a cube
+79876.2 <c-16#391:0> Found a solution: SAT
+79876.2 <c-16#391:0> Leaving the main loop because a solution was found
+79876.2 <c-16#391:0> Found result SAT
+79876.2 <c-16#391:0> appl_interrupt was called
+79876.2 <c-16#391:0> Interrupting worker
+79876.2 <c-16#391:0> appl_interrupt was called
+79876.2 <c-16#391:0> appl_withdraw was called
+79876.2 <c-16#391:0> Started withdraw thread
+79876.2 <c-16#391:0> Finished withdrawing lib
+79876.2 <c-16#391:0> Enter destructor of CubeWorker
+79876.2 <c-16#391:0> Time waiting for messages: 0.000
+79876.2 <c-16#391:0> Enter destructor of CubeWorkerInterface
+79876.2 <c-16#391:0> Enter destructor of CubeRoot
+79876.2 <c-16#391:0> Finished withdraw thread
+79936.3 <c-16#391:0> Enter destructor
+79936.3 <c-16#391:0> Time working: 27.781
+79936.3 <c-16#391:0> Time suspended: 0.000
+79936.3 <c-16#391:0> Joined cleanup thread
+79936.3 <c-16#391:0> Exit destructor
+79936.3 <c-16#391:0> Destructing logger

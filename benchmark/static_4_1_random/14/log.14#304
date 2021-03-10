@@ -1,0 +1,45 @@
+52642 <c-14#304> Created logger
+52642 <c-14#304> appl_initialize was called
+52642 <c-14#304:22> Logger was updated
+52642 <c-14#304:22> Started intializing cube lib
+52642 <c-14#304:22> Finished intializing cube lib with worker, starting to work
+52642.1 <c-14#304:22> requestCubes => [43] Buffer size: 0
+52642.1 <c-14#304:22> Sent requestCubes signal to root
+52642.1 <c-14#304:22> Received 1 cubes from root
+52642.1 <c-14#304:22> The main loop continues
+52642.1 <c-14#304:22> Started solving a cube
+52868.7 <c-14#304:22> appl_pause was called
+52868.7 <c-14#304:22> Set suspended
+52868.7 <c-14#304:22> Suspending worker
+52868.7 <c-14#304:22> SUSPEND (0.00s since last cb)
+52990.6 <c-14#304:22> appl_unpause was called
+52990.6 <c-14#304:22> Set unsuspended
+52990.6 <c-14#304:22> Resuming worker
+52990.6 <c-14#304:22> RESUME
+53021.9 <c-14#304:22> appl_pause was called
+53021.9 <c-14#304:22> Set suspended
+53021.9 <c-14#304:22> Suspending worker
+53021.9 <c-14#304:22> SUSPEND (0.00s since last cb)
+53132.9 <c-14#304:22> appl_interrupt was called
+53132.9 <c-14#304:22> Interrupting worker
+53132.9 <c-14#304:22> Resuming worker to allow interruption
+53132.9 <c-14#304:22> RESUME
+53132.9 <c-14#304:22> STOP after suspension
+53132.9 <c-14#304:22> Solving interrupted
+53132.9 <c-14#304:22> The main loop continues
+53132.9 <c-14#304:22> Leaving the main loop due to an interruption
+53132.9 <c-14#304:22> appl_interrupt was called
+53132.9 <c-14#304:22> appl_withdraw was called
+53132.9 <c-14#304:22> Started withdraw thread
+53132.9 <c-14#304:22> Finished withdrawing lib
+53132.9 <c-14#304:22> Enter destructor of CubeWorker
+53132.9 <c-14#304:22> Time waiting for messages: 0.000
+53132.9 <c-14#304:22> Enter destructor of CubeWorkerInterface
+53132.9 <c-14#304:22> Enter destructor of CubeRoot
+53132.9 <c-14#304:22> Finished withdraw thread
+53195.9 <c-14#304:22> Enter destructor
+53195.9 <c-14#304:22> Time working: 31.340
+53195.9 <c-14#304:22> Time suspended: 111.000
+53195.9 <c-14#304:22> Joined cleanup thread
+53195.9 <c-14#304:22> Exit destructor
+53195.9 <c-14#304:22> Destructing logger

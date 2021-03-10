@@ -1,0 +1,48 @@
+24.8423 <c-2#2> Created logger
+24.8434 <c-2#2> appl_initialize was called
+24.8434 <c-2#2:32> Logger was updated
+24.8434 <c-2#2:32> Started intializing cube lib
+24.8436 <c-2#2:32> Finished intializing cube lib with worker, starting to work
+24.8564 <c-2#2:32> requestCubes => [25] Buffer size: 0
+24.8565 <c-2#2:32> Sent requestCubes signal to root
+24.8568 <c-2#2:32> Received 4 cubes from root
+24.8568 <c-2#2:32> The main loop continues
+24.8568 <c-2#2:32> Started solving a cube
+24.8675 <c-2#2:32> Cube failed
+24.8676 <c-2#2:32> Added failed cube
+24.8676 <c-2#2:32> Started solving a cube
+88.6068 <c-2#2:32> appl_pause was called
+88.6068 <c-2#2:32> Set suspended
+88.6068 <c-2#2:32> Suspending worker
+88.6114 <c-2#2:32> SUSPEND (0.00s since last cb)
+133.623 <c-2#2:32> appl_unpause was called
+133.623 <c-2#2:32> Set unsuspended
+133.623 <c-2#2:32> Resuming worker
+133.623 <c-2#2:32> RESUME
+296.258 <c-2#2:32> appl_pause was called
+296.258 <c-2#2:32> Set suspended
+296.259 <c-2#2:32> Suspending worker
+296.26 <c-2#2:32> SUSPEND (0.00s since last cb)
+1002.01 <c-2#2:32> appl_interrupt was called
+1002.01 <c-2#2:32> Interrupting worker
+1002.01 <c-2#2:32> Resuming worker to allow interruption
+1002.01 <c-2#2:32> RESUME
+1002.01 <c-2#2:32> STOP after suspension
+1002.01 <c-2#2:32> Solving interrupted
+1002.01 <c-2#2:32> The main loop continues
+1002.01 <c-2#2:32> Leaving the main loop due to an interruption
+1002.01 <c-2#2:32> appl_interrupt was called
+1002.01 <c-2#2:32> appl_withdraw was called
+1002.01 <c-2#2:32> Started withdraw thread
+1002.01 <c-2#2:32> Finished withdrawing lib
+1002.01 <c-2#2:32> Enter destructor of CubeWorker
+1002.01 <c-2#2:32> Time waiting for messages: 0.000
+1002.02 <c-2#2:32> Enter destructor of CubeWorkerInterface
+1002.02 <c-2#2:32> Enter destructor of CubeRoot
+1002.02 <c-2#2:32> Finished withdraw thread
+1062.7 <c-2#2:32> Enter destructor
+1062.7 <c-2#2:32> Time working: 162.635
+1062.7 <c-2#2:32> Time suspended: 705.752
+1062.7 <c-2#2:32> Joined cleanup thread
+1062.7 <c-2#2:32> Exit destructor
+1062.7 <c-2#2:32> Destructing logger

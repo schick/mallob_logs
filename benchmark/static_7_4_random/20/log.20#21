@@ -1,0 +1,50 @@
+4117.41 <c-20#21> Created logger
+4117.45 <c-20#21> appl_initialize was called
+4117.45 <c-20#21:1> Logger was updated
+4117.45 <c-20#21:1> Started intializing cube lib
+4117.45 <c-20#21:1> Finished intializing cube lib with worker, starting to work
+4118.3 <c-20#21:1> requestCubes => [57] Buffer size: 0
+4118.3 <c-20#21:1> Sent requestCubes signal to root
+4118.3 <c-20#21:1> Received 4 cubes from root
+4118.3 <c-20#21:1> The main loop continues
+4118.3 <c-20#21:1> Started solving a cube
+4209.71 <c-20#21:1> Cube failed
+4209.71 <c-20#21:1> Added failed cube
+4209.71 <c-20#21:1> Started solving a cube
+4211.79 <c-20#21:1> Cube failed
+4211.79 <c-20#21:1> Added failed cube
+4211.79 <c-20#21:1> Started solving a cube
+4211.79 <c-20#21:1> Cube failed
+4211.79 <c-20#21:1> Added failed cube
+4211.79 <c-20#21:1> Started solving a cube
+4213.06 <c-20#21:1> Cube failed
+4213.06 <c-20#21:1> Added failed cube
+4213.07 <c-20#21:1> returnFailedCubes => [57] Buffer size: 19
+4213.07 <c-20#21:1> Sent 4 failed cubes to root
+4213.07 <c-20#21:1> Received receivedFailedCubes signal from root
+4213.08 <c-20#21:1> requestCubes => [57] Buffer size: 0
+4213.08 <c-20#21:1> Sent requestCubes signal to root
+4213.08 <c-20#21:1> Received 2 cubes from root
+4213.08 <c-20#21:1> The main loop continues
+4213.08 <c-20#21:1> Started solving a cube
+4311 <c-20#21:1> appl_interrupt was called
+4311 <c-20#21:1> Interrupting worker
+4311 <c-20#21:1> appl_interrupt was called
+4311 <c-20#21:1> appl_withdraw was called
+4311 <c-20#21:1> Started withdraw thread
+4311 <c-20#21:1> STOP (0.01s since last cb)
+4311 <c-20#21:1> Solving interrupted
+4311 <c-20#21:1> The main loop continues
+4311 <c-20#21:1> Leaving the main loop due to an interruption
+4311 <c-20#21:1> Finished withdrawing lib
+4311 <c-20#21:1> Enter destructor of CubeWorker
+4311 <c-20#21:1> Time waiting for messages: 0.001
+4311.12 <c-20#21:1> Enter destructor of CubeWorkerInterface
+4311.12 <c-20#21:1> Enter destructor of CubeRoot
+4311.12 <c-20#21:1> Finished withdraw thread
+4372.6 <c-20#21:1> Enter destructor
+4372.6 <c-20#21:1> Time working: 193.547
+4372.6 <c-20#21:1> Time suspended: 0.000
+4372.6 <c-20#21:1> Joined cleanup thread
+4372.6 <c-20#21:1> Exit destructor
+4372.6 <c-20#21:1> Destructing logger

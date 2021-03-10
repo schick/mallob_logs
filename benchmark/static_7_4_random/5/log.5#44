@@ -1,0 +1,49 @@
+8373.68 <c-5#44> Created logger
+8373.82 <c-5#44> appl_initialize was called
+8373.82 <c-5#44:6> Logger was updated
+8373.82 <c-5#44:6> Started intializing cube lib
+8373.82 <c-5#44:6> Finished intializing cube lib with worker, starting to work
+8377.01 <c-5#44:6> requestCubes => [12] Buffer size: 0
+8377.01 <c-5#44:6> Sent requestCubes signal to root
+8377.01 <c-5#44:6> Received 4 cubes from root
+8377.01 <c-5#44:6> The main loop continues
+8377.01 <c-5#44:6> Started solving a cube
+8378.3 <c-5#44:6> Cube failed
+8378.3 <c-5#44:6> Added failed cube
+8378.3 <c-5#44:6> Started solving a cube
+8379.64 <c-5#44:6> Cube failed
+8379.64 <c-5#44:6> Added failed cube
+8379.64 <c-5#44:6> Started solving a cube
+8379.64 <c-5#44:6> Skipped cube
+8379.64 <c-5#44:6> Started solving a cube
+8380.25 <c-5#44:6> Cube failed
+8380.25 <c-5#44:6> Added failed cube
+8380.25 <c-5#44:6> returnFailedCubes => [12] Buffer size: 9
+8380.25 <c-5#44:6> Sent 3 failed cubes to root
+8380.25 <c-5#44:6> Received receivedFailedCubes signal from root
+8380.26 <c-5#44:6> requestCubes => [12] Buffer size: 0
+8380.26 <c-5#44:6> Sent requestCubes signal to root
+8380.26 <c-5#44:6> Received 4 cubes from root
+8380.26 <c-5#44:6> The main loop continues
+8380.26 <c-5#44:6> Started solving a cube
+8822.91 <c-5#44:6> appl_interrupt was called
+8822.91 <c-5#44:6> Interrupting worker
+8822.92 <c-5#44:6> appl_interrupt was called
+8822.92 <c-5#44:6> appl_withdraw was called
+8822.95 <c-5#44:6> Started withdraw thread
+8824.63 <c-5#44:6> STOP (1.80s since last cb)
+8824.63 <c-5#44:6> Solving interrupted
+8824.63 <c-5#44:6> The main loop continues
+8824.63 <c-5#44:6> Leaving the main loop due to an interruption
+8824.63 <c-5#44:6> Finished withdrawing lib
+8824.63 <c-5#44:6> Enter destructor of CubeWorker
+8824.63 <c-5#44:6> Time waiting for messages: 0.002
+8826.44 <c-5#44:6> Enter destructor of CubeWorkerInterface
+8826.44 <c-5#44:6> Enter destructor of CubeRoot
+8826.45 <c-5#44:6> Finished withdraw thread
+8883.31 <c-5#44:6> Enter destructor
+8883.31 <c-5#44:6> Time working: 449.093
+8883.31 <c-5#44:6> Time suspended: 0.000
+8883.31 <c-5#44:6> Joined cleanup thread
+8883.31 <c-5#44:6> Exit destructor
+8883.31 <c-5#44:6> Destructing logger

@@ -1,0 +1,44 @@
+9237.78 <c-59#57> Created logger
+9237.83 <c-59#57> appl_initialize was called
+9237.83 <c-59#57:6> Logger was updated
+9237.83 <c-59#57:6> Started intializing cube lib
+9237.83 <c-59#57:6> Finished intializing cube lib with worker, starting to work
+9238.66 <c-59#57:6> requestCubes => [26] Buffer size: 0
+9238.66 <c-59#57:6> Sent requestCubes signal to root
+9238.67 <c-59#57:6> Received 1 cubes from root
+9238.67 <c-59#57:6> The main loop continues
+9238.67 <c-59#57:6> Started solving a cube
+9246.5 <c-59#57:6> Cube failed
+9246.5 <c-59#57:6> Added failed cube
+9246.51 <c-59#57:6> returnFailedCubes => [26] Buffer size: 4
+9246.51 <c-59#57:6> Sent 1 failed cubes to root
+9246.51 <c-59#57:6> Received receivedFailedCubes signal from root
+9246.52 <c-59#57:6> requestCubes => [26] Buffer size: 0
+9246.52 <c-59#57:6> Sent requestCubes signal to root
+9246.52 <c-59#57:6> Received 1 cubes from root
+9246.52 <c-59#57:6> The main loop continues
+9246.52 <c-59#57:6> Started solving a cube
+9555.81 <c-59#57:6> Cube failed
+9555.81 <c-59#57:6> Added failed cube
+9555.81 <c-59#57:6> returnFailedCubes => [26] Buffer size: 3
+9555.81 <c-59#57:6> Sent 1 failed cubes to root
+9555.81 <c-59#57:6> Received receivedFailedCubes signal from root
+9555.82 <c-59#57:6> appl_interrupt was called
+9555.82 <c-59#57:6> Interrupting worker
+9555.82 <c-59#57:6> The main loop continues
+9555.82 <c-59#57:6> Leaving the main loop due to an interruption
+9555.82 <c-59#57:6> appl_interrupt was called
+9555.82 <c-59#57:6> appl_withdraw was called
+9555.82 <c-59#57:6> Started withdraw thread
+9555.82 <c-59#57:6> Finished withdrawing lib
+9555.82 <c-59#57:6> Enter destructor of CubeWorker
+9555.82 <c-59#57:6> Time waiting for messages: 0.012
+9555.83 <c-59#57:6> Enter destructor of CubeWorkerInterface
+9555.83 <c-59#57:6> Enter destructor of CubeRoot
+9555.85 <c-59#57:6> Finished withdraw thread
+9618.62 <c-59#57:6> Enter destructor
+9618.62 <c-59#57:6> Time working: 317.989
+9618.62 <c-59#57:6> Time suspended: 0.000
+9618.62 <c-59#57:6> Joined cleanup thread
+9618.62 <c-59#57:6> Exit destructor
+9618.62 <c-59#57:6> Destructing logger

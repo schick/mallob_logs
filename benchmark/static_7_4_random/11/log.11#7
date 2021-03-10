@@ -1,0 +1,45 @@
+1168.4 <c-11#7> Created logger
+1168.41 <c-11#7> appl_initialize was called
+1168.41 <c-11#7:20> Logger was updated
+1168.41 <c-11#7:20> Started intializing cube lib
+1168.41 <c-11#7:20> Finished intializing cube lib with worker, starting to work
+1168.6 <c-11#7:20> requestCubes => [4] Buffer size: 0
+1168.6 <c-11#7:20> Sent requestCubes signal to root
+1168.6 <c-11#7:20> Received 1 cubes from root
+1168.6 <c-11#7:20> The main loop continues
+1168.6 <c-11#7:20> Started solving a cube
+1190.03 <c-11#7:20> appl_pause was called
+1190.03 <c-11#7:20> Set suspended
+1190.03 <c-11#7:20> Suspending worker
+1190.03 <c-11#7:20> SUSPEND (0.01s since last cb)
+1210.59 <c-11#7:20> appl_unpause was called
+1210.59 <c-11#7:20> Set unsuspended
+1210.59 <c-11#7:20> Resuming worker
+1210.59 <c-11#7:20> RESUME
+1280.75 <c-11#7:20> appl_pause was called
+1280.75 <c-11#7:20> Set suspended
+1280.75 <c-11#7:20> Suspending worker
+1280.75 <c-11#7:20> SUSPEND (0.00s since last cb)
+2002.23 <c-11#7:20> appl_interrupt was called
+2002.23 <c-11#7:20> Interrupting worker
+2002.23 <c-11#7:20> Resuming worker to allow interruption
+2002.23 <c-11#7:20> RESUME
+2002.23 <c-11#7:20> STOP after suspension
+2002.23 <c-11#7:20> Solving interrupted
+2002.23 <c-11#7:20> The main loop continues
+2002.23 <c-11#7:20> Leaving the main loop due to an interruption
+2002.23 <c-11#7:20> appl_interrupt was called
+2002.23 <c-11#7:20> appl_withdraw was called
+2002.23 <c-11#7:20> Started withdraw thread
+2002.23 <c-11#7:20> Finished withdrawing lib
+2002.23 <c-11#7:20> Enter destructor of CubeWorker
+2002.23 <c-11#7:20> Time waiting for messages: 0.000
+2002.25 <c-11#7:20> Enter destructor of CubeWorkerInterface
+2002.25 <c-11#7:20> Enter destructor of CubeRoot
+2002.25 <c-11#7:20> Finished withdraw thread
+2064.94 <c-11#7:20> Enter destructor
+2064.94 <c-11#7:20> Time working: 70.161
+2064.94 <c-11#7:20> Time suspended: 721.476
+2064.94 <c-11#7:20> Joined cleanup thread
+2064.94 <c-11#7:20> Exit destructor
+2064.94 <c-11#7:20> Destructing logger

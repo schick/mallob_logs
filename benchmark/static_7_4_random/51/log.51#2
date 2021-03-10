@@ -1,0 +1,48 @@
+25.5247 <c-51#2> Created logger
+25.5258 <c-51#2> appl_initialize was called
+25.5258 <c-51#2:36> Logger was updated
+25.5258 <c-51#2:36> Started intializing cube lib
+25.526 <c-51#2:36> Finished intializing cube lib with worker, starting to work
+25.5445 <c-51#2:36> requestCubes => [25] Buffer size: 0
+25.5445 <c-51#2:36> Sent requestCubes signal to root
+25.5451 <c-51#2:36> Received 4 cubes from root
+25.5451 <c-51#2:36> The main loop continues
+25.5451 <c-51#2:36> Started solving a cube
+25.5607 <c-51#2:36> Cube failed
+25.5607 <c-51#2:36> Added failed cube
+25.5607 <c-51#2:36> Started solving a cube
+86.5474 <c-51#2:36> appl_pause was called
+86.5474 <c-51#2:36> Set suspended
+86.5475 <c-51#2:36> Suspending worker
+86.5501 <c-51#2:36> SUSPEND (0.00s since last cb)
+133.507 <c-51#2:36> appl_unpause was called
+133.507 <c-51#2:36> Set unsuspended
+133.507 <c-51#2:36> Resuming worker
+133.507 <c-51#2:36> RESUME
+294.202 <c-51#2:36> appl_pause was called
+294.202 <c-51#2:36> Set suspended
+294.202 <c-51#2:36> Suspending worker
+294.203 <c-51#2:36> SUSPEND (0.00s since last cb)
+1001.89 <c-51#2:36> appl_interrupt was called
+1001.89 <c-51#2:36> Interrupting worker
+1001.89 <c-51#2:36> Resuming worker to allow interruption
+1001.89 <c-51#2:36> RESUME
+1001.89 <c-51#2:36> STOP after suspension
+1001.89 <c-51#2:36> Solving interrupted
+1001.89 <c-51#2:36> The main loop continues
+1001.89 <c-51#2:36> Leaving the main loop due to an interruption
+1001.89 <c-51#2:36> appl_interrupt was called
+1001.89 <c-51#2:36> appl_withdraw was called
+1001.89 <c-51#2:36> Started withdraw thread
+1001.89 <c-51#2:36> Finished withdrawing lib
+1001.89 <c-51#2:36> Enter destructor of CubeWorker
+1001.89 <c-51#2:36> Time waiting for messages: 0.001
+1001.9 <c-51#2:36> Enter destructor of CubeWorkerInterface
+1001.9 <c-51#2:36> Enter destructor of CubeRoot
+1001.9 <c-51#2:36> Finished withdraw thread
+1062.59 <c-51#2:36> Enter destructor
+1062.59 <c-51#2:36> Time working: 160.695
+1062.59 <c-51#2:36> Time suspended: 707.693
+1062.59 <c-51#2:36> Joined cleanup thread
+1062.59 <c-51#2:36> Exit destructor
+1062.59 <c-51#2:36> Destructing logger

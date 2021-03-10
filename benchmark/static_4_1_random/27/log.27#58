@@ -1,0 +1,44 @@
+9269.05 <c-27#58> Created logger
+9269.06 <c-27#58> appl_initialize was called
+9269.06 <c-27#58:1> Logger was updated
+9269.06 <c-27#58:1> Started intializing cube lib
+9269.06 <c-27#58:1> Finished intializing cube lib with worker, starting to work
+9269.08 <c-27#58:1> requestCubes => [1] Buffer size: 0
+9269.08 <c-27#58:1> Sent requestCubes signal to root
+9269.08 <c-27#58:1> Received 1 cubes from root
+9269.08 <c-27#58:1> The main loop continues
+9269.08 <c-27#58:1> Started solving a cube
+9358.42 <c-27#58:1> Cube failed
+9358.42 <c-27#58:1> Added failed cube
+9358.43 <c-27#58:1> returnFailedCubes => [1] Buffer size: 5
+9358.43 <c-27#58:1> Sent 1 failed cubes to root
+9358.43 <c-27#58:1> Received receivedFailedCubes signal from root
+9358.44 <c-27#58:1> requestCubes => [1] Buffer size: 0
+9358.44 <c-27#58:1> Sent requestCubes signal to root
+9358.44 <c-27#58:1> Received 1 cubes from root
+9358.44 <c-27#58:1> The main loop continues
+9358.44 <c-27#58:1> Started solving a cube
+10129.1 <c-27#58:1> Cube failed
+10129.1 <c-27#58:1> Added failed cube
+10129.2 <c-27#58:1> returnFailedCubes => [1] Buffer size: 5
+10129.2 <c-27#58:1> Sent 1 failed cubes to root
+10129.2 <c-27#58:1> Received receivedFailedCubes signal from root
+10129.2 <c-27#58:1> appl_interrupt was called
+10129.2 <c-27#58:1> Interrupting worker
+10129.2 <c-27#58:1> The main loop continues
+10129.2 <c-27#58:1> Leaving the main loop due to an interruption
+10129.2 <c-27#58:1> appl_interrupt was called
+10129.2 <c-27#58:1> appl_withdraw was called
+10129.2 <c-27#58:1> Started withdraw thread
+10129.2 <c-27#58:1> Finished withdrawing lib
+10129.2 <c-27#58:1> Enter destructor of CubeWorker
+10129.2 <c-27#58:1> Time waiting for messages: 0.011
+10129.2 <c-27#58:1> Enter destructor of CubeWorkerInterface
+10129.2 <c-27#58:1> Enter destructor of CubeRoot
+10129.2 <c-27#58:1> Finished withdraw thread
+10189.4 <c-27#58:1> Enter destructor
+10189.4 <c-27#58:1> Time working: 860.102
+10189.4 <c-27#58:1> Time suspended: 0.000
+10189.4 <c-27#58:1> Joined cleanup thread
+10189.4 <c-27#58:1> Exit destructor
+10189.4 <c-27#58:1> Destructing logger

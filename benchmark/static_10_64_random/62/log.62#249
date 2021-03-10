@@ -1,0 +1,45 @@
+50109 <c-62#249> Created logger
+50109 <c-62#249> appl_initialize was called
+50109 <c-62#249:5> Logger was updated
+50109 <c-62#249:5> Started intializing cube lib
+50109 <c-62#249:5> Finished intializing cube lib with worker, starting to work
+50109 <c-62#249:5> requestCubes => [44] Buffer size: 0
+50109 <c-62#249:5> Sent requestCubes signal to root
+50109 <c-62#249:5> Received 64 cubes from root
+50109 <c-62#249:5> The main loop continues
+50109 <c-62#249:5> Started solving a cube
+50109.1 <c-62#249:5> appl_pause was called
+50109.1 <c-62#249:5> Set suspended
+50109.1 <c-62#249:5> Suspending worker
+50109.1 <c-62#249:5> SUSPEND (0.00s since last cb)
+50542.9 <c-62#249:5> appl_unpause was called
+50542.9 <c-62#249:5> Set unsuspended
+50542.9 <c-62#249:5> Resuming worker
+50542.9 <c-62#249:5> RESUME
+50596 <c-62#249:5> appl_pause was called
+50596 <c-62#249:5> Set suspended
+50596 <c-62#249:5> Suspending worker
+50596 <c-62#249:5> SUSPEND (0.00s since last cb)
+51038.1 <c-62#249:5> appl_interrupt was called
+51038.1 <c-62#249:5> Interrupting worker
+51038.1 <c-62#249:5> Resuming worker to allow interruption
+51038.1 <c-62#249:5> RESUME
+51038.1 <c-62#249:5> STOP after suspension
+51038.1 <c-62#249:5> Solving interrupted
+51038.1 <c-62#249:5> The main loop continues
+51038.1 <c-62#249:5> appl_interrupt was called
+51038.1 <c-62#249:5> Started withdraw thread
+51038.1 <c-62#249:5> appl_withdraw was called
+51038.1 <c-62#249:5> Leaving the main loop due to an interruption
+51038.1 <c-62#249:5> Finished withdrawing lib
+51038.1 <c-62#249:5> Enter destructor of CubeWorker
+51038.1 <c-62#249:5> Time waiting for messages: 0.000
+51038.1 <c-62#249:5> Enter destructor of CubeWorkerInterface
+51038.1 <c-62#249:5> Enter destructor of CubeRoot
+51038.1 <c-62#249:5> Finished withdraw thread
+51098.6 <c-62#249:5> Enter destructor
+51098.6 <c-62#249:5> Time working: 53.070
+51098.6 <c-62#249:5> Time suspended: 442.070
+51098.6 <c-62#249:5> Joined cleanup thread
+51098.6 <c-62#249:5> Exit destructor
+51098.6 <c-62#249:5> Destructing logger

@@ -1,0 +1,48 @@
+25.7953 <c-6#2> Created logger
+25.7963 <c-6#2> appl_initialize was called
+25.7963 <c-6#2:37> Logger was updated
+25.7963 <c-6#2:37> Started intializing cube lib
+25.7965 <c-6#2:37> Finished intializing cube lib with worker, starting to work
+25.8128 <c-6#2:37> requestCubes => [25] Buffer size: 0
+25.8128 <c-6#2:37> Sent requestCubes signal to root
+25.8132 <c-6#2:37> Received 4 cubes from root
+25.8132 <c-6#2:37> The main loop continues
+25.8132 <c-6#2:37> Started solving a cube
+25.8198 <c-6#2:37> Cube failed
+25.8198 <c-6#2:37> Added failed cube
+25.8198 <c-6#2:37> Started solving a cube
+86.0924 <c-6#2:37> appl_pause was called
+86.0924 <c-6#2:37> Set suspended
+86.0924 <c-6#2:37> Suspending worker
+86.0926 <c-6#2:37> SUSPEND (0.00s since last cb)
+133.593 <c-6#2:37> appl_unpause was called
+133.593 <c-6#2:37> Set unsuspended
+133.593 <c-6#2:37> Resuming worker
+133.593 <c-6#2:37> RESUME
+293.372 <c-6#2:37> appl_pause was called
+293.372 <c-6#2:37> Set suspended
+293.372 <c-6#2:37> Suspending worker
+293.372 <c-6#2:37> SUSPEND (0.00s since last cb)
+1001.98 <c-6#2:37> appl_interrupt was called
+1001.98 <c-6#2:37> Interrupting worker
+1001.98 <c-6#2:37> Resuming worker to allow interruption
+1001.98 <c-6#2:37> RESUME
+1001.98 <c-6#2:37> STOP after suspension
+1001.98 <c-6#2:37> appl_interrupt was called
+1001.98 <c-6#2:37> appl_withdraw was called
+1001.98 <c-6#2:37> Started withdraw thread
+1002.01 <c-6#2:37> Solving interrupted
+1002.01 <c-6#2:37> The main loop continues
+1002.01 <c-6#2:37> Leaving the main loop due to an interruption
+1002.01 <c-6#2:37> Finished withdrawing lib
+1002.01 <c-6#2:37> Enter destructor of CubeWorker
+1002.01 <c-6#2:37> Time waiting for messages: 0.000
+1002.01 <c-6#2:37> Enter destructor of CubeWorkerInterface
+1002.01 <c-6#2:37> Enter destructor of CubeRoot
+1002.01 <c-6#2:37> Finished withdraw thread
+1062.68 <c-6#2:37> Enter destructor
+1062.68 <c-6#2:37> Time working: 159.779
+1062.68 <c-6#2:37> Time suspended: 708.608
+1062.68 <c-6#2:37> Joined cleanup thread
+1062.68 <c-6#2:37> Exit destructor
+1062.68 <c-6#2:37> Destructing logger

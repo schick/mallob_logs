@@ -1,0 +1,45 @@
+122.557 <c-3#1> Created logger
+122.665 <c-3#1> appl_initialize was called
+122.665 <c-3#1:20> Logger was updated
+122.665 <c-3#1:20> Started intializing cube lib
+122.665 <c-3#1:20> Finished intializing cube lib with worker, starting to work
+124.363 <c-3#1:20> requestCubes => [28] Buffer size: 0
+124.363 <c-3#1:20> Sent requestCubes signal to root
+124.363 <c-3#1:20> Received 1 cubes from root
+124.363 <c-3#1:20> The main loop continues
+124.363 <c-3#1:20> Started solving a cube
+220.858 <c-3#1:20> Cube failed
+220.858 <c-3#1:20> Added failed cube
+220.868 <c-3#1:20> returnFailedCubes => [28] Buffer size: 2
+220.868 <c-3#1:20> Sent 1 failed cubes to root
+220.868 <c-3#1:20> Received receivedFailedCubes signal from root
+220.879 <c-3#1:20> requestCubes => [28] Buffer size: 0
+220.879 <c-3#1:20> Sent requestCubes signal to root
+220.879 <c-3#1:20> Received 1 cubes from root
+220.879 <c-3#1:20> The main loop continues
+220.879 <c-3#1:20> Started solving a cube
+1001.99 <c-3#1:20> appl_pause was called
+1001.99 <c-3#1:20> Set suspended
+1001.99 <c-3#1:20> Suspending worker
+1002.04 <c-3#1:20> appl_interrupt was called
+1002.04 <c-3#1:20> Interrupting worker
+1002.04 <c-3#1:20> Resuming worker to allow interruption
+1002.04 <c-3#1:20> appl_interrupt was called
+1002.04 <c-3#1:20> appl_withdraw was called
+1002.08 <c-3#1:20> Started withdraw thread
+1003.02 <c-3#1:20> STOP (1.87s since last cb)
+1003.36 <c-3#1:20> Solving interrupted
+1003.36 <c-3#1:20> The main loop continues
+1003.36 <c-3#1:20> Leaving the main loop due to an interruption
+1003.36 <c-3#1:20> Finished withdrawing lib
+1003.36 <c-3#1:20> Enter destructor of CubeWorker
+1003.36 <c-3#1:20> Time waiting for messages: 0.001
+1003.39 <c-3#1:20> Enter destructor of CubeWorkerInterface
+1003.39 <c-3#1:20> Enter destructor of CubeRoot
+1003.4 <c-3#1:20> Finished withdraw thread
+1062.67 <c-3#1:20> Enter destructor
+1062.67 <c-3#1:20> Time working: 879.320
+1062.67 <c-3#1:20> Time suspended: 0.057
+1062.67 <c-3#1:20> Joined cleanup thread
+1062.67 <c-3#1:20> Exit destructor
+1062.67 <c-3#1:20> Destructing logger

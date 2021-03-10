@@ -1,0 +1,45 @@
+36612 <c-45#198> Created logger
+36612 <c-45#198> appl_initialize was called
+36612 <c-45#198:15> Logger was updated
+36612 <c-45#198:15> Started intializing cube lib
+36612 <c-45#198:15> Finished intializing cube lib with worker, starting to work
+36612.1 <c-45#198:15> requestCubes => [4] Buffer size: 0
+36612.1 <c-45#198:15> Sent requestCubes signal to root
+36612.1 <c-45#198:15> Received 3 cubes from root
+36612.1 <c-45#198:15> The main loop continues
+36612.1 <c-45#198:15> Started solving a cube
+36620 <c-45#198:15> appl_pause was called
+36620 <c-45#198:15> Set suspended
+36620 <c-45#198:15> Suspending worker
+36620 <c-45#198:15> SUSPEND (0.00s since last cb)
+36640.9 <c-45#198:15> appl_unpause was called
+36640.9 <c-45#198:15> Set unsuspended
+36640.9 <c-45#198:15> Resuming worker
+36640.9 <c-45#198:15> RESUME
+36652.8 <c-45#198:15> appl_pause was called
+36652.8 <c-45#198:15> Set suspended
+36652.8 <c-45#198:15> Suspending worker
+36652.8 <c-45#198:15> SUSPEND (0.02s since last cb)
+36664.2 <c-45#198:15> appl_interrupt was called
+36664.2 <c-45#198:15> Interrupting worker
+36664.2 <c-45#198:15> Resuming worker to allow interruption
+36664.2 <c-45#198:15> RESUME
+36664.2 <c-45#198:15> STOP after suspension
+36664.2 <c-45#198:15> Solving interrupted
+36664.2 <c-45#198:15> The main loop continues
+36664.2 <c-45#198:15> Leaving the main loop due to an interruption
+36664.2 <c-45#198:15> appl_interrupt was called
+36664.2 <c-45#198:15> appl_withdraw was called
+36664.2 <c-45#198:15> Started withdraw thread
+36664.2 <c-45#198:15> Finished withdrawing lib
+36664.2 <c-45#198:15> Enter destructor of CubeWorker
+36664.2 <c-45#198:15> Time waiting for messages: 0.000
+36664.2 <c-45#198:15> Enter destructor of CubeWorkerInterface
+36664.2 <c-45#198:15> Enter destructor of CubeRoot
+36664.2 <c-45#198:15> Finished withdraw thread
+36724.4 <c-45#198:15> Enter destructor
+36724.4 <c-45#198:15> Time working: 11.879
+36724.4 <c-45#198:15> Time suspended: 11.457
+36724.4 <c-45#198:15> Joined cleanup thread
+36724.4 <c-45#198:15> Exit destructor
+36724.4 <c-45#198:15> Destructing logger

@@ -1,0 +1,49 @@
+8493.92 <c-19#42> Created logger
+8493.97 <c-19#42> appl_initialize was called
+8493.97 <c-19#42:8> Logger was updated
+8493.97 <c-19#42:8> Started intializing cube lib
+8493.97 <c-19#42:8> Finished intializing cube lib with worker, starting to work
+8494.79 <c-19#42:8> requestCubes => [23] Buffer size: 0
+8494.79 <c-19#42:8> Sent requestCubes signal to root
+8494.79 <c-19#42:8> Received 4 cubes from root
+8494.79 <c-19#42:8> The main loop continues
+8494.79 <c-19#42:8> Started solving a cube
+8511.56 <c-19#42:8> Cube failed
+8511.56 <c-19#42:8> Added failed cube
+8511.56 <c-19#42:8> Started solving a cube
+8511.57 <c-19#42:8> Cube failed
+8511.57 <c-19#42:8> Added failed cube
+8511.57 <c-19#42:8> Started solving a cube
+8512.57 <c-19#42:8> Cube failed
+8512.57 <c-19#42:8> Added failed cube
+8512.57 <c-19#42:8> Started solving a cube
+8512.57 <c-19#42:8> Skipped cube
+8512.58 <c-19#42:8> returnFailedCubes => [23] Buffer size: 9
+8512.58 <c-19#42:8> Sent 3 failed cubes to root
+8512.58 <c-19#42:8> Received receivedFailedCubes signal from root
+8512.59 <c-19#42:8> requestCubes => [23] Buffer size: 0
+8512.59 <c-19#42:8> Sent requestCubes signal to root
+8512.59 <c-19#42:8> Received 2 cubes from root
+8512.59 <c-19#42:8> The main loop continues
+8512.59 <c-19#42:8> Started solving a cube
+8552.72 <c-19#42:8> appl_interrupt was called
+8552.72 <c-19#42:8> Interrupting worker
+8552.72 <c-19#42:8> appl_interrupt was called
+8552.72 <c-19#42:8> appl_withdraw was called
+8552.72 <c-19#42:8> Started withdraw thread
+8552.72 <c-19#42:8> STOP (0.01s since last cb)
+8552.72 <c-19#42:8> Solving interrupted
+8552.72 <c-19#42:8> The main loop continues
+8552.72 <c-19#42:8> Leaving the main loop due to an interruption
+8552.72 <c-19#42:8> Finished withdrawing lib
+8552.72 <c-19#42:8> Enter destructor of CubeWorker
+8552.72 <c-19#42:8> Time waiting for messages: 0.001
+8552.78 <c-19#42:8> Enter destructor of CubeWorkerInterface
+8552.78 <c-19#42:8> Enter destructor of CubeRoot
+8552.78 <c-19#42:8> Finished withdraw thread
+8613.17 <c-19#42:8> Enter destructor
+8613.17 <c-19#42:8> Time working: 58.750
+8613.17 <c-19#42:8> Time suspended: 0.000
+8613.17 <c-19#42:8> Joined cleanup thread
+8613.17 <c-19#42:8> Exit destructor
+8613.17 <c-19#42:8> Destructing logger
