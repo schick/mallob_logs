@@ -1,0 +1,49 @@
+129724 <c-4#393> Created logger
+129724 <c-4#393> appl_initialize was called
+129724 <c-4#393:30> Logger was updated
+129724 <c-4#393:30> Started intializing cube lib
+129724 <c-4#393:30> Finished intializing cube lib with worker, starting to work
+129724 <c-4#393:30> requestCubes => [7] Buffer size: 0
+129724 <c-4#393:30> Sent requestCubes signal to root
+129724 <c-4#393:30> Received 1 cubes from root
+129724 <c-4#393:30> The main loop continues
+129724 <c-4#393:30> Started solving a cube
+130539 <c-4#393:30> Cube failed
+130539 <c-4#393:30> Added failed cube
+130539 <c-4#393:30> returnFailedCubes => [7] Buffer size: 6
+130539 <c-4#393:30> Sent 1 failed cubes to root
+130539 <c-4#393:30> Received receivedFailedCubes signal from root
+130539 <c-4#393:30> requestCubes => [7] Buffer size: 0
+130539 <c-4#393:30> Sent requestCubes signal to root
+130539 <c-4#393:30> Received 1 cubes from root
+130539 <c-4#393:30> The main loop continues
+130539 <c-4#393:30> Started solving a cube
+130622 <c-4#393:30> appl_pause was called
+130622 <c-4#393:30> Set suspended
+130622 <c-4#393:30> Suspending worker
+130622 <c-4#393:30> SUSPEND (0.00s since last cb)
+130643 <c-4#393:30> appl_unpause was called
+130643 <c-4#393:30> Set unsuspended
+130643 <c-4#393:30> Resuming worker
+130643 <c-4#393:30> RESUME
+130703 <c-4#393:30> appl_interrupt was called
+130703 <c-4#393:30> Interrupting worker
+130703 <c-4#393:30> appl_interrupt was called
+130703 <c-4#393:30> appl_withdraw was called
+130703 <c-4#393:30> Started withdraw thread
+130703 <c-4#393:30> STOP (0.00s since last cb)
+130703 <c-4#393:30> Solving interrupted
+130703 <c-4#393:30> The main loop continues
+130703 <c-4#393:30> Leaving the main loop due to an interruption
+130703 <c-4#393:30> Finished withdrawing lib
+130703 <c-4#393:30> Enter destructor of CubeWorker
+130703 <c-4#393:30> Time waiting for messages: 0.000
+130703 <c-4#393:30> Enter destructor of CubeWorkerInterface
+130703 <c-4#393:30> Enter destructor of CubeRoot
+130703 <c-4#393:30> Finished withdraw thread
+130763 <c-4#393:30> Enter destructor
+130763 <c-4#393:30> Time working: 60.328
+130763 <c-4#393:30> Time suspended: 20.484
+130763 <c-4#393:30> Joined cleanup thread
+130763 <c-4#393:30> Exit destructor
+130763 <c-4#393:30> Destructing logger

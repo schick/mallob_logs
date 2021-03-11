@@ -1,0 +1,47 @@
+86080.8 <c-1#256> Created logger
+86080.8 <c-1#256> appl_initialize was called
+86080.8 <c-1#256:41> Logger was updated
+86080.8 <c-1#256:41> Started intializing cube lib
+86080.8 <c-1#256:41> Finished intializing cube lib with worker, starting to work
+86080.8 <c-1#256:41> requestCubes => [61] Buffer size: 0
+86080.8 <c-1#256:41> Sent requestCubes signal to root
+86080.8 <c-1#256:41> Received 1 cubes from root
+86080.8 <c-1#256:41> The main loop continues
+86080.8 <c-1#256:41> Started solving a cube
+86101.4 <c-1#256:41> Cube failed
+86101.4 <c-1#256:41> Added failed cube
+86101.4 <c-1#256:41> returnFailedCubes => [61] Buffer size: 6
+86101.4 <c-1#256:41> Sent 1 failed cubes to root
+86101.4 <c-1#256:41> Received receivedFailedCubes signal from root
+86101.4 <c-1#256:41> requestCubes => [61] Buffer size: 0
+86101.4 <c-1#256:41> Sent requestCubes signal to root
+86101.4 <c-1#256:41> Received 1 cubes from root
+86101.4 <c-1#256:41> The main loop continues
+86101.4 <c-1#256:41> Started solving a cube
+86125.5 <c-1#256:41> appl_pause was called
+86125.5 <c-1#256:41> Set suspended
+86125.5 <c-1#256:41> Suspending worker
+86125.5 <c-1#256:41> SUSPEND (0.00s since last cb)
+86144.3 <c-1#256:41> appl_interrupt was called
+86144.3 <c-1#256:41> Interrupting worker
+86144.3 <c-1#256:41> Resuming worker to allow interruption
+86144.3 <c-1#256:41> RESUME
+86144.3 <c-1#256:41> STOP after suspension
+86144.3 <c-1#256:41> Solving interrupted
+86144.3 <c-1#256:41> The main loop continues
+86144.3 <c-1#256:41> Leaving the main loop due to an interruption
+86144.3 <c-1#256:41> appl_interrupt was called
+86144.3 <c-1#256:41> appl_withdraw was called
+86144.3 <c-1#256:41> Started withdraw thread
+86144.3 <c-1#256:41> Finished withdrawing lib
+86144.3 <c-1#256:41> Enter destructor of CubeWorker
+86144.3 <c-1#256:41> Time waiting for messages: 0.000
+86144.3 <c-1#256:41> Enter destructor of CubeWorkerInterface
+86144.3 <c-1#256:41> Enter destructor of CubeRoot
+86144.3 <c-1#256:41> Finished withdraw thread
+86205 <c-1#256:41> Enter destructor
+86205 <c-1#256:41> Time working: 44.719
+86205 <c-1#256:41> Time suspended: 18.828
+86205 <c-1#256:41> Joined cleanup thread
+86205 <c-1#256:41> Exit destructor
+86205 <c-1#256:41> Destructing logger

@@ -1,0 +1,45 @@
+4106.2 <c-26#11> Created logger
+4106.22 <c-26#11> appl_initialize was called
+4106.22 <c-26#11:32> Logger was updated
+4106.22 <c-26#11:32> Started intializing cube lib
+4106.22 <c-26#11:32> Finished intializing cube lib with worker, starting to work
+4106.24 <c-26#11:32> requestCubes => [55] Buffer size: 0
+4106.24 <c-26#11:32> Sent requestCubes signal to root
+4106.24 <c-26#11:32> Received 1 cubes from root
+4106.24 <c-26#11:32> The main loop continues
+4106.24 <c-26#11:32> Started solving a cube
+4132.77 <c-26#11:32> appl_pause was called
+4132.77 <c-26#11:32> Set suspended
+4132.77 <c-26#11:32> Suspending worker
+4132.77 <c-26#11:32> SUSPEND (0.00s since last cb)
+4282.73 <c-26#11:32> appl_unpause was called
+4282.73 <c-26#11:32> Set unsuspended
+4282.73 <c-26#11:32> Resuming worker
+4282.73 <c-26#11:32> RESUME
+4329.87 <c-26#11:32> appl_pause was called
+4329.87 <c-26#11:32> Set suspended
+4329.87 <c-26#11:32> Suspending worker
+4329.87 <c-26#11:32> SUSPEND (0.00s since last cb)
+5053.38 <c-26#11:32> appl_interrupt was called
+5053.38 <c-26#11:32> Interrupting worker
+5053.38 <c-26#11:32> Resuming worker to allow interruption
+5053.38 <c-26#11:32> RESUME
+5053.38 <c-26#11:32> STOP after suspension
+5053.38 <c-26#11:32> Solving interrupted
+5053.38 <c-26#11:32> The main loop continues
+5053.38 <c-26#11:32> Leaving the main loop due to an interruption
+5053.38 <c-26#11:32> appl_interrupt was called
+5053.38 <c-26#11:32> appl_withdraw was called
+5053.38 <c-26#11:32> Started withdraw thread
+5053.38 <c-26#11:32> Finished withdrawing lib
+5053.38 <c-26#11:32> Enter destructor of CubeWorker
+5053.38 <c-26#11:32> Time waiting for messages: 0.000
+5053.39 <c-26#11:32> Enter destructor of CubeWorkerInterface
+5053.39 <c-26#11:32> Enter destructor of CubeRoot
+5053.39 <c-26#11:32> Finished withdraw thread
+5113.93 <c-26#11:32> Enter destructor
+5113.93 <c-26#11:32> Time working: 47.146
+5113.93 <c-26#11:32> Time suspended: 723.511
+5113.93 <c-26#11:32> Joined cleanup thread
+5113.93 <c-26#11:32> Exit destructor
+5113.93 <c-26#11:32> Destructing logger

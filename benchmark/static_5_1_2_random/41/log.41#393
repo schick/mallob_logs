@@ -1,0 +1,49 @@
+129725 <c-41#393> Created logger
+129725 <c-41#393> appl_initialize was called
+129725 <c-41#393:37> Logger was updated
+129725 <c-41#393:37> Started intializing cube lib
+129725 <c-41#393:37> Finished intializing cube lib with worker, starting to work
+129725 <c-41#393:37> requestCubes => [7] Buffer size: 0
+129725 <c-41#393:37> Sent requestCubes signal to root
+129725 <c-41#393:37> Received 1 cubes from root
+129725 <c-41#393:37> The main loop continues
+129725 <c-41#393:37> Started solving a cube
+129743 <c-41#393:37> Cube failed
+129743 <c-41#393:37> Added failed cube
+129743 <c-41#393:37> returnFailedCubes => [7] Buffer size: 6
+129743 <c-41#393:37> Sent 1 failed cubes to root
+129743 <c-41#393:37> Received receivedFailedCubes signal from root
+129743 <c-41#393:37> requestCubes => [7] Buffer size: 0
+129743 <c-41#393:37> Sent requestCubes signal to root
+129743 <c-41#393:37> Received 1 cubes from root
+129743 <c-41#393:37> The main loop continues
+129743 <c-41#393:37> Started solving a cube
+130614 <c-41#393:37> appl_pause was called
+130614 <c-41#393:37> Set suspended
+130614 <c-41#393:37> Suspending worker
+130614 <c-41#393:37> SUSPEND (0.01s since last cb)
+130643 <c-41#393:37> appl_unpause was called
+130643 <c-41#393:37> Set unsuspended
+130643 <c-41#393:37> Resuming worker
+130643 <c-41#393:37> RESUME
+130703 <c-41#393:37> appl_interrupt was called
+130703 <c-41#393:37> Interrupting worker
+130703 <c-41#393:37> appl_interrupt was called
+130703 <c-41#393:37> appl_withdraw was called
+130703 <c-41#393:37> Started withdraw thread
+130703 <c-41#393:37> STOP (0.00s since last cb)
+130703 <c-41#393:37> Solving interrupted
+130703 <c-41#393:37> The main loop continues
+130703 <c-41#393:37> Leaving the main loop due to an interruption
+130703 <c-41#393:37> Finished withdrawing lib
+130703 <c-41#393:37> Enter destructor of CubeWorker
+130703 <c-41#393:37> Time waiting for messages: 0.000
+130703 <c-41#393:37> Enter destructor of CubeWorkerInterface
+130703 <c-41#393:37> Enter destructor of CubeRoot
+130703 <c-41#393:37> Finished withdraw thread
+130766 <c-41#393:37> Enter destructor
+130766 <c-41#393:37> Time working: 60.320
+130766 <c-41#393:37> Time suspended: 29.062
+130766 <c-41#393:37> Joined cleanup thread
+130766 <c-41#393:37> Exit destructor
+130766 <c-41#393:37> Destructing logger

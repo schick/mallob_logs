@@ -1,0 +1,41 @@
+46610.5 <c-22#141> Created logger
+46610.5 <c-22#141> appl_initialize was called
+46610.5 <c-22#141:22> Logger was updated
+46610.5 <c-22#141:22> Started intializing cube lib
+46610.5 <c-22#141:22> Finished intializing cube lib with worker, starting to work
+46610.5 <c-22#141:22> requestCubes => [50] Buffer size: 0
+46610.5 <c-22#141:22> Sent requestCubes signal to root
+46610.5 <c-22#141:22> Received 1 cubes from root
+46610.5 <c-22#141:22> The main loop continues
+46610.5 <c-22#141:22> Started solving a cube
+46708.5 <c-22#141:22> Cube failed
+46708.5 <c-22#141:22> Added failed cube
+46708.5 <c-22#141:22> returnFailedCubes => [50] Buffer size: 6
+46708.5 <c-22#141:22> Sent 1 failed cubes to root
+46708.5 <c-22#141:22> Received receivedFailedCubes signal from root
+46708.6 <c-22#141:22> requestCubes => [50] Buffer size: 0
+46708.6 <c-22#141:22> Sent requestCubes signal to root
+46708.6 <c-22#141:22> Received 1 cubes from root
+46708.6 <c-22#141:22> The main loop continues
+46708.6 <c-22#141:22> Started solving a cube
+46794.5 <c-22#141:22> appl_interrupt was called
+46794.5 <c-22#141:22> Interrupting worker
+46794.5 <c-22#141:22> appl_interrupt was called
+46794.5 <c-22#141:22> appl_withdraw was called
+46794.5 <c-22#141:22> Started withdraw thread
+46794.5 <c-22#141:22> STOP (0.00s since last cb)
+46794.5 <c-22#141:22> Solving interrupted
+46794.5 <c-22#141:22> The main loop continues
+46794.5 <c-22#141:22> Leaving the main loop due to an interruption
+46794.5 <c-22#141:22> Finished withdrawing lib
+46794.5 <c-22#141:22> Enter destructor of CubeWorker
+46794.5 <c-22#141:22> Time waiting for messages: 0.000
+46794.5 <c-22#141:22> Enter destructor of CubeWorkerInterface
+46794.5 <c-22#141:22> Enter destructor of CubeRoot
+46794.5 <c-22#141:22> Finished withdraw thread
+46855 <c-22#141:22> Enter destructor
+46855 <c-22#141:22> Time working: 183.992
+46855 <c-22#141:22> Time suspended: 0.000
+46855 <c-22#141:22> Joined cleanup thread
+46855 <c-22#141:22> Exit destructor
+46855 <c-22#141:22> Destructing logger

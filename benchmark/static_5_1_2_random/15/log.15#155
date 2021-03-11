@@ -1,0 +1,45 @@
+52354 <c-15#155> Created logger
+52354.2 <c-15#155> appl_initialize was called
+52354.2 <c-15#155:32> Logger was updated
+52354.2 <c-15#155:32> Started intializing cube lib
+52354.2 <c-15#155:32> Finished intializing cube lib with worker, starting to work
+52355.9 <c-15#155:32> requestCubes => [35] Buffer size: 0
+52355.9 <c-15#155:32> Sent requestCubes signal to root
+52355.9 <c-15#155:32> Received 1 cubes from root
+52355.9 <c-15#155:32> The main loop continues
+52355.9 <c-15#155:32> Started solving a cube
+52713.3 <c-15#155:32> appl_pause was called
+52713.3 <c-15#155:32> Set suspended
+52713.3 <c-15#155:32> Suspending worker
+52713.3 <c-15#155:32> SUSPEND (0.01s since last cb)
+52776.8 <c-15#155:32> appl_unpause was called
+52776.8 <c-15#155:32> Set unsuspended
+52776.8 <c-15#155:32> Resuming worker
+52776.8 <c-15#155:32> RESUME
+52807.2 <c-15#155:32> appl_pause was called
+52807.2 <c-15#155:32> Set suspended
+52807.2 <c-15#155:32> Suspending worker
+52807.2 <c-15#155:32> SUSPEND (0.00s since last cb)
+53194.5 <c-15#155:32> appl_interrupt was called
+53194.5 <c-15#155:32> Interrupting worker
+53194.5 <c-15#155:32> Resuming worker to allow interruption
+53194.5 <c-15#155:32> appl_interrupt was called
+53194.5 <c-15#155:32> appl_withdraw was called
+53194.5 <c-15#155:32> RESUME
+53194.5 <c-15#155:32> STOP after suspension
+53194.5 <c-15#155:32> Solving interrupted
+53194.5 <c-15#155:32> The main loop continues
+53194.5 <c-15#155:32> Leaving the main loop due to an interruption
+53194.5 <c-15#155:32> Started withdraw thread
+53194.5 <c-15#155:32> Finished withdrawing lib
+53194.5 <c-15#155:32> Enter destructor of CubeWorker
+53194.5 <c-15#155:32> Time waiting for messages: 0.000
+53194.9 <c-15#155:32> Enter destructor of CubeWorkerInterface
+53194.9 <c-15#155:32> Enter destructor of CubeRoot
+53194.9 <c-15#155:32> Finished withdraw thread
+53255.3 <c-15#155:32> Enter destructor
+53255.3 <c-15#155:32> Time working: 30.445
+53255.3 <c-15#155:32> Time suspended: 387.293
+53255.3 <c-15#155:32> Joined cleanup thread
+53255.3 <c-15#155:32> Exit destructor
+53255.3 <c-15#155:32> Destructing logger

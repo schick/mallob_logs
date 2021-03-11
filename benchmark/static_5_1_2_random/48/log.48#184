@@ -1,0 +1,45 @@
+62483.9 <c-48#184> Created logger
+62484 <c-48#184> appl_initialize was called
+62484 <c-48#184:43> Logger was updated
+62484 <c-48#184:43> Started intializing cube lib
+62484 <c-48#184:43> Finished intializing cube lib with worker, starting to work
+62486.9 <c-48#184:43> requestCubes => [43] Buffer size: 0
+62486.9 <c-48#184:43> Sent requestCubes signal to root
+62486.9 <c-48#184:43> Received 1 cubes from root
+62486.9 <c-48#184:43> The main loop continues
+62486.9 <c-48#184:43> Started solving a cube
+62928.5 <c-48#184:43> appl_pause was called
+62928.5 <c-48#184:43> Set suspended
+62928.5 <c-48#184:43> Suspending worker
+62929.7 <c-48#184:43> SUSPEND (1.55s since last cb)
+63179.8 <c-48#184:43> appl_unpause was called
+63179.8 <c-48#184:43> Set unsuspended
+63179.8 <c-48#184:43> Resuming worker
+63179.8 <c-48#184:43> RESUME
+63196.1 <c-48#184:43> appl_pause was called
+63196.1 <c-48#184:43> Set suspended
+63196.1 <c-48#184:43> Suspending worker
+63196.2 <c-48#184:43> SUSPEND (0.04s since last cb)
+63325.6 <c-48#184:43> appl_interrupt was called
+63325.6 <c-48#184:43> Interrupting worker
+63325.6 <c-48#184:43> Resuming worker to allow interruption
+63325.6 <c-48#184:43> RESUME
+63325.6 <c-48#184:43> STOP after suspension
+63325.6 <c-48#184:43> Solving interrupted
+63325.6 <c-48#184:43> The main loop continues
+63325.6 <c-48#184:43> Leaving the main loop due to an interruption
+63325.6 <c-48#184:43> appl_interrupt was called
+63325.6 <c-48#184:43> appl_withdraw was called
+63325.7 <c-48#184:43> Started withdraw thread
+63325.7 <c-48#184:43> Finished withdrawing lib
+63325.7 <c-48#184:43> Enter destructor of CubeWorker
+63325.7 <c-48#184:43> Time waiting for messages: 0.000
+63327 <c-48#184:43> Enter destructor of CubeWorkerInterface
+63327 <c-48#184:43> Enter destructor of CubeRoot
+63327 <c-48#184:43> Finished withdraw thread
+63386 <c-48#184:43> Enter destructor
+63386 <c-48#184:43> Time working: 16.309
+63386 <c-48#184:43> Time suspended: 129.488
+63386 <c-48#184:43> Joined cleanup thread
+63386 <c-48#184:43> Exit destructor
+63386 <c-48#184:43> Destructing logger

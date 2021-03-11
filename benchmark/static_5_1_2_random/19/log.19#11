@@ -1,0 +1,45 @@
+4106.21 <c-19#11> Created logger
+4106.23 <c-19#11> appl_initialize was called
+4106.23 <c-19#11:44> Logger was updated
+4106.23 <c-19#11:44> Started intializing cube lib
+4106.23 <c-19#11:44> Finished intializing cube lib with worker, starting to work
+4106.25 <c-19#11:44> requestCubes => [55] Buffer size: 0
+4106.25 <c-19#11:44> Sent requestCubes signal to root
+4106.25 <c-19#11:44> Received 1 cubes from root
+4106.25 <c-19#11:44> The main loop continues
+4106.25 <c-19#11:44> Started solving a cube
+4127 <c-19#11:44> appl_pause was called
+4127 <c-19#11:44> Set suspended
+4127 <c-19#11:44> Suspending worker
+4127 <c-19#11:44> SUSPEND (0.00s since last cb)
+4282.74 <c-19#11:44> appl_unpause was called
+4282.74 <c-19#11:44> Set unsuspended
+4282.74 <c-19#11:44> Resuming worker
+4282.74 <c-19#11:44> RESUME
+4324.03 <c-19#11:44> appl_pause was called
+4324.03 <c-19#11:44> Set suspended
+4324.03 <c-19#11:44> Suspending worker
+4324.04 <c-19#11:44> SUSPEND (0.00s since last cb)
+5053.39 <c-19#11:44> appl_interrupt was called
+5053.39 <c-19#11:44> Interrupting worker
+5053.39 <c-19#11:44> Resuming worker to allow interruption
+5053.39 <c-19#11:44> RESUME
+5053.39 <c-19#11:44> STOP after suspension
+5053.39 <c-19#11:44> Solving interrupted
+5053.39 <c-19#11:44> The main loop continues
+5053.39 <c-19#11:44> Leaving the main loop due to an interruption
+5053.39 <c-19#11:44> appl_interrupt was called
+5053.39 <c-19#11:44> appl_withdraw was called
+5053.39 <c-19#11:44> Started withdraw thread
+5053.39 <c-19#11:44> Finished withdrawing lib
+5053.39 <c-19#11:44> Enter destructor of CubeWorker
+5053.39 <c-19#11:44> Time waiting for messages: 0.000
+5053.4 <c-19#11:44> Enter destructor of CubeWorkerInterface
+5053.4 <c-19#11:44> Enter destructor of CubeRoot
+5053.4 <c-19#11:44> Finished withdraw thread
+5113.93 <c-19#11:44> Enter destructor
+5113.93 <c-19#11:44> Time working: 41.298
+5113.93 <c-19#11:44> Time suspended: 729.357
+5113.93 <c-19#11:44> Joined cleanup thread
+5113.93 <c-19#11:44> Exit destructor
+5113.93 <c-19#11:44> Destructing logger

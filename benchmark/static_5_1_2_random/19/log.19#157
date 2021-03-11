@@ -1,0 +1,41 @@
+52804 <c-19#157> Created logger
+52804 <c-19#157> appl_initialize was called
+52804 <c-19#157:17> Logger was updated
+52804 <c-19#157:17> Started intializing cube lib
+52804 <c-19#157:17> Finished intializing cube lib with worker, starting to work
+52804.7 <c-19#157:17> requestCubes => [9] Buffer size: 0
+52804.7 <c-19#157:17> Sent requestCubes signal to root
+52804.7 <c-19#157:17> Received 1 cubes from root
+52804.7 <c-19#157:17> The main loop continues
+52804.7 <c-19#157:17> Started solving a cube
+52821.6 <c-19#157:17> Cube failed
+52821.6 <c-19#157:17> Added failed cube
+52821.6 <c-19#157:17> returnFailedCubes => [9] Buffer size: 6
+52821.6 <c-19#157:17> Sent 1 failed cubes to root
+52821.6 <c-19#157:17> Received receivedFailedCubes signal from root
+52821.6 <c-19#157:17> requestCubes => [9] Buffer size: 0
+52821.6 <c-19#157:17> Sent requestCubes signal to root
+52821.6 <c-19#157:17> Received 1 cubes from root
+52821.6 <c-19#157:17> The main loop continues
+52821.6 <c-19#157:17> Started solving a cube
+53505.2 <c-19#157:17> appl_interrupt was called
+53505.2 <c-19#157:17> Interrupting worker
+53505.2 <c-19#157:17> appl_interrupt was called
+53505.2 <c-19#157:17> appl_withdraw was called
+53505.2 <c-19#157:17> Started withdraw thread
+53505.2 <c-19#157:17> STOP (0.00s since last cb)
+53505.2 <c-19#157:17> Solving interrupted
+53505.2 <c-19#157:17> The main loop continues
+53505.2 <c-19#157:17> Leaving the main loop due to an interruption
+53505.2 <c-19#157:17> Finished withdrawing lib
+53505.2 <c-19#157:17> Enter destructor of CubeWorker
+53505.2 <c-19#157:17> Time waiting for messages: 0.000
+53505.2 <c-19#157:17> Enter destructor of CubeWorkerInterface
+53505.2 <c-19#157:17> Enter destructor of CubeRoot
+53505.2 <c-19#157:17> Finished withdraw thread
+53567.5 <c-19#157:17> Enter destructor
+53567.5 <c-19#157:17> Time working: 701.234
+53567.5 <c-19#157:17> Time suspended: 0.000
+53567.5 <c-19#157:17> Joined cleanup thread
+53567.5 <c-19#157:17> Exit destructor
+53567.5 <c-19#157:17> Destructing logger

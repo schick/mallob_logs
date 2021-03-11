@@ -1,0 +1,47 @@
+47643.1 <c-44#144> Created logger
+47643.1 <c-44#144> appl_initialize was called
+47643.1 <c-44#144:44> Logger was updated
+47643.1 <c-44#144:44> Started intializing cube lib
+47643.1 <c-44#144:44> Finished intializing cube lib with worker, starting to work
+47643.2 <c-44#144:44> requestCubes => [22] Buffer size: 0
+47643.2 <c-44#144:44> Sent requestCubes signal to root
+47643.2 <c-44#144:44> Received 1 cubes from root
+47643.2 <c-44#144:44> The main loop continues
+47643.2 <c-44#144:44> Started solving a cube
+47721.5 <c-44#144:44> Cube failed
+47721.5 <c-44#144:44> Added failed cube
+47721.5 <c-44#144:44> returnFailedCubes => [22] Buffer size: 4
+47721.5 <c-44#144:44> Sent 1 failed cubes to root
+47721.5 <c-44#144:44> Received receivedFailedCubes signal from root
+47721.5 <c-44#144:44> requestCubes => [22] Buffer size: 0
+47721.5 <c-44#144:44> Sent requestCubes signal to root
+47721.5 <c-44#144:44> Received 1 cubes from root
+47721.5 <c-44#144:44> The main loop continues
+47721.5 <c-44#144:44> Started solving a cube
+47816 <c-44#144:44> appl_pause was called
+47816 <c-44#144:44> Set suspended
+47816 <c-44#144:44> Suspending worker
+47816 <c-44#144:44> SUSPEND (0.04s since last cb)
+48609.7 <c-44#144:44> appl_interrupt was called
+48609.7 <c-44#144:44> Interrupting worker
+48609.7 <c-44#144:44> Resuming worker to allow interruption
+48609.7 <c-44#144:44> RESUME
+48609.7 <c-44#144:44> STOP after suspension
+48609.7 <c-44#144:44> Solving interrupted
+48609.7 <c-44#144:44> The main loop continues
+48609.7 <c-44#144:44> Leaving the main loop due to an interruption
+48609.7 <c-44#144:44> appl_interrupt was called
+48609.7 <c-44#144:44> appl_withdraw was called
+48609.7 <c-44#144:44> Started withdraw thread
+48609.7 <c-44#144:44> Finished withdrawing lib
+48609.7 <c-44#144:44> Enter destructor of CubeWorker
+48609.7 <c-44#144:44> Time waiting for messages: 0.000
+48609.7 <c-44#144:44> Enter destructor of CubeWorkerInterface
+48609.7 <c-44#144:44> Enter destructor of CubeRoot
+48609.7 <c-44#144:44> Finished withdraw thread
+48670.9 <c-44#144:44> Enter destructor
+48670.9 <c-44#144:44> Time working: 172.891
+48670.9 <c-44#144:44> Time suspended: 793.676
+48670.9 <c-44#144:44> Joined cleanup thread
+48670.9 <c-44#144:44> Exit destructor
+48670.9 <c-44#144:44> Destructing logger

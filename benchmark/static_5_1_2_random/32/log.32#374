@@ -1,0 +1,50 @@
+125262 <c-32#374> Created logger
+125262 <c-32#374> appl_initialize was called
+125262 <c-32#374:3> Logger was updated
+125262 <c-32#374:3> Started intializing cube lib
+125262 <c-32#374:3> Finished intializing cube lib with worker, starting to work
+125262 <c-32#374:3> requestCubes => [29] Buffer size: 0
+125262 <c-32#374:3> Sent requestCubes signal to root
+125262 <c-32#374:3> Received 1 cubes from root
+125262 <c-32#374:3> The main loop continues
+125262 <c-32#374:3> Started solving a cube
+125262 <c-32#374:3> Cube failed
+125262 <c-32#374:3> Added failed cube
+125262 <c-32#374:3> returnFailedCubes => [29] Buffer size: 3
+125262 <c-32#374:3> Sent 1 failed cubes to root
+125262 <c-32#374:3> Received receivedFailedCubes signal from root
+125262 <c-32#374:3> requestCubes => [29] Buffer size: 0
+125262 <c-32#374:3> Sent requestCubes signal to root
+125262 <c-32#374:3> Received 1 cubes from root
+125262 <c-32#374:3> The main loop continues
+125262 <c-32#374:3> Started solving a cube
+125262 <c-32#374:3> Cube failed
+125262 <c-32#374:3> Added failed cube
+125262 <c-32#374:3> returnFailedCubes => [29] Buffer size: 3
+125262 <c-32#374:3> Sent 1 failed cubes to root
+125262 <c-32#374:3> Received receivedFailedCubes signal from root
+125262 <c-32#374:3> requestCubes => [29] Buffer size: 0
+125262 <c-32#374:3> Sent requestCubes signal to root
+125262 <c-32#374:3> Received 1 cubes from root
+125262 <c-32#374:3> The main loop continues
+125262 <c-32#374:3> Started solving a cube
+125299 <c-32#374:3> Found a solution: SAT
+125299 <c-32#374:3> Leaving the main loop because a solution was found
+125299 <c-32#374:3> Found result SAT
+125299 <c-32#374:3> appl_interrupt was called
+125299 <c-32#374:3> Interrupting worker
+125299 <c-32#374:3> appl_interrupt was called
+125299 <c-32#374:3> appl_withdraw was called
+125299 <c-32#374:3> Started withdraw thread
+125299 <c-32#374:3> Finished withdrawing lib
+125299 <c-32#374:3> Enter destructor of CubeWorker
+125299 <c-32#374:3> Time waiting for messages: 0.000
+125299 <c-32#374:3> Enter destructor of CubeWorkerInterface
+125299 <c-32#374:3> Enter destructor of CubeRoot
+125299 <c-32#374:3> Finished withdraw thread
+125362 <c-32#374:3> Enter destructor
+125362 <c-32#374:3> Time working: 37.203
+125362 <c-32#374:3> Time suspended: 0.000
+125362 <c-32#374:3> Joined cleanup thread
+125362 <c-32#374:3> Exit destructor
+125362 <c-32#374:3> Destructing logger

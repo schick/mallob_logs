@@ -1,0 +1,45 @@
+113786 <c-1#335> Created logger
+113787 <c-1#335> appl_initialize was called
+113787 <c-1#335:38> Logger was updated
+113787 <c-1#335:38> Started intializing cube lib
+113787 <c-1#335:38> Finished intializing cube lib with worker, starting to work
+113789 <c-1#335:38> requestCubes => [58] Buffer size: 0
+113789 <c-1#335:38> Sent requestCubes signal to root
+113789 <c-1#335:38> Received 1 cubes from root
+113789 <c-1#335:38> The main loop continues
+113789 <c-1#335:38> Started solving a cube
+113831 <c-1#335:38> appl_pause was called
+113831 <c-1#335:38> Set suspended
+113831 <c-1#335:38> Suspending worker
+113831 <c-1#335:38> SUSPEND (0.01s since last cb)
+114165 <c-1#335:38> appl_unpause was called
+114165 <c-1#335:38> Set unsuspended
+114165 <c-1#335:38> Resuming worker
+114165 <c-1#335:38> RESUME
+114181 <c-1#335:38> appl_pause was called
+114181 <c-1#335:38> Set suspended
+114181 <c-1#335:38> Suspending worker
+114181 <c-1#335:38> SUSPEND (0.56s since last cb)
+114445 <c-1#335:38> appl_interrupt was called
+114445 <c-1#335:38> Interrupting worker
+114445 <c-1#335:38> Resuming worker to allow interruption
+114445 <c-1#335:38> RESUME
+114445 <c-1#335:38> STOP after suspension
+114445 <c-1#335:38> appl_interrupt was called
+114445 <c-1#335:38> appl_withdraw was called
+114445 <c-1#335:38> Started withdraw thread
+114447 <c-1#335:38> Solving interrupted
+114447 <c-1#335:38> The main loop continues
+114447 <c-1#335:38> Leaving the main loop due to an interruption
+114447 <c-1#335:38> Finished withdrawing lib
+114447 <c-1#335:38> Enter destructor of CubeWorker
+114447 <c-1#335:38> Time waiting for messages: 0.000
+114447 <c-1#335:38> Enter destructor of CubeWorkerInterface
+114447 <c-1#335:38> Enter destructor of CubeRoot
+114447 <c-1#335:38> Finished withdraw thread
+114506 <c-1#335:38> Enter destructor
+114506 <c-1#335:38> Time working: 16.070
+114506 <c-1#335:38> Time suspended: 264.375
+114506 <c-1#335:38> Joined cleanup thread
+114506 <c-1#335:38> Exit destructor
+114506 <c-1#335:38> Destructing logger

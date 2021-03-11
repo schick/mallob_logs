@@ -1,0 +1,45 @@
+31441.8 <c-30#95> Created logger
+31441.9 <c-30#95> appl_initialize was called
+31441.9 <c-30#95:42> Logger was updated
+31441.9 <c-30#95:42> Started intializing cube lib
+31441.9 <c-30#95:42> Finished intializing cube lib with worker, starting to work
+31442 <c-30#95:42> requestCubes => [43] Buffer size: 0
+31442 <c-30#95:42> Sent requestCubes signal to root
+31442 <c-30#95:42> Received 1 cubes from root
+31442 <c-30#95:42> The main loop continues
+31442 <c-30#95:42> Started solving a cube
+31525.4 <c-30#95:42> appl_pause was called
+31525.4 <c-30#95:42> Set suspended
+31525.4 <c-30#95:42> Suspending worker
+31525.4 <c-30#95:42> SUSPEND (0.00s since last cb)
+31731 <c-30#95:42> appl_unpause was called
+31731 <c-30#95:42> Set unsuspended
+31731 <c-30#95:42> Resuming worker
+31731 <c-30#95:42> RESUME
+31753 <c-30#95:42> appl_pause was called
+31753 <c-30#95:42> Set suspended
+31753 <c-30#95:42> Suspending worker
+31753.1 <c-30#95:42> SUSPEND (0.13s since last cb)
+32288.9 <c-30#95:42> appl_interrupt was called
+32288.9 <c-30#95:42> Interrupting worker
+32288.9 <c-30#95:42> Resuming worker to allow interruption
+32288.9 <c-30#95:42> RESUME
+32288.9 <c-30#95:42> STOP after suspension
+32288.9 <c-30#95:42> appl_interrupt was called
+32288.9 <c-30#95:42> appl_withdraw was called
+32288.9 <c-30#95:42> Started withdraw thread
+32289 <c-30#95:42> Solving interrupted
+32289 <c-30#95:42> The main loop continues
+32289 <c-30#95:42> Leaving the main loop due to an interruption
+32289 <c-30#95:42> Finished withdrawing lib
+32289 <c-30#95:42> Enter destructor of CubeWorker
+32289 <c-30#95:42> Time waiting for messages: 0.000
+32289 <c-30#95:42> Enter destructor of CubeWorkerInterface
+32289 <c-30#95:42> Enter destructor of CubeRoot
+32289 <c-30#95:42> Finished withdraw thread
+32351.1 <c-30#95:42> Enter destructor
+32351.1 <c-30#95:42> Time working: 21.982
+32351.1 <c-30#95:42> Time suspended: 535.883
+32351.1 <c-30#95:42> Joined cleanup thread
+32351.1 <c-30#95:42> Exit destructor
+32351.1 <c-30#95:42> Destructing logger

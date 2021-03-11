@@ -1,0 +1,45 @@
+97782.1 <c-13#293> Created logger
+97782.8 <c-13#293> appl_initialize was called
+97782.8 <c-13#293:30> Logger was updated
+97782.8 <c-13#293:30> Started intializing cube lib
+97782.8 <c-13#293:30> Finished intializing cube lib with worker, starting to work
+97783.9 <c-13#293:30> requestCubes => [52] Buffer size: 0
+97783.9 <c-13#293:30> Sent requestCubes signal to root
+97783.9 <c-13#293:30> Received 1 cubes from root
+97783.9 <c-13#293:30> The main loop continues
+97783.9 <c-13#293:30> Started solving a cube
+98016.1 <c-13#293:30> appl_pause was called
+98016.1 <c-13#293:30> Set suspended
+98016.1 <c-13#293:30> Suspending worker
+98016.1 <c-13#293:30> SUSPEND (0.01s since last cb)
+98466.5 <c-13#293:30> appl_unpause was called
+98466.5 <c-13#293:30> Set unsuspended
+98466.5 <c-13#293:30> Resuming worker
+98466.5 <c-13#293:30> RESUME
+98491.1 <c-13#293:30> appl_pause was called
+98491.1 <c-13#293:30> Set suspended
+98491.1 <c-13#293:30> Suspending worker
+98491.1 <c-13#293:30> SUSPEND (0.00s since last cb)
+98502.4 <c-13#293:30> appl_interrupt was called
+98502.4 <c-13#293:30> Interrupting worker
+98502.4 <c-13#293:30> Resuming worker to allow interruption
+98502.4 <c-13#293:30> RESUME
+98502.4 <c-13#293:30> STOP after suspension
+98502.4 <c-13#293:30> appl_interrupt was called
+98502.4 <c-13#293:30> appl_withdraw was called
+98502.5 <c-13#293:30> Started withdraw thread
+98502.5 <c-13#293:30> Solving interrupted
+98502.5 <c-13#293:30> The main loop continues
+98502.5 <c-13#293:30> Leaving the main loop due to an interruption
+98502.5 <c-13#293:30> Finished withdrawing lib
+98502.5 <c-13#293:30> Enter destructor of CubeWorker
+98502.5 <c-13#293:30> Time waiting for messages: 0.000
+98502.6 <c-13#293:30> Enter destructor of CubeWorkerInterface
+98502.6 <c-13#293:30> Enter destructor of CubeRoot
+98502.8 <c-13#293:30> Finished withdraw thread
+98564.6 <c-13#293:30> Enter destructor
+98564.6 <c-13#293:30> Time working: 24.570
+98564.6 <c-13#293:30> Time suspended: 11.352
+98564.6 <c-13#293:30> Joined cleanup thread
+98564.6 <c-13#293:30> Exit destructor
+98564.6 <c-13#293:30> Destructing logger

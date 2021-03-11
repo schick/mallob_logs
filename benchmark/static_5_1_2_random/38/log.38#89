@@ -1,0 +1,47 @@
+28934.6 <c-38#89> Created logger
+28934.6 <c-38#89> appl_initialize was called
+28934.6 <c-38#89:55> Logger was updated
+28934.6 <c-38#89:55> Started intializing cube lib
+28934.6 <c-38#89:55> Finished intializing cube lib with worker, starting to work
+28934.6 <c-38#89:55> requestCubes => [15] Buffer size: 0
+28934.6 <c-38#89:55> Sent requestCubes signal to root
+28934.6 <c-38#89:55> Received 1 cubes from root
+28934.6 <c-38#89:55> The main loop continues
+28934.6 <c-38#89:55> Started solving a cube
+29068.6 <c-38#89:55> Cube failed
+29068.6 <c-38#89:55> Added failed cube
+29068.7 <c-38#89:55> returnFailedCubes => [15] Buffer size: 4
+29068.7 <c-38#89:55> Sent 1 failed cubes to root
+29068.7 <c-38#89:55> Received receivedFailedCubes signal from root
+29068.7 <c-38#89:55> requestCubes => [15] Buffer size: 0
+29068.7 <c-38#89:55> Sent requestCubes signal to root
+29068.7 <c-38#89:55> Received 1 cubes from root
+29068.7 <c-38#89:55> The main loop continues
+29068.7 <c-38#89:55> Started solving a cube
+29296.9 <c-38#89:55> appl_pause was called
+29296.9 <c-38#89:55> Set suspended
+29296.9 <c-38#89:55> Suspending worker
+29296.9 <c-38#89:55> SUSPEND (0.00s since last cb)
+29910.1 <c-38#89:55> appl_interrupt was called
+29910.1 <c-38#89:55> Interrupting worker
+29910.1 <c-38#89:55> Resuming worker to allow interruption
+29910.1 <c-38#89:55> RESUME
+29910.1 <c-38#89:55> STOP after suspension
+29910.1 <c-38#89:55> Solving interrupted
+29910.1 <c-38#89:55> The main loop continues
+29910.1 <c-38#89:55> Leaving the main loop due to an interruption
+29910.1 <c-38#89:55> appl_interrupt was called
+29910.1 <c-38#89:55> appl_withdraw was called
+29910.1 <c-38#89:55> Started withdraw thread
+29910.1 <c-38#89:55> Finished withdrawing lib
+29910.1 <c-38#89:55> Enter destructor of CubeWorker
+29910.1 <c-38#89:55> Time waiting for messages: 0.000
+29910.1 <c-38#89:55> Enter destructor of CubeWorkerInterface
+29910.1 <c-38#89:55> Enter destructor of CubeRoot
+29910.1 <c-38#89:55> Finished withdraw thread
+29970.5 <c-38#89:55> Enter destructor
+29970.5 <c-38#89:55> Time working: 362.316
+29970.5 <c-38#89:55> Time suspended: 613.176
+29970.5 <c-38#89:55> Joined cleanup thread
+29970.5 <c-38#89:55> Exit destructor
+29970.5 <c-38#89:55> Destructing logger

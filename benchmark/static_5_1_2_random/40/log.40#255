@@ -1,0 +1,41 @@
+86132.5 <c-40#255> Created logger
+86132.6 <c-40#255> appl_initialize was called
+86132.6 <c-40#255:20> Logger was updated
+86132.6 <c-40#255:20> Started intializing cube lib
+86132.6 <c-40#255:20> Finished intializing cube lib with worker, starting to work
+86133.6 <c-40#255:20> requestCubes => [4] Buffer size: 0
+86133.6 <c-40#255:20> Sent requestCubes signal to root
+86133.6 <c-40#255:20> Received 1 cubes from root
+86133.6 <c-40#255:20> The main loop continues
+86133.6 <c-40#255:20> Started solving a cube
+86267.6 <c-40#255:20> Cube failed
+86267.6 <c-40#255:20> Added failed cube
+86267.6 <c-40#255:20> returnFailedCubes => [4] Buffer size: 2
+86267.6 <c-40#255:20> Sent 1 failed cubes to root
+86267.6 <c-40#255:20> Received receivedFailedCubes signal from root
+86267.6 <c-40#255:20> requestCubes => [4] Buffer size: 0
+86267.6 <c-40#255:20> Sent requestCubes signal to root
+86267.6 <c-40#255:20> Received 1 cubes from root
+86267.6 <c-40#255:20> The main loop continues
+86267.6 <c-40#255:20> Started solving a cube
+86286.1 <c-40#255:20> appl_interrupt was called
+86286.1 <c-40#255:20> Interrupting worker
+86286.1 <c-40#255:20> STOP (0.00s since last cb)
+86286.1 <c-40#255:20> appl_interrupt was called
+86286.1 <c-40#255:20> appl_withdraw was called
+86286.1 <c-40#255:20> Started withdraw thread
+86286.1 <c-40#255:20> Solving interrupted
+86286.1 <c-40#255:20> The main loop continues
+86286.1 <c-40#255:20> Leaving the main loop due to an interruption
+86286.1 <c-40#255:20> Finished withdrawing lib
+86286.1 <c-40#255:20> Enter destructor of CubeWorker
+86286.1 <c-40#255:20> Time waiting for messages: 0.000
+86286.2 <c-40#255:20> Enter destructor of CubeWorkerInterface
+86286.2 <c-40#255:20> Enter destructor of CubeRoot
+86286.2 <c-40#255:20> Finished withdraw thread
+86346.2 <c-40#255:20> Enter destructor
+86346.2 <c-40#255:20> Time working: 153.508
+86346.2 <c-40#255:20> Time suspended: 0.000
+86346.2 <c-40#255:20> Joined cleanup thread
+86346.2 <c-40#255:20> Exit destructor
+86346.2 <c-40#255:20> Destructing logger

@@ -1,0 +1,41 @@
+69883.1 <c-30#207> Created logger
+69883.1 <c-30#207> appl_initialize was called
+69883.1 <c-30#207:11> Logger was updated
+69883.1 <c-30#207:11> Started intializing cube lib
+69883.1 <c-30#207:11> Finished intializing cube lib with worker, starting to work
+69883.1 <c-30#207:11> requestCubes => [17] Buffer size: 0
+69883.1 <c-30#207:11> Sent requestCubes signal to root
+69883.1 <c-30#207:11> Received 1 cubes from root
+69883.1 <c-30#207:11> The main loop continues
+69883.1 <c-30#207:11> Started solving a cube
+69897.6 <c-30#207:11> Cube failed
+69897.6 <c-30#207:11> Added failed cube
+69897.6 <c-30#207:11> returnFailedCubes => [17] Buffer size: 5
+69897.6 <c-30#207:11> Sent 1 failed cubes to root
+69897.6 <c-30#207:11> Received receivedFailedCubes signal from root
+69897.6 <c-30#207:11> requestCubes => [17] Buffer size: 0
+69897.6 <c-30#207:11> Sent requestCubes signal to root
+69897.6 <c-30#207:11> Received 1 cubes from root
+69897.6 <c-30#207:11> The main loop continues
+69897.6 <c-30#207:11> Started solving a cube
+70004.5 <c-30#207:11> appl_interrupt was called
+70004.5 <c-30#207:11> Interrupting worker
+70004.5 <c-30#207:11> appl_interrupt was called
+70004.5 <c-30#207:11> appl_withdraw was called
+70004.5 <c-30#207:11> Started withdraw thread
+70004.5 <c-30#207:11> STOP (0.00s since last cb)
+70004.5 <c-30#207:11> Solving interrupted
+70004.5 <c-30#207:11> The main loop continues
+70004.5 <c-30#207:11> Leaving the main loop due to an interruption
+70004.5 <c-30#207:11> Finished withdrawing lib
+70004.5 <c-30#207:11> Enter destructor of CubeWorker
+70004.5 <c-30#207:11> Time waiting for messages: 0.000
+70004.5 <c-30#207:11> Enter destructor of CubeWorkerInterface
+70004.5 <c-30#207:11> Enter destructor of CubeRoot
+70004.5 <c-30#207:11> Finished withdraw thread
+70064.9 <c-30#207:11> Enter destructor
+70064.9 <c-30#207:11> Time working: 121.406
+70064.9 <c-30#207:11> Time suspended: 0.000
+70064.9 <c-30#207:11> Joined cleanup thread
+70064.9 <c-30#207:11> Exit destructor
+70064.9 <c-30#207:11> Destructing logger

@@ -1,0 +1,45 @@
+3136.1 <c-43#10> Created logger
+3136.11 <c-43#10> appl_initialize was called
+3136.11 <c-43#10:41> Logger was updated
+3136.11 <c-43#10:41> Started intializing cube lib
+3136.11 <c-43#10:41> Finished intializing cube lib with worker, starting to work
+3136.15 <c-43#10:41> requestCubes => [22] Buffer size: 0
+3136.15 <c-43#10:41> Sent requestCubes signal to root
+3136.15 <c-43#10:41> Received 1 cubes from root
+3136.15 <c-43#10:41> The main loop continues
+3136.15 <c-43#10:41> Started solving a cube
+3176.94 <c-43#10:41> appl_pause was called
+3176.94 <c-43#10:41> Set suspended
+3176.94 <c-43#10:41> Suspending worker
+3176.94 <c-43#10:41> SUSPEND (0.00s since last cb)
+4053.24 <c-43#10:41> appl_unpause was called
+4053.24 <c-43#10:41> Set unsuspended
+4053.24 <c-43#10:41> Resuming worker
+4053.24 <c-43#10:41> RESUME
+4076.09 <c-43#10:41> appl_pause was called
+4076.09 <c-43#10:41> Set suspended
+4076.09 <c-43#10:41> Suspending worker
+4076.09 <c-43#10:41> SUSPEND (0.00s since last cb)
+4106.13 <c-43#10:41> appl_interrupt was called
+4106.13 <c-43#10:41> Interrupting worker
+4106.13 <c-43#10:41> Resuming worker to allow interruption
+4106.13 <c-43#10:41> RESUME
+4106.13 <c-43#10:41> STOP after suspension
+4106.13 <c-43#10:41> Solving interrupted
+4106.13 <c-43#10:41> The main loop continues
+4106.13 <c-43#10:41> Leaving the main loop due to an interruption
+4106.13 <c-43#10:41> appl_interrupt was called
+4106.13 <c-43#10:41> appl_withdraw was called
+4106.13 <c-43#10:41> Started withdraw thread
+4106.13 <c-43#10:41> Finished withdrawing lib
+4106.13 <c-43#10:41> Enter destructor of CubeWorker
+4106.13 <c-43#10:41> Time waiting for messages: 0.000
+4106.14 <c-43#10:41> Enter destructor of CubeWorkerInterface
+4106.14 <c-43#10:41> Enter destructor of CubeRoot
+4106.14 <c-43#10:41> Finished withdraw thread
+4168.52 <c-43#10:41> Enter destructor
+4168.52 <c-43#10:41> Time working: 22.853
+4168.52 <c-43#10:41> Time suspended: 30.041
+4168.52 <c-43#10:41> Joined cleanup thread
+4168.52 <c-43#10:41> Exit destructor
+4168.52 <c-43#10:41> Destructing logger
