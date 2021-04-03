@@ -1,0 +1,749 @@
+19680 <c-1#132> Created logger
+19680.2 <c-1#132:2> Logger was updated
+19680.2 <c-1#132:2> Started intializing dynamic cube lib
+19680.2 <c-1#132:2> DynamicCubeLib: Started all initializer threads
+19685 <c-1#132:2> DynamicCubeLib: Joined all initializer threads
+19685 <c-1#132:2> Finished intializing dynamic cube lib
+19685 <c-1#132:2> DynamicCubeLib: Starting the dynamic cube lib
+19685 <c-1#132:2> DynamicCubeSolverThread 205: Entering the main loop
+19685 <c-1#132:2> DynamicCubeSolverThread 204: Entering the main loop
+19685 <c-1#132:2> DynamicCubeSolverThread 206: Entering the main loop
+19685 <c-1#132:2> DynamicCubeSolverThread 207: Entering the main loop
+19685 <c-1#132:2> DynamicCubeSolverThread 207: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 207: entered cube retrieval loop
+19685 <c-1#132:2> DynamicCubeSolverThread 207: waits because no cube could be assigned
+19685 <c-1#132:2> DynamicCubeSolverThread 207: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 204: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 204: entered cube retrieval loop
+19685 <c-1#132:2> DynamicCubeSolverThread 204: waits because no cube could be assigned
+19685 <c-1#132:2> DynamicCubeGeneratorThread 51: Entering the main loop
+19685 <c-1#132:2> DynamicCubeSolverThread 204: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 206: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 206: entered cube retrieval loop
+19685 <c-1#132:2> DynamicCubeSolverThread 206: waits because no cube could be assigned
+19685 <c-1#132:2> DynamicCubeSolverThread 206: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 205: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeSolverThread 205: entered cube retrieval loop
+19685 <c-1#132:2> DynamicCubeSolverThread 205: waits because no cube could be assigned
+19685 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19685 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19685 <c-1#132:2> There are no cubes to split and no cube is splitting, set requesting
+19685 <c-1#132:2> DynamicCubeGeneratorThread 51: waits because no cube could be assigned
+19685 <c-1#132:2> DynamicCubeGeneratorThread 51: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19690 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19690 <c-1#132:2> DynamicCubeCommunicator: This job is requesting
+19690 <c-1#132:2> sendRequestsToParent => [5] Buffer size: 1
+19690 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19690 <c-1#132:2> gather => [5] Buffer size: 0
+19692.3 <c-1#132:2> DynamicCubeCommunicator: Received fulfill while active
+19692.3 <c-1#132:2> Digesting 2 cubes
+19692.3 <c-1#132:2> Before digestCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+19692.3 <c-1#132:2> After digestCubes(), Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: was notified, Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: resumes because a cube could be assigned
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: entered cube retrieval loop
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: retrieved a cube
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: Started solving a cube with size 3
+19692.3 <c-1#132:2> DynamicCubeSolverThread 206: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 0 are split
+19692.3 <c-1#132:2> DynamicCubeSolverThread 206: resumes because a cube could be assigned
+19692.3 <c-1#132:2> DynamicCubeSolverThread 206: entered cube retrieval loop
+19692.3 <c-1#132:2> DynamicCubeSolverThread 206: retrieved a cube
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: The cube failed, 2 assumptions failed
+19692.3 <c-1#132:2> DynamicCubeSolverThread 206: Started solving a cube with size 3
+19692.3 <c-1#132:2> DynamicCubeSolverThread 204: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+19692.3 <c-1#132:2> DynamicCubeGeneratorThread 51: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+19692.3 <c-1#132:2> DynamicCubeGeneratorThread 51: resumes because a cube could be assigned
+19692.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19692.3 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19692.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 3
+19692.3 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: added new failed assumptions
+19692.3 <c-1#132:2> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19692.3 <c-1#132:2> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: entered cube retrieval loop
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: waits because no cube could be assigned
+19692.3 <c-1#132:2> DynamicCubeSolverThread 207: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+19693.7 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal 5931
+19693.7 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+19693.7 <c-1#132:2> DynamicCubeGeneratorThread 51: could not create a new dynamic cube, the expanded cube was pruned
+19693.7 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19693.7 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19693.7 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 3
+19694.5 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal 5931
+19694.5 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19694.5 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 4
+19694.5 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19694.5 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19694.5 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 4
+19694.5 <c-1#132:2> DynamicCubeSolverThread 207: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+19694.5 <c-1#132:2> DynamicCubeSolverThread 207: resumes because a cube could be assigned
+19694.5 <c-1#132:2> DynamicCubeSolverThread 207: entered cube retrieval loop
+19694.5 <c-1#132:2> DynamicCubeSolverThread 207: retrieved a cube
+19694.5 <c-1#132:2> DynamicCubeSolverThread 207: Started solving a cube with size 4
+19694.5 <c-1#132:2> DynamicCubeSolverThread 204: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19694.5 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19695.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal 89888
+19695.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19695.3 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 5
+19695.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19695.3 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19695.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 4
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 3 cubes of which 2 are solved and 1 are split
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: resumes because a cube could be assigned
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: entered cube retrieval loop
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: retrieved a cube
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: Started solving a cube with size 5
+19695.3 <c-1#132:2> DynamicCubeSolverThread 204: was notified, Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: The cube failed, 2 assumptions failed
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: entered shareCubes, Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: added new failed assumptions
+19695.3 <c-1#132:2> Before handleFailedAssumptions(), Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+19695.3 <c-1#132:2> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: entered cube retrieval loop
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: waits because no cube could be assigned
+19695.3 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19696.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal 89888
+19696.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19696.3 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 5
+19696.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19696.3 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: resumes because a cube could be assigned
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: entered cube retrieval loop
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: retrieved a cube
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: Started solving a cube with size 5
+19696.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 5
+19696.3 <c-1#132:2> DynamicCubeSolverThread 204: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: The cube failed, 2 assumptions failed
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: added new failed assumptions
+19696.3 <c-1#132:2> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19696.3 <c-1#132:2> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: entered cube retrieval loop
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: waits because no cube could be assigned
+19696.3 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19697 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -16458
+19697 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+19697 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 6
+19697 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19697 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19697 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 6
+19697 <c-1#132:2> DynamicCubeSolverThread 204: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+19697 <c-1#132:2> DynamicCubeSolverThread 204: resumes because a cube could be assigned
+19697 <c-1#132:2> DynamicCubeSolverThread 204: entered cube retrieval loop
+19697 <c-1#132:2> DynamicCubeSolverThread 204: retrieved a cube
+19697 <c-1#132:2> DynamicCubeSolverThread 204: Started solving a cube with size 6
+19697 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19698 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -35101
+19698 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+19698 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 7
+19698 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19698 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19698 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 6
+19698 <c-1#132:2> DynamicCubeSolverThread 205: was notified, Dynamic Cubes: There are 3 cubes of which 2 are solved and 1 are split
+19698 <c-1#132:2> DynamicCubeSolverThread 205: resumes because a cube could be assigned
+19698 <c-1#132:2> DynamicCubeSolverThread 205: entered cube retrieval loop
+19698 <c-1#132:2> DynamicCubeSolverThread 205: retrieved a cube
+19698 <c-1#132:2> DynamicCubeSolverThread 205: Started solving a cube with size 7
+19699.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -35101
+19699.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+19699.3 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 7
+19699.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19699.3 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19699.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 7
+19700 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19700 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19700 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19700 <c-1#132:2> gather => [5] Buffer size: 9
+19700.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -41351
+19700.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 4 cubes of which 3 are solved and 1 are split
+19700.3 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 8
+19700.3 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19700.3 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19700.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 7
+19701.2 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -41351
+19701.2 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 5 cubes of which 3 are solved and 1 are split
+19701.2 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 8
+19701.2 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19701.2 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19701.2 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 7
+19702.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -41351
+19702.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 6 cubes of which 3 are solved and 1 are split
+19702.1 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 8
+19702.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19702.1 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+19702.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 7
+19702.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19702.3 <c-1#132:2> DynamicCubeSolverThread 205: Inserting new failed clauses. Buffer size: 12
+19702.3 <c-1#132:2> DynamicCubeSolverThread 206: Inserting new failed clauses. Buffer size: 12
+19702.3 <c-1#132:2> DynamicCubeSolverThread 204: Inserting new failed clauses. Buffer size: 12
+19702.3 <c-1#132:2> DynamicCubeSolverThread 207: Inserting new failed clauses. Buffer size: 12
+19702.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Inserting new failed clauses. Buffer size: 12
+19703.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -41351
+19703.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 7 cubes of which 3 are solved and 1 are split
+19703.1 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 8
+19703.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+19703.1 <c-1#132:2> DynamicCubeGeneratorThread 51: waits because there are too many cubes
+19703.1 <c-1#132:2> DynamicCubeGeneratorThread 51: was notified, Dynamic Cubes: There are 8 cubes of which 3 are solved and 0 are split
+19710 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19710 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19710 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19710 <c-1#132:2> gather => [5] Buffer size: 0
+19712.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19712.3 <c-1#132:2> DynamicCubeSolverThread 205: Inserting new failed clauses. Buffer size: 9
+19712.3 <c-1#132:2> DynamicCubeSolverThread 206: Inserting new failed clauses. Buffer size: 9
+19712.3 <c-1#132:2> DynamicCubeSolverThread 204: Inserting new failed clauses. Buffer size: 9
+19712.3 <c-1#132:2> DynamicCubeSolverThread 207: Inserting new failed clauses. Buffer size: 9
+19712.3 <c-1#132:2> DynamicCubeGeneratorThread 51: Inserting new failed clauses. Buffer size: 9
+19720 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19720 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19720 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19720 <c-1#132:2> gather => [5] Buffer size: 0
+19722.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19730 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19730 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19730 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19730 <c-1#132:2> gather => [5] Buffer size: 0
+19732.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19740 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19740 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19740 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19740 <c-1#132:2> gather => [5] Buffer size: 0
+19742.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19750 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19750 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19750 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19750 <c-1#132:2> gather => [5] Buffer size: 0
+19752.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19760 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19760 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19760 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19760 <c-1#132:2> gather => [5] Buffer size: 0
+19762.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19770.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19770.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19770.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19770.1 <c-1#132:2> gather => [5] Buffer size: 0
+19772.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19780.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19780.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19780.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19780.1 <c-1#132:2> gather => [5] Buffer size: 0
+19782.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19790.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19790.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19790.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19790.1 <c-1#132:2> gather => [5] Buffer size: 0
+19792.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19800.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19800.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19800.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19800.1 <c-1#132:2> gather => [5] Buffer size: 0
+19802.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19810.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19810.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19810.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19810.1 <c-1#132:2> gather => [5] Buffer size: 0
+19812.3 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19820.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19820.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19820.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19820.1 <c-1#132:2> gather => [5] Buffer size: 0
+19822.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19830.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19830.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19830.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19830.1 <c-1#132:2> gather => [5] Buffer size: 0
+19832.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19840.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19840.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19840.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19840.1 <c-1#132:2> gather => [5] Buffer size: 0
+19842.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19850.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19850.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19850.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19850.1 <c-1#132:2> gather => [5] Buffer size: 0
+19852.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19860.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19860.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19860.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19860.1 <c-1#132:2> gather => [5] Buffer size: 0
+19862.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19870.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19870.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19870.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19870.1 <c-1#132:2> gather => [5] Buffer size: 0
+19872.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19880.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19880.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19880.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19880.1 <c-1#132:2> gather => [5] Buffer size: 0
+19882.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19890.1 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19890.1 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19890.1 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19890.1 <c-1#132:2> gather => [5] Buffer size: 0
+19892.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19900.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19900.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19900.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19900.2 <c-1#132:2> gather => [5] Buffer size: 0
+19902.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19910.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19910.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19910.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19910.2 <c-1#132:2> gather => [5] Buffer size: 0
+19912.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19920.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19920.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19920.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19920.2 <c-1#132:2> gather => [5] Buffer size: 0
+19922.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19930.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19930.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19930.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19930.2 <c-1#132:2> gather => [5] Buffer size: 0
+19932.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19940.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19940.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19940.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19940.2 <c-1#132:2> gather => [5] Buffer size: 0
+19942.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19950.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19950.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19950.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19950.2 <c-1#132:2> gather => [5] Buffer size: 0
+19952.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19960.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19960.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19960.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19960.2 <c-1#132:2> gather => [5] Buffer size: 0
+19962.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19970.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19970.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19970.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19970.2 <c-1#132:2> gather => [5] Buffer size: 0
+19972.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19980.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19980.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19980.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19980.2 <c-1#132:2> gather => [5] Buffer size: 0
+19982.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+19990.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+19990.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+19990.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+19990.2 <c-1#132:2> gather => [5] Buffer size: 0
+19992.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20000.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20000.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20000.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20000.2 <c-1#132:2> gather => [5] Buffer size: 0
+20002.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20010.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20010.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20010.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20010.2 <c-1#132:2> gather => [5] Buffer size: 0
+20012.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20020.2 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20020.2 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20020.2 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20020.2 <c-1#132:2> gather => [5] Buffer size: 0
+20022.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20030.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20030.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20030.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20030.3 <c-1#132:2> gather => [5] Buffer size: 0
+20032.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20040.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20040.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20040.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20040.3 <c-1#132:2> gather => [5] Buffer size: 0
+20042.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20050.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20050.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20050.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20050.3 <c-1#132:2> gather => [5] Buffer size: 0
+20052.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20060.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20060.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20060.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20060.3 <c-1#132:2> gather => [5] Buffer size: 0
+20062.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20070.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20070.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20070.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20070.3 <c-1#132:2> gather => [5] Buffer size: 0
+20072.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20080.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20080.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20080.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20080.3 <c-1#132:2> gather => [5] Buffer size: 0
+20082.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20090.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20090.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20090.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20090.3 <c-1#132:2> gather => [5] Buffer size: 0
+20092.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20100.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20100.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20100.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20100.3 <c-1#132:2> gather => [5] Buffer size: 0
+20102.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20110.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20110.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20110.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20110.3 <c-1#132:2> gather => [5] Buffer size: 0
+20112.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20120.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20120.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20120.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20120.3 <c-1#132:2> gather => [5] Buffer size: 0
+20122.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20130.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20130.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20130.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20130.3 <c-1#132:2> gather => [5] Buffer size: 0
+20132.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20140.3 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20140.3 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20140.3 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20140.3 <c-1#132:2> gather => [5] Buffer size: 0
+20142.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20150.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20150.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20150.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20150.4 <c-1#132:2> gather => [5] Buffer size: 0
+20152.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20160.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20160.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20160.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20160.4 <c-1#132:2> gather => [5] Buffer size: 0
+20162.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20170.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20170.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20170.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20170.4 <c-1#132:2> gather => [5] Buffer size: 0
+20172.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20180.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20180.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20180.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20180.4 <c-1#132:2> gather => [5] Buffer size: 0
+20182.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20190.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20190.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20190.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20190.4 <c-1#132:2> gather => [5] Buffer size: 0
+20192.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20200.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20200.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20200.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20200.4 <c-1#132:2> gather => [5] Buffer size: 0
+20202.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20210.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20210.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20210.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20210.4 <c-1#132:2> gather => [5] Buffer size: 0
+20212.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: The cube failed, 1 assumptions failed
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: entered shareCubes, Dynamic Cubes: There are 8 cubes of which 3 are solved and 0 are split
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: added new failed assumptions
+20217.1 <c-1#132:2> Before handleFailedAssumptions(), Dynamic Cubes: There are 8 cubes of which 3 are solved and 0 are split
+20217.1 <c-1#132:2> After handleFailedAssumptions(), Dynamic Cubes: There are 4 cubes of which 2 are solved and 0 are split
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: entered cube retrieval loop
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: retrieved a cube
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: Adding new failed clauses. Buffer size: 21
+20217.1 <c-1#132:2> DynamicCubeGeneratorThread 51: was notified, Dynamic Cubes: There are 4 cubes of which 3 are solved and 0 are split
+20217.1 <c-1#132:2> DynamicCubeGeneratorThread 51: resumes because there are no longer too many cubes
+20217.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+20217.1 <c-1#132:2> DynamicCubeSolverThread 204: Started solving a cube with size 8
+20217.1 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+20217.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Adding new failed clauses. Buffer size: 21
+20217.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 8
+20218.5 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -42150
+20218.5 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 4 cubes of which 3 are solved and 1 are split
+20218.5 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 9
+20218.5 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+20218.5 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+20218.5 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 8
+20219.8 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -42150
+20219.8 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 5 cubes of which 3 are solved and 1 are split
+20219.8 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 9
+20219.8 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+20219.8 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+20219.8 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 8
+20220.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20220.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20220.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20220.4 <c-1#132:2> gather => [5] Buffer size: 2
+20221.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -42150
+20221.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 6 cubes of which 3 are solved and 1 are split
+20221.1 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 9
+20221.1 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+20221.1 <c-1#132:2> DynamicCubeGeneratorThread 51: retrieved a cube
+20221.1 <c-1#132:2> DynamicCubeGeneratorThread 51: Started expanding a cube with size 8
+20222.4 <c-1#132:2> DynamicCubeGeneratorThread 51: Found split literal -42150
+20222.4 <c-1#132:2> DynamicCubeGeneratorThread 51: entered shareCubeToSplit, Dynamic Cubes: There are 7 cubes of which 3 are solved and 1 are split
+20222.4 <c-1#132:2> DynamicCubeGeneratorThread 51: created a new dynamic cube with size 9
+20222.4 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+20222.4 <c-1#132:2> DynamicCubeGeneratorThread 51: waits because there are too many cubes
+20222.4 <c-1#132:2> DynamicCubeGeneratorThread 51: was notified, Dynamic Cubes: There are 8 cubes of which 3 are solved and 0 are split
+20222.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20222.7 <c-1#132:2> DynamicCubeSolverThread 205: Inserting new failed clauses. Buffer size: 2
+20222.7 <c-1#132:2> DynamicCubeSolverThread 206: Inserting new failed clauses. Buffer size: 2
+20222.7 <c-1#132:2> DynamicCubeSolverThread 204: Inserting new failed clauses. Buffer size: 2
+20222.7 <c-1#132:2> DynamicCubeSolverThread 207: Inserting new failed clauses. Buffer size: 2
+20222.7 <c-1#132:2> DynamicCubeGeneratorThread 51: Inserting new failed clauses. Buffer size: 2
+20230.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20230.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20230.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20230.4 <c-1#132:2> gather => [5] Buffer size: 0
+20232.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20240.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20240.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20240.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20240.4 <c-1#132:2> gather => [5] Buffer size: 0
+20242.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20250.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20250.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20250.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20250.4 <c-1#132:2> gather => [5] Buffer size: 0
+20252.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20260.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20260.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20260.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20260.4 <c-1#132:2> gather => [5] Buffer size: 0
+20262.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20270.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20270.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20270.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20270.4 <c-1#132:2> gather => [5] Buffer size: 0
+20272.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20280.4 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20280.4 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20280.4 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20280.4 <c-1#132:2> gather => [5] Buffer size: 0
+20282.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20290.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20290.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20290.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20290.5 <c-1#132:2> gather => [5] Buffer size: 0
+20292.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20300.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20300.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20300.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20300.5 <c-1#132:2> gather => [5] Buffer size: 0
+20302.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20310.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20310.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20310.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20310.5 <c-1#132:2> gather => [5] Buffer size: 0
+20312.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20320.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20320.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20320.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20320.5 <c-1#132:2> gather => [5] Buffer size: 0
+20322.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20330.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20330.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20330.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20330.5 <c-1#132:2> gather => [5] Buffer size: 0
+20332.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20340.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20340.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20340.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20340.5 <c-1#132:2> gather => [5] Buffer size: 0
+20342.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20350.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20350.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20350.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20350.5 <c-1#132:2> gather => [5] Buffer size: 0
+20352.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20360.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20360.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20360.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20360.5 <c-1#132:2> gather => [5] Buffer size: 0
+20362.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20370.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20370.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20370.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20370.5 <c-1#132:2> gather => [5] Buffer size: 0
+20372.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20380.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20380.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20380.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20380.5 <c-1#132:2> gather => [5] Buffer size: 0
+20382.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20390.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20390.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20390.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20390.5 <c-1#132:2> gather => [5] Buffer size: 0
+20392.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20400.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20400.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20400.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20400.5 <c-1#132:2> gather => [5] Buffer size: 0
+20402.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20410.5 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20410.5 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20410.5 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20410.5 <c-1#132:2> gather => [5] Buffer size: 0
+20412.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20420.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20420.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20420.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20420.6 <c-1#132:2> gather => [5] Buffer size: 0
+20422.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20430.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20430.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20430.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20430.6 <c-1#132:2> gather => [5] Buffer size: 0
+20432.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20440.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20440.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20440.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20440.6 <c-1#132:2> gather => [5] Buffer size: 0
+20442.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20450.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20450.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20450.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20450.6 <c-1#132:2> gather => [5] Buffer size: 0
+20452.8 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20460.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20460.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20460.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20460.6 <c-1#132:2> gather => [5] Buffer size: 0
+20462.9 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20470.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20470.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20470.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20470.6 <c-1#132:2> gather => [5] Buffer size: 0
+20472.9 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20480.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20480.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20480.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20480.6 <c-1#132:2> gather => [5] Buffer size: 0
+20482.9 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20490.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20490.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20490.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20490.6 <c-1#132:2> gather => [5] Buffer size: 0
+20490.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20500.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20500.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20500.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20500.6 <c-1#132:2> gather => [5] Buffer size: 0
+20500.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20510.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20510.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20510.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20510.6 <c-1#132:2> gather => [5] Buffer size: 0
+20510.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20520.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20520.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20520.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20520.6 <c-1#132:2> gather => [5] Buffer size: 0
+20520.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20530.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20530.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20530.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20530.6 <c-1#132:2> gather => [5] Buffer size: 0
+20530.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20540.6 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20540.6 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20540.6 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20540.6 <c-1#132:2> gather => [5] Buffer size: 0
+20540.6 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20550.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20550.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20550.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20550.7 <c-1#132:2> gather => [5] Buffer size: 0
+20550.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20560.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20560.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20560.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20560.7 <c-1#132:2> gather => [5] Buffer size: 0
+20560.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20570.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20570.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20570.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20570.7 <c-1#132:2> gather => [5] Buffer size: 0
+20570.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20580.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20580.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20580.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20580.7 <c-1#132:2> gather => [5] Buffer size: 0
+20580.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20590.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20590.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20590.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20590.7 <c-1#132:2> gather => [5] Buffer size: 0
+20592.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20600.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20600.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20600.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20600.7 <c-1#132:2> gather => [5] Buffer size: 0
+20602.5 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20610.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20610.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20610.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20610.7 <c-1#132:2> gather => [5] Buffer size: 0
+20611.4 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20620.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20620.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20620.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20620.7 <c-1#132:2> gather => [5] Buffer size: 0
+20620.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20630.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20630.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20630.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20630.7 <c-1#132:2> gather => [5] Buffer size: 0
+20630.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20640.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20640.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20640.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20640.7 <c-1#132:2> gather => [5] Buffer size: 0
+20640.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20650.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20650.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20650.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20650.7 <c-1#132:2> gather => [5] Buffer size: 0
+20650.7 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20660.7 <c-1#132:2> DynamicCubeCommunicator: Started sendMessageToParent
+20660.7 <c-1#132:2> sendAllGoodToParent => [5] Buffer size: 0
+20660.7 <c-1#132:2> FailedAssumptionCommunicator: Started gather
+20660.7 <c-1#132:2> gather => [5] Buffer size: 0
+20662 <c-1#132:2> FailedAssumptionCommunicator: Received distribute while active
+20664.9 <c-1#132:2> appl_interrupt was called
+20664.9 <c-1#132:2> DynamicCubeLib: Interrupting the dynamic cube lib
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: was notified, Dynamic Cubes: There are 8 cubes of which 3 are solved and 0 are split
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: resumes because there are no longer too many cubes
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: entered cube retrieval loop
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: did not get a cube because the lib is interrupted
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: Adding new failed clauses. Buffer size: 2
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: Skipped generating, because no cube is available
+20664.9 <c-1#132:2> DynamicCubeGeneratorThread 51: Leaving the main loop
+20664.9 <c-1#132:2> appl_interrupt was called
+20664.9 <c-1#132:2> appl_withdraw was called
+20664.9 <c-1#132:2> Started withdraw thread
+20664.9 <c-1#132:2> DynamicCubeLib: Joining the dynamic cube lib
+20664.9 <c-1#132:2> STOP (0.00s since last cb)
+20664.9 <c-1#132:2> DynamicCubeSolverThread 205: Interruption during solving
+20664.9 <c-1#132:2> DynamicCubeSolverThread 205: Leaving the main loop
+20664.9 <c-1#132:2> STOP (0.00s since last cb)
+20664.9 <c-1#132:2> STOP (0.01s since last cb)
+20664.9 <c-1#132:2> STOP (0.01s since last cb)
+20665.4 <c-1#132:2> DynamicCubeSolverThread 204: Interruption during solving
+20665.4 <c-1#132:2> DynamicCubeSolverThread 204: Leaving the main loop
+20665.5 <c-1#132:2> DynamicCubeSolverThread 207: Interruption during solving
+20665.5 <c-1#132:2> DynamicCubeSolverThread 207: Leaving the main loop
+20665.5 <c-1#132:2> DynamicCubeSolverThread 206: Interruption during solving
+20665.5 <c-1#132:2> DynamicCubeSolverThread 206: Leaving the main loop
+20665.5 <c-1#132:2> Joined dynamic cube lib
+20667.3 <c-1#132:2> Finished withdraw thread
+20725.7 <c-1#132:2> Enter destructor
+20725.7 <c-1#132:2> Joined cleanup thread
+20725.7 <c-1#132:2> Exit destructor
+20725.7 <c-1#132:2> Destructing logger

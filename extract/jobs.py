@@ -6,17 +6,21 @@ from glob import glob
 
 @dataclass
 class Job:
-    identifier: str = "-1"
+    identifier: int
 
-    start_time: float = -1.0
+    start_time: float
     end_time: float = -1.0
 
     duration: float = -1.0
 
     result: str = "UNKNOWN"
 
-    start_generate_cubes: str = "NONE"
-    end_generate_cubes: str = "NONE"
+    start_generate_cubes: float = -1.0
+    end_generate_cubes: float = -1.0
+
+    cube_count: int = 0
+
+    generate_duration: float = -1.0
 
     root_node: str = "NONE"
 
@@ -29,7 +33,7 @@ class Job:
 
 # Get identifier as int for sort
 def getID(job):
-    return int(job.identifier)
+    return job.identifier
 
 # Get the node index of the client
 def getClientIndex(jobdir):
@@ -55,7 +59,7 @@ def parse_mallob(jobdir):
 
         if intro_match is not None:
             # Create job
-            job = Job(identifier=intro_match.group("jobid"), start_time=float(intro_match.group("time")))
+            job = Job(identifier=int(intro_match.group("jobid")), start_time=float(intro_match.group("time")))
             # Add to dict
             jobs[intro_match.group("jobid")] = job
 
@@ -90,7 +94,7 @@ def parse_mallob(jobdir):
             start_cube_match = re.search(r'^(?P<time>\d+.\d+) .* Started generating cubes$', line)
 
             if start_cube_match is not None:
-                jobs[jobid].start_generate_cubes = start_cube_match.group("time")
+                jobs[jobid].start_generate_cubes = float(start_cube_match.group("time"))
                 # Cube generation means we found the root node
                 jobs[jobid].root_node = node
 
@@ -98,7 +102,8 @@ def parse_mallob(jobdir):
             end_cube_match = re.search(r'^(?P<time>\d+.\d+) .* Finished generating cubes$', line)
 
             if end_cube_match is not None:
-                jobs[jobid].end_generate_cubes = end_cube_match.group("time")
+                jobs[jobid].end_generate_cubes = float(end_cube_match.group("time"))
+                jobs[jobid].generate_duration = jobs[jobid].end_generate_cubes - jobs[jobid].start_generate_cubes
 
             # Example: 1024.4 <c-1#9:0> Sent 4 cubes to 1
             send_cubes_match = re.search(r'Sent (?P<count>\d+) cubes to \d+$', line)
@@ -111,6 +116,12 @@ def parse_mallob(jobdir):
 
             if recv_failed_cubes_match is not None:
                 jobs[jobid].number_returned_cubes += int(recv_failed_cubes_match.group("count"))
+
+            # Example: DynamicCubeGeneratorThread created a new dynamic cube
+            created_cube_match = re.search(r'DynamicCubeGeneratorThread created a new dynamic cube', line)
+
+            if created_cube_match is not None:
+                jobs[jobid].cube_count += 1
 
     jobs_list = list(jobs.values())
     jobs_list.sort(key=getID)

@@ -1,0 +1,641 @@
+12635.3 <c-2#38> Created logger
+12635.3 <c-2#38:10> Logger was updated
+12635.3 <c-2#38:10> Started intializing dynamic cube lib
+12635.3 <c-2#38:10> DynamicCubeLib: Started all initializer threads
+12635.4 <c-2#38:10> DynamicCubeLib: Joined all initializer threads
+12635.4 <c-2#38:10> Finished intializing dynamic cube lib
+12635.4 <c-2#38:10> DynamicCubeLib: Starting the dynamic cube lib
+12635.4 <c-2#38:10> DynamicCubeSolverThread 123: Entering the main loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 120: Entering the main loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 122: Entering the main loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 121: Entering the main loop
+12635.4 <c-2#38:10> DynamicCubeGeneratorThread 30: Entering the main loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 123: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 123: waits because no cube could be assigned
+12635.4 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+12635.4 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12635.4 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 121: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12635.4 <c-2#38:10> DynamicCubeSolverThread 121: waits because no cube could be assigned
+12635.4 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12635.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12635.4 <c-2#38:10> There are no cubes to split and no cube is splitting, set requesting
+12635.4 <c-2#38:10> DynamicCubeGeneratorThread 30: waits because no cube could be assigned
+12635.4 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12637 <c-2#38:10> FailedAssumptionCommunicator: Received distribute while active
+12637 <c-2#38:10> DynamicCubeSolverThread 123: Inserting new failed clauses. Buffer size: 175
+12637 <c-2#38:10> DynamicCubeSolverThread 120: Inserting new failed clauses. Buffer size: 175
+12637 <c-2#38:10> DynamicCubeSolverThread 122: Inserting new failed clauses. Buffer size: 175
+12637 <c-2#38:10> DynamicCubeSolverThread 121: Inserting new failed clauses. Buffer size: 175
+12637 <c-2#38:10> DynamicCubeGeneratorThread 30: Inserting new failed clauses. Buffer size: 175
+12640.4 <c-2#38:10> DynamicCubeCommunicator: Started sendMessageToParent
+12640.4 <c-2#38:10> DynamicCubeCommunicator: This job is requesting
+12640.4 <c-2#38:10> sendRequestsToParent => [1] Buffer size: 1
+12640.4 <c-2#38:10> FailedAssumptionCommunicator: Started gather
+12640.4 <c-2#38:10> gather => [1] Buffer size: 0
+12640.8 <c-2#38:10> DynamicCubeCommunicator: Received fulfill while active
+12640.8 <c-2#38:10> Digesting 2 cubes
+12640.8 <c-2#38:10> Before digestCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12640.8 <c-2#38:10> After digestCubes(), Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 123: resumes because a cube could be assigned
+12640.8 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12640.8 <c-2#38:10> DynamicCubeSolverThread 123: retrieved a cube
+12640.8 <c-2#38:10> DynamicCubeSolverThread 123: Adding new failed clauses. Buffer size: 175
+12640.8 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 0 are split
+12640.8 <c-2#38:10> DynamicCubeGeneratorThread 30: resumes because a cube could be assigned
+12640.8 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12640.8 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12640.8 <c-2#38:10> DynamicCubeGeneratorThread 30: Adding new failed clauses. Buffer size: 175
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: retrieved a cube
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: Adding new failed clauses. Buffer size: 175
+12640.8 <c-2#38:10> DynamicCubeSolverThread 123: Started solving a cube with size 14
+12640.8 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 14
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: Started solving a cube with size 14
+12640.8 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: The cube failed, 2 assumptions failed
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: added new failed assumptions
+12640.8 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12640.8 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+12640.8 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal 4285
+12641 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 15
+12641 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12641 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12641 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 15
+12641 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12641 <c-2#38:10> DynamicCubeSolverThread 121: resumes because a cube could be assigned
+12641 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12641 <c-2#38:10> DynamicCubeSolverThread 121: retrieved a cube
+12641 <c-2#38:10> DynamicCubeSolverThread 121: Adding new failed clauses. Buffer size: 175
+12641 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641 <c-2#38:10> DynamicCubeSolverThread 121: Started solving a cube with size 15
+12641 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641.2 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -12376
+12641.2 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641.2 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 16
+12641.2 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12641.2 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12641.2 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 15
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 3 cubes of which 2 are solved and 1 are split
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: retrieved a cube
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: Started solving a cube with size 16
+12641.2 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: The cube failed, 3 assumptions failed
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: added new failed assumptions
+12641.2 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+12641.2 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+12641.2 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.4 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -12376
+12641.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.4 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 16
+12641.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12641.4 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12641.4 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 16
+12641.4 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12641.4 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+12641.4 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12641.4 <c-2#38:10> DynamicCubeSolverThread 120: retrieved a cube
+12641.4 <c-2#38:10> DynamicCubeSolverThread 120: Started solving a cube with size 16
+12641.4 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641.6 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -5473
+12641.6 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641.6 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 17
+12641.6 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12641.6 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12641.6 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 16
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 3 cubes of which 2 are solved and 1 are split
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: Adding new failed clauses. Buffer size: 175
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 17
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: The cube failed, 3 assumptions failed
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: added new failed assumptions
+12641.6 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 3 cubes of which 3 are solved and 1 are split
+12641.6 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12641.6 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -5473
+12641.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.9 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 17
+12641.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12641.9 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12641.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 17
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 17
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: The cube failed, 3 assumptions failed
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: added new failed assumptions
+12641.9 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12641.9 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12641.9 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.1 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -12375
+12642.1 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.1 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 18
+12642.1 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12642.1 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12642.1 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 18
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 18
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: The cube failed, 3 assumptions failed
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: added new failed assumptions
+12642.1 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12642.1 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12642.1 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.4 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -9282
+12642.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.4 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 19
+12642.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12642.4 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12642.4 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 19
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 19
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: The cube failed, 3 assumptions failed
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: added new failed assumptions
+12642.4 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12642.4 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12642.4 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.6 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -10829
+12642.6 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12642.6 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 20
+12642.6 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12642.6 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12642.6 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 20
+12642.6 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 1 are split
+12642.6 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12642.6 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12642.6 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12642.6 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 20
+12642.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal 4286
+12642.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12642.9 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 21
+12642.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12642.9 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12642.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 20
+12643.2 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal 4286
+12643.2 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 3 cubes of which 2 are solved and 1 are split
+12643.2 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 21
+12643.2 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12643.2 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12643.2 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 21
+12643.6 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal 715
+12643.6 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 4 cubes of which 2 are solved and 1 are split
+12643.6 <c-2#38:10> DynamicCubeGeneratorThread 30: created a new dynamic cube with size 22
+12643.6 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12643.6 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12643.6 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 21
+12643.7 <c-2#38:10> appl_pause was called
+12643.7 <c-2#38:10> DynamicCubeLib: Suspending the dynamic cube lib
+12643.7 <c-2#38:10> DynamicCubeLib: Interrupting the dynamic cube lib
+12643.7 <c-2#38:10> DynamicCubeLib: Joining the dynamic cube lib
+12643.7 <c-2#38:10> STOP (0.01s since last cb)
+12643.7 <c-2#38:10> DynamicCubeSolverThread 121: Interruption during solving
+12643.7 <c-2#38:10> DynamicCubeSolverThread 121: Leaving the main loop
+12643.7 <c-2#38:10> STOP (0.00s since last cb)
+12643.7 <c-2#38:10> DynamicCubeSolverThread 120: Interruption during solving
+12643.7 <c-2#38:10> DynamicCubeSolverThread 120: Leaving the main loop
+12643.7 <c-2#38:10> STOP (0.00s since last cb)
+12643.7 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal -9281
+12643.7 <c-2#38:10> DynamicCubeSolverThread 122: Interruption during solving
+12643.7 <c-2#38:10> DynamicCubeSolverThread 122: Leaving the main loop
+12643.7 <c-2#38:10> STOP (0.00s since last cb)
+12643.7 <c-2#38:10> DynamicCubeSolverThread 123: Interruption during solving
+12643.7 <c-2#38:10> DynamicCubeSolverThread 123: Leaving the main loop
+12643.7 <c-2#38:10> DynamicCubeGeneratorThread 30: Leaving the main loop
+12643.7 <c-2#38:10> Releasing 5 cubes
+12643.7 <c-2#38:10> sendCubesToRoot => [9] Buffer size: 112
+12643.7 <c-2#38:10> sendToRoot => [9] Buffer size: 23
+12690.9 <c-2#38:10> appl_unpause was called
+12690.9 <c-2#38:10> DynamicCubeLib: Starting the dynamic cube lib
+12690.9 <c-2#38:10> DynamicCubeSolverThread 123: Entering the main loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 120: Entering the main loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 122: Entering the main loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 121: Entering the main loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12690.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Entering the main loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+12690.9 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 123: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 123: waits because no cube could be assigned
+12690.9 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 121: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12690.9 <c-2#38:10> DynamicCubeSolverThread 121: waits because no cube could be assigned
+12690.9 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12690.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12690.9 <c-2#38:10> There are no cubes to split and no cube is splitting, set requesting
+12690.9 <c-2#38:10> DynamicCubeGeneratorThread 30: waits because no cube could be assigned
+12690.9 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12695.9 <c-2#38:10> DynamicCubeCommunicator: Started sendMessageToParent
+12695.9 <c-2#38:10> DynamicCubeCommunicator: This job is requesting
+12695.9 <c-2#38:10> sendRequestsToParent => [1] Buffer size: 1
+12695.9 <c-2#38:10> FailedAssumptionCommunicator: Started gather
+12695.9 <c-2#38:10> gather => [1] Buffer size: 0
+12699.3 <c-2#38:10> FailedAssumptionCommunicator: Received distribute while active
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: Inserting new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: Inserting new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: Inserting new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: Inserting new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Inserting new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeCommunicator: Received fulfill while active
+12699.3 <c-2#38:10> Digesting 2 cubes
+12699.3 <c-2#38:10> Before digestCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12699.3 <c-2#38:10> After digestCubes(), Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 0 are split
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: retrieved a cube
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: Adding new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: Adding new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: resumes because a cube could be assigned
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 18
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Adding new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 18
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: Started solving a cube with size 18
+12699.3 <c-2#38:10> appl_pause was called
+12699.3 <c-2#38:10> DynamicCubeLib: Suspending the dynamic cube lib
+12699.3 <c-2#38:10> DynamicCubeLib: Interrupting the dynamic cube lib
+12699.3 <c-2#38:10> DynamicCubeLib: Joining the dynamic cube lib
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: resumes because a cube could be assigned
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: did not get a cube because the lib is interrupted
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: Adding new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: resumes because a cube could be assigned
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: did not get a cube because the lib is interrupted
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: Adding new failed clauses. Buffer size: 90
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: Skipped solving, because no cube is available
+12699.3 <c-2#38:10> DynamicCubeSolverThread 121: Leaving the main loop
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: Skipped solving, because no cube is available
+12699.3 <c-2#38:10> DynamicCubeSolverThread 123: Leaving the main loop
+12699.3 <c-2#38:10> STOP (55.58s since last cb)
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: Interruption during solving
+12699.3 <c-2#38:10> DynamicCubeSolverThread 122: Leaving the main loop
+12699.3 <c-2#38:10> STOP (55.59s since last cb)
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: Interruption during solving
+12699.3 <c-2#38:10> DynamicCubeSolverThread 120: Leaving the main loop
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal 231
+12699.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Leaving the main loop
+12699.3 <c-2#38:10> Releasing 2 cubes
+12699.3 <c-2#38:10> sendCubesToRoot => [9] Buffer size: 38
+12717.3 <c-2#38:10> appl_unpause was called
+12717.3 <c-2#38:10> DynamicCubeLib: Starting the dynamic cube lib
+12717.3 <c-2#38:10> DynamicCubeSolverThread 123: Entering the main loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 120: Entering the main loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 121: Entering the main loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 122: Entering the main loop
+12717.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Entering the main loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12717.3 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 121: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 121: waits because no cube could be assigned
+12717.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+12717.3 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 123: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12717.3 <c-2#38:10> DynamicCubeSolverThread 123: waits because no cube could be assigned
+12717.3 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12717.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12717.3 <c-2#38:10> There are no cubes to split and no cube is splitting, set requesting
+12717.3 <c-2#38:10> DynamicCubeGeneratorThread 30: waits because no cube could be assigned
+12717.3 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeCommunicator: Started sendMessageToParent
+12722.3 <c-2#38:10> DynamicCubeCommunicator: This job is requesting
+12722.3 <c-2#38:10> sendRequestsToParent => [1] Buffer size: 1
+12722.3 <c-2#38:10> FailedAssumptionCommunicator: Started gather
+12722.3 <c-2#38:10> gather => [1] Buffer size: 0
+12722.3 <c-2#38:10> FailedAssumptionCommunicator: Received distribute while active
+12722.3 <c-2#38:10> DynamicCubeSolverThread 123: Inserting new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeSolverThread 120: Inserting new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: Inserting new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: Inserting new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Inserting new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeCommunicator: Received fulfill while active
+12722.3 <c-2#38:10> Digesting 2 cubes
+12722.3 <c-2#38:10> Before digestCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12722.3 <c-2#38:10> After digestCubes(), Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 2 cubes of which 0 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: retrieved a cube
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: Adding new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 2 cubes of which 1 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: resumes because a cube could be assigned
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: retrieved a cube
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: Adding new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: Started solving a cube with size 19
+12722.3 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: Started solving a cube with size 19
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: resumes because a cube could be assigned
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: retrieved a cube
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Adding new failed clauses. Buffer size: 47
+12722.3 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12722.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Started expanding a cube with size 19
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: The cube failed, 2 assumptions failed
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: The cube failed, 2 assumptions failed
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: entered shareCubes, Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: added new failed assumptions
+12722.3 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 2 cubes of which 2 are solved and 1 are split
+12722.3 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: waits because no cube could be assigned
+12722.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: added new failed assumptions
+12722.3 <c-2#38:10> Before handleFailedAssumptions(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+12722.3 <c-2#38:10> After handleFailedAssumptions(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12722.3 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12722.4 <c-2#38:10> DynamicCubeGeneratorThread 30: Found split literal 715
+12722.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12722.4 <c-2#38:10> DynamicCubeGeneratorThread 30: could not create a new dynamic cube, the expanded cube was pruned
+12722.4 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12722.4 <c-2#38:10> There are no cubes to split and no cube is splitting, set requesting
+12722.4 <c-2#38:10> DynamicCubeGeneratorThread 30: waits because no cube could be assigned
+12722.4 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12725.5 <c-2#38:10> appl_pause was called
+12725.5 <c-2#38:10> DynamicCubeLib: Suspending the dynamic cube lib
+12725.5 <c-2#38:10> DynamicCubeLib: Interrupting the dynamic cube lib
+12725.5 <c-2#38:10> DynamicCubeLib: Joining the dynamic cube lib
+12725.5 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12725.5 <c-2#38:10> DynamicCubeGeneratorThread 30: resumes because a cube could be assigned
+12725.5 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12725.5 <c-2#38:10> DynamicCubeGeneratorThread 30: did not get a cube because the lib is interrupted
+12725.5 <c-2#38:10> DynamicCubeGeneratorThread 30: Skipped generating, because no cube is available
+12725.5 <c-2#38:10> DynamicCubeGeneratorThread 30: Leaving the main loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: did not get a cube because the lib is interrupted
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: Adding new failed clauses. Buffer size: 47
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: resumes because a cube could be assigned
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: did not get a cube because the lib is interrupted
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: Adding new failed clauses. Buffer size: 47
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: Skipped solving, because no cube is available
+12725.5 <c-2#38:10> DynamicCubeSolverThread 120: Leaving the main loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12725.5 <c-2#38:10> DynamicCubeSolverThread 121: resumes because a cube could be assigned
+12725.5 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 121: did not get a cube because the lib is interrupted
+12725.5 <c-2#38:10> DynamicCubeSolverThread 121: Skipped solving, because no cube is available
+12725.5 <c-2#38:10> DynamicCubeSolverThread 121: Leaving the main loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12725.5 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12725.5 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 122: did not get a cube because the lib is interrupted
+12725.5 <c-2#38:10> DynamicCubeSolverThread 122: Skipped solving, because no cube is available
+12725.5 <c-2#38:10> DynamicCubeSolverThread 122: Leaving the main loop
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: Skipped solving, because no cube is available
+12725.5 <c-2#38:10> DynamicCubeSolverThread 123: Leaving the main loop
+12725.5 <c-2#38:10> Releasing 0 cubes
+12725.5 <c-2#38:10> sendToRoot => [9] Buffer size: 6
+12894.1 <c-2#38:10> appl_unpause was called
+12894.1 <c-2#38:10> DynamicCubeLib: Starting the dynamic cube lib
+12894.1 <c-2#38:10> DynamicCubeSolverThread 123: Entering the main loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 120: Entering the main loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 121: Entering the main loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 122: Entering the main loop
+12894.1 <c-2#38:10> DynamicCubeGeneratorThread 30: Entering the main loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 123: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 123: waits because no cube could be assigned
+12894.1 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+12894.1 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 121: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 121: waits because no cube could be assigned
+12894.1 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12894.1 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+12894.1 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12894.1 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12894.1 <c-2#38:10> DynamicCubeGeneratorThread 30: waits because no cube could be assigned
+12894.1 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12899.1 <c-2#38:10> DynamicCubeCommunicator: Started sendMessageToParent
+12899.1 <c-2#38:10> DynamicCubeCommunicator: This job is requesting
+12899.1 <c-2#38:10> sendRequestsToParent => [1] Buffer size: 1
+12899.1 <c-2#38:10> FailedAssumptionCommunicator: Started gather
+12899.1 <c-2#38:10> gather => [1] Buffer size: 0
+12899.1 <c-2#38:10> DynamicCubeCommunicator: Received root request while active
+12899.1 <c-2#38:10> Before getCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12899.1 <c-2#38:10> After getCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12899.1 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12899.1 <c-2#38:10> FailedAssumptionCommunicator: Received distribute while active
+12899.1 <c-2#38:10> DynamicCubeSolverThread 123: Inserting new failed clauses. Buffer size: 164
+12899.1 <c-2#38:10> DynamicCubeSolverThread 120: Inserting new failed clauses. Buffer size: 164
+12899.1 <c-2#38:10> DynamicCubeSolverThread 122: Inserting new failed clauses. Buffer size: 164
+12899.1 <c-2#38:10> DynamicCubeSolverThread 121: Inserting new failed clauses. Buffer size: 164
+12899.1 <c-2#38:10> DynamicCubeGeneratorThread 30: Inserting new failed clauses. Buffer size: 164
+12902.9 <c-2#38:10> appl_pause was called
+12902.9 <c-2#38:10> DynamicCubeLib: Suspending the dynamic cube lib
+12902.9 <c-2#38:10> DynamicCubeLib: Interrupting the dynamic cube lib
+12902.9 <c-2#38:10> DynamicCubeLib: Joining the dynamic cube lib
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: resumes because a cube could be assigned
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: did not get a cube because the lib is interrupted
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: Adding new failed clauses. Buffer size: 164
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: did not get a cube because the lib is interrupted
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: Adding new failed clauses. Buffer size: 164
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: resumes because a cube could be assigned
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: did not get a cube because the lib is interrupted
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: Skipped solving, because no cube is available
+12902.9 <c-2#38:10> DynamicCubeSolverThread 123: Leaving the main loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: did not get a cube because the lib is interrupted
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: Adding new failed clauses. Buffer size: 164
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Adding new failed clauses. Buffer size: 164
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: resumes because a cube could be assigned
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: did not get a cube because the lib is interrupted
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: Adding new failed clauses. Buffer size: 164
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Skipped generating, because no cube is available
+12902.9 <c-2#38:10> DynamicCubeGeneratorThread 30: Leaving the main loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: Skipped solving, because no cube is available
+12902.9 <c-2#38:10> DynamicCubeSolverThread 120: Leaving the main loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: Skipped solving, because no cube is available
+12902.9 <c-2#38:10> DynamicCubeSolverThread 121: Leaving the main loop
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: Skipped solving, because no cube is available
+12902.9 <c-2#38:10> DynamicCubeSolverThread 122: Leaving the main loop
+12902.9 <c-2#38:10> Releasing 0 cubes
+12907.1 <c-2#38:10> DynamicCubeCommunicator: Received fulfill while suspended
+12907.1 <c-2#38:10> sendCubesToRoot => [9] Buffer size: 29
+13026.3 <c-2#38:10> appl_unpause was called
+13026.3 <c-2#38:10> DynamicCubeLib: Starting the dynamic cube lib
+13026.3 <c-2#38:10> DynamicCubeSolverThread 123: Entering the main loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 122: Entering the main loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 121: Entering the main loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 120: Entering the main loop
+13026.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Entering the main loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 123: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 123: waits because no cube could be assigned
+13026.3 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 122: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 122: waits because no cube could be assigned
+13026.3 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 121: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 121: waits because no cube could be assigned
+13026.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 120: entered shareCubes, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+13026.3 <c-2#38:10> DynamicCubeSolverThread 120: waits because no cube could be assigned
+13026.3 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered shareCubeToSplit, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13026.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+13026.3 <c-2#38:10> DynamicCubeGeneratorThread 30: waits because no cube could be assigned
+13026.3 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13027.2 <c-2#38:10> DynamicCubeCommunicator: Received root request while active
+13027.2 <c-2#38:10> Before getCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13027.2 <c-2#38:10> After getCubes(), Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13027.2 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13027.2 <c-2#38:10> FailedAssumptionCommunicator: Received distribute while active
+13027.2 <c-2#38:10> DynamicCubeSolverThread 123: Inserting new failed clauses. Buffer size: 152
+13027.2 <c-2#38:10> DynamicCubeSolverThread 120: Inserting new failed clauses. Buffer size: 152
+13027.2 <c-2#38:10> DynamicCubeSolverThread 122: Inserting new failed clauses. Buffer size: 152
+13027.2 <c-2#38:10> DynamicCubeSolverThread 121: Inserting new failed clauses. Buffer size: 152
+13027.2 <c-2#38:10> DynamicCubeGeneratorThread 30: Inserting new failed clauses. Buffer size: 152
+13031.4 <c-2#38:10> DynamicCubeCommunicator: Started sendMessageToParent
+13031.4 <c-2#38:10> sendAllGoodToParent => [1] Buffer size: 0
+13031.4 <c-2#38:10> FailedAssumptionCommunicator: Started gather
+13031.4 <c-2#38:10> gather => [1] Buffer size: 0
+13033 <c-2#38:10> FailedAssumptionCommunicator: Received distribute while active
+13033 <c-2#38:10> DynamicCubeSolverThread 123: Inserting new failed clauses. Buffer size: 9
+13033 <c-2#38:10> DynamicCubeSolverThread 120: Inserting new failed clauses. Buffer size: 9
+13033 <c-2#38:10> DynamicCubeSolverThread 122: Inserting new failed clauses. Buffer size: 9
+13033 <c-2#38:10> DynamicCubeSolverThread 121: Inserting new failed clauses. Buffer size: 9
+13033 <c-2#38:10> DynamicCubeGeneratorThread 30: Inserting new failed clauses. Buffer size: 9
+13034.3 <c-2#38:10> appl_pause was called
+13034.3 <c-2#38:10> DynamicCubeLib: Suspending the dynamic cube lib
+13034.3 <c-2#38:10> DynamicCubeLib: Interrupting the dynamic cube lib
+13034.3 <c-2#38:10> DynamicCubeLib: Joining the dynamic cube lib
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: resumes because a cube could be assigned
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: entered cube retrieval loop
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: did not get a cube because the lib is interrupted
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: Adding new failed clauses. Buffer size: 161
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: resumes because a cube could be assigned
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: entered cube retrieval loop
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: did not get a cube because the lib is interrupted
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: Adding new failed clauses. Buffer size: 161
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: Skipped solving, because no cube is available
+13034.3 <c-2#38:10> DynamicCubeSolverThread 120: Leaving the main loop
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: resumes because a cube could be assigned
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: entered cube retrieval loop
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: did not get a cube because the lib is interrupted
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: Adding new failed clauses. Buffer size: 161
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: Skipped solving, because no cube is available
+13034.3 <c-2#38:10> DynamicCubeSolverThread 123: Leaving the main loop
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: resumes because a cube could be assigned
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: entered cube retrieval loop
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: did not get a cube because the lib is interrupted
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: Skipped solving, because no cube is available
+13034.3 <c-2#38:10> DynamicCubeSolverThread 122: Leaving the main loop
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: was notified, Dynamic Cubes: There are 0 cubes of which 0 are solved and 0 are split
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: resumes because a cube could be assigned
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: entered cube retrieval loop
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: did not get a cube because the lib is interrupted
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: Adding new failed clauses. Buffer size: 161
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Adding new failed clauses. Buffer size: 161
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: Skipped solving, because no cube is available
+13034.3 <c-2#38:10> DynamicCubeSolverThread 121: Leaving the main loop
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Skipped generating, because no cube is available
+13034.3 <c-2#38:10> DynamicCubeGeneratorThread 30: Leaving the main loop
+13034.3 <c-2#38:10> Releasing 0 cubes
+13290.8 <c-2#38:10> appl_interrupt was called
+13290.8 <c-2#38:10> appl_interrupt was called
+13290.8 <c-2#38:10> appl_withdraw was called
+13352.3 <c-2#38:10> Enter destructor
+13352.3 <c-2#38:10> Exit destructor
+13352.4 <c-2#38:10> Destructing logger

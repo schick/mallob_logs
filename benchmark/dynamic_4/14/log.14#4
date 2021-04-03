@@ -1,0 +1,1043 @@
+5.77089 <c-14#4> Created logger
+6.01417 <c-14#4:0> Logger was updated
+6.0142 <c-14#4:0> Started intializing dynamic cube lib
+6.0145 <c-14#4:0> DynamicCubeLib: Started all initializer threads
+11.1731 <c-14#4:0> DynamicCubeLib: Joined all initializer threads
+11.1731 <c-14#4:0> Finished intializing dynamic cube lib
+11.1731 <c-14#4:0> DynamicCubeLib: Starting the dynamic cube lib
+11.1732 <c-14#4:0> DynamicCubeSolverThread 1: Entering the main loop
+11.1732 <c-14#4:0> DynamicCubeSolverThread 0: Entering the main loop
+11.1733 <c-14#4:0> DynamicCubeSolverThread 3: Entering the main loop
+11.1733 <c-14#4:0> DynamicCubeSolverThread 2: Entering the main loop
+11.1733 <c-14#4:0> DynamicCubeGeneratorThread 0: Entering the main loop
+11.1734 <c-14#4:0> DynamicCubeSolverThread 1: entered shareCubes, Dynamic Cubes: There are 1 cubes of which 0 are solved and 0 are split
+11.1734 <c-14#4:0> DynamicCubeSolverThread 1: entered cube retrieval loop
+11.1734 <c-14#4:0> DynamicCubeSolverThread 1: retrieved a cube
+11.1734 <c-14#4:0> DynamicCubeSolverThread 1: Started solving a cube with size 0
+11.1734 <c-14#4:0> DynamicCubeSolverThread 0: entered shareCubes, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1734 <c-14#4:0> DynamicCubeSolverThread 0: entered cube retrieval loop
+11.1734 <c-14#4:0> DynamicCubeSolverThread 0: waits because no cube could be assigned
+11.1735 <c-14#4:0> DynamicCubeSolverThread 0: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1735 <c-14#4:0> DynamicCubeSolverThread 3: entered shareCubes, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1735 <c-14#4:0> DynamicCubeSolverThread 3: entered cube retrieval loop
+11.1735 <c-14#4:0> DynamicCubeSolverThread 3: waits because no cube could be assigned
+11.1735 <c-14#4:0> DynamicCubeSolverThread 3: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1735 <c-14#4:0> DynamicCubeSolverThread 2: entered shareCubes, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1735 <c-14#4:0> DynamicCubeSolverThread 2: entered cube retrieval loop
+11.1735 <c-14#4:0> DynamicCubeSolverThread 2: waits because no cube could be assigned
+11.1736 <c-14#4:0> DynamicCubeSolverThread 2: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1736 <c-14#4:0> DynamicCubeGeneratorThread 0: entered shareCubeToSplit, Dynamic Cubes: There are 1 cubes of which 1 are solved and 0 are split
+11.1736 <c-14#4:0> DynamicCubeGeneratorThread 0: entered cube retrieval loop
+11.1736 <c-14#4:0> DynamicCubeGeneratorThread 0: retrieved a cube
+11.1736 <c-14#4:0> DynamicCubeGeneratorThread 0: Started expanding a cube with size 0
+16.182 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+16.182 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+26.5725 <c-14#4:0> DynamicCubeCommunicator: Received request while active
+26.5725 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+26.5727 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+26.5727 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+34.4243 <c-14#4:0> DynamicCubeCommunicator: Received request while active
+34.4243 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+34.4244 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+34.4244 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+34.4244 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+34.4245 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+34.4246 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+36.578 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+36.5781 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+36.5782 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+36.5782 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+44.434 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+44.4341 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+44.4341 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+44.4341 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+44.4341 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+44.4343 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+44.4343 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+46.5869 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+46.587 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+46.5872 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+46.5872 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+54.4378 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+54.4379 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+54.4379 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+54.4379 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+54.4379 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+54.4381 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+54.4381 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+56.5874 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+56.5874 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+56.5876 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+56.5876 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+64.4412 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+64.4413 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+64.4413 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+64.4413 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+64.4413 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+64.4415 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+64.4415 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+66.5908 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+66.5909 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+66.5911 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+66.5911 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+74.444 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+74.444 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+74.4441 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+74.4441 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+74.4441 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+74.4443 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+74.4443 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+76.5928 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+76.5929 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+76.593 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+76.5931 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+84.4492 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+84.4493 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+84.4493 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+84.4493 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+84.4493 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+84.4495 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+84.4495 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+86.5962 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+86.5962 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+86.5964 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+86.5964 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+94.4504 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+94.4504 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+94.4505 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+94.4505 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+94.4505 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+94.4507 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+94.4507 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+96.6055 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+96.6055 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+96.6057 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+96.6057 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+104.459 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+104.46 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+104.46 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+104.46 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+104.46 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+104.46 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+104.46 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+106.607 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+106.607 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+106.608 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+106.608 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+114.461 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+114.461 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+114.461 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+114.461 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+114.461 <c-14#4:0> DynamicCubeCommunicator: There are 2 requester and 0 free cubes before satisfying
+114.461 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+114.461 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+124.458 <c-14#4:0> DynamicCubeCommunicator: Received request while active
+124.458 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+124.458 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+124.458 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+124.472 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+124.472 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+124.472 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+124.472 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+124.472 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+124.472 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+124.472 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+126.79 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+126.79 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+126.79 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+126.79 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+134.482 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+134.482 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+134.482 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+134.482 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+134.482 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+134.482 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+134.482 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+136.792 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+136.792 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+136.793 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+136.793 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+144.488 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+144.488 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+144.488 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+144.488 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+144.488 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+144.488 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+144.488 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+146.801 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+146.801 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+146.801 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+146.801 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+154.492 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+154.492 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+154.492 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+154.492 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+154.492 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+154.492 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+154.492 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+156.806 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+156.806 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+156.806 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+156.806 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+164.499 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+164.499 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+164.499 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+164.499 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+164.499 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+164.5 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+164.5 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+166.807 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+166.807 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+166.808 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+166.808 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+174.502 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+174.502 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+174.502 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+174.502 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+174.502 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+174.502 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+174.502 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+176.808 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+176.808 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+176.809 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+176.809 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+184.506 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+184.507 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+184.507 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+184.507 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+184.507 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+184.507 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+184.507 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+186.817 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+186.817 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+186.817 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+186.817 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+194.515 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+194.515 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+194.515 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+194.515 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+194.515 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+194.515 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+194.515 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+196.823 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+196.823 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+196.823 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+196.823 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+204.523 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+204.523 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+204.523 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+204.523 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+204.523 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+204.524 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+204.524 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+206.828 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+206.828 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+206.828 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+206.828 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+214.529 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+214.529 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+214.529 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+214.529 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+214.529 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+214.529 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+214.529 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+216.838 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+216.839 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+216.839 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+216.839 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+224.536 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+224.536 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+224.536 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+224.536 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+224.536 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+224.536 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+224.536 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+226.843 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+226.843 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+226.843 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+226.843 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+234.545 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+234.545 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+234.545 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+234.545 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+234.545 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+234.545 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+234.545 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+236.854 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+236.854 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+236.854 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+236.854 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+244.554 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+244.554 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+244.554 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+244.554 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+244.554 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+244.554 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+244.554 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+246.864 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+246.864 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+246.864 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+246.864 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+254.564 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+254.564 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+254.564 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+254.564 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+254.564 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+254.565 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+254.565 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+256.867 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+256.867 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+256.867 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+256.867 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+264.567 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+264.567 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+264.567 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+264.567 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+264.567 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+264.568 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+264.568 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+266.877 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+266.877 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+266.877 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+266.877 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+274.569 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+274.569 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+274.569 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+274.569 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+274.569 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+274.569 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+274.569 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+276.885 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+276.885 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+276.885 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+276.885 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+284.569 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+284.569 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+284.569 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+284.569 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+284.569 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+284.57 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+284.57 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+286.894 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+286.894 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+286.894 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+286.894 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+294.57 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+294.57 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+294.57 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+294.57 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+294.57 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+294.571 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+294.571 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+296.899 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+296.9 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+296.9 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+296.9 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+304.577 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+304.577 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+304.577 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+304.577 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+304.577 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+304.577 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+304.577 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+306.905 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+306.905 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+306.905 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+306.905 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+314.579 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+314.579 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+314.579 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+314.579 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+314.579 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+314.579 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+314.579 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+316.908 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+316.908 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+316.909 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+316.909 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+324.584 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+324.584 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+324.584 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+324.584 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+324.584 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+324.584 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+324.584 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+326.915 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+326.915 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+326.915 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+326.915 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+334.593 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+334.593 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+334.593 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+334.593 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+334.593 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+334.593 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+334.593 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+336.918 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+336.918 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+336.918 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+336.918 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+344.601 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+344.601 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+344.601 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+344.601 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+344.601 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+344.602 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+344.602 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+346.928 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+346.928 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+346.928 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+346.928 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+354.61 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+354.611 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+354.611 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+354.611 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+354.611 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+354.611 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+354.611 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+356.936 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+356.937 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+356.937 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+356.937 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+364.616 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+364.616 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+364.617 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+364.617 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+364.617 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+364.617 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+364.617 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+366.944 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+366.944 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+366.944 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+366.944 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+374.617 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+374.617 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+374.617 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+374.617 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+374.617 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+374.617 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+374.617 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+376.95 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+376.95 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+376.95 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+376.95 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+384.62 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+384.62 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+384.62 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+384.62 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+384.62 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+384.62 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+384.62 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+386.956 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+386.956 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+386.956 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+386.956 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+394.623 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+394.623 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+394.623 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+394.623 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+394.623 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+394.623 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+394.623 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+396.961 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+396.961 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+396.961 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+396.961 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+404.626 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+404.626 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+404.626 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+404.626 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+404.626 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+404.626 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+404.626 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+406.963 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+406.963 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+406.964 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+406.964 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+414.632 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+414.632 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+414.632 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+414.632 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+414.632 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+414.632 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+414.632 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+416.971 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+416.971 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+416.971 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+416.971 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+424.634 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+424.634 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+424.635 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+424.635 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+424.635 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+424.635 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+424.635 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+426.981 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+426.981 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+426.981 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+426.981 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+434.644 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+434.644 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+434.644 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+434.644 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+434.644 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+434.644 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+434.644 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+436.986 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+436.986 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+436.986 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+436.986 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+444.654 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+444.654 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+444.654 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+444.654 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+444.654 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+444.654 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+444.654 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+446.988 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+446.988 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+446.989 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+446.989 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+454.665 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+454.665 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+454.665 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+454.665 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+454.665 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+454.665 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+454.665 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+456.993 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+456.993 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+456.993 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+456.993 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+464.668 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+464.668 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+464.668 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+464.668 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+464.668 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+464.669 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+464.669 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+466.995 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+466.995 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+466.995 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+466.995 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+474.676 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+474.676 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+474.676 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+474.676 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+474.676 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+474.676 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+474.676 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+477.003 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+477.003 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+477.003 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+477.003 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+484.684 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+484.684 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+484.684 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+484.684 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+484.684 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+484.684 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+484.684 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+487.006 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+487.006 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+487.007 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+487.007 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+494.693 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+494.693 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+494.693 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+494.693 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+494.693 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+494.693 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+494.693 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+497.01 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+497.011 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+497.011 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+497.011 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+504.698 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+504.698 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+504.698 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+504.698 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+504.698 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+504.698 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+504.698 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+507.012 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+507.012 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+507.012 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+507.012 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+514.7 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+514.7 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+514.7 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+514.7 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+514.7 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+514.7 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+514.7 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+517.016 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+517.016 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+517.017 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+517.017 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+524.711 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+524.711 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+524.711 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+524.711 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+524.711 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+524.711 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+524.711 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+527.017 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+527.017 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+527.018 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+527.018 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+534.713 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+534.713 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+534.713 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+534.713 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+534.713 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+534.713 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+534.713 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+537.019 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+537.019 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+537.019 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+537.019 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+544.714 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+544.714 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+544.714 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+544.714 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+544.714 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+544.714 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+544.714 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+547.022 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+547.022 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+547.022 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+547.022 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+554.723 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+554.723 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+554.723 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+554.723 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+554.723 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+554.723 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+554.723 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+557.024 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+557.024 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+557.024 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+557.024 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+564.734 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+564.734 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+564.734 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+564.734 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+564.734 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+564.734 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+564.734 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+567.034 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+567.034 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+567.034 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+567.034 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+574.734 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+574.734 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+574.734 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+574.734 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+574.734 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+574.735 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+574.735 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+577.037 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+577.037 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+577.038 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+577.038 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+584.737 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+584.737 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+584.737 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+584.737 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+584.737 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+584.737 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+584.737 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+587.04 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+587.04 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+587.04 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+587.04 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+594.738 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+594.738 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+594.738 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+594.738 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+594.738 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+594.738 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+594.738 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+597.045 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+597.045 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+597.045 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+597.045 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+604.747 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+604.747 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+604.747 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+604.747 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+604.747 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+604.747 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+604.747 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+607.045 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+607.045 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+607.046 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+607.046 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+614.753 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+614.753 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+614.753 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+614.753 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+614.753 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+614.753 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+614.753 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+617.048 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+617.048 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+617.048 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+617.048 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+624.759 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+624.759 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+624.759 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+624.759 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+624.759 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+624.759 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+624.759 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+627.056 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+627.056 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+627.056 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+627.056 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+634.768 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+634.768 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+634.768 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+634.768 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+634.768 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+634.768 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+634.768 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+637.064 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+637.064 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+637.064 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+637.064 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+644.772 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+644.773 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+644.773 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+644.773 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+644.773 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+644.773 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+644.773 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+647.068 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+647.068 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+647.069 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+647.069 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+654.777 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+654.777 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+654.777 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+654.777 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+654.777 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+654.777 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+654.777 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+657.075 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+657.075 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+657.075 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+657.075 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+664.779 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+664.779 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+664.779 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+664.779 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+664.779 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+664.779 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+664.779 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+667.076 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+667.076 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+667.077 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+667.077 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+674.782 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+674.782 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+674.782 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+674.782 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+674.782 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+674.782 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+674.782 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+677.081 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+677.081 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+677.081 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+677.081 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+684.786 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+684.786 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+684.786 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+684.786 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+684.786 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+684.786 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+684.786 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+687.084 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+687.084 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+687.084 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+687.084 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+694.794 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+694.794 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+694.794 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+694.794 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+694.794 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+694.794 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+694.794 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+697.086 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+697.086 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+697.086 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+697.086 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+704.795 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+704.795 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+704.795 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+704.795 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+704.795 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+704.795 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+704.795 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+707.087 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+707.087 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+707.087 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+707.087 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+714.8 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+714.8 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+714.8 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+714.8 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+714.8 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+714.8 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+714.8 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+717.097 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+717.097 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+717.098 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+717.098 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+724.807 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+724.807 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+724.807 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+724.807 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+724.807 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+724.808 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+724.808 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+727.104 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+727.104 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+727.104 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+727.104 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+734.815 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+734.815 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+734.815 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+734.815 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+734.815 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+734.815 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+734.815 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+737.105 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+737.105 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+737.105 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+737.105 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+744.824 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+744.824 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+744.824 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+744.824 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+744.824 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+744.824 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+744.824 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+747.108 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+747.108 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+747.108 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+747.108 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+754.828 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+754.828 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+754.828 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+754.828 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+754.828 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+754.829 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+754.829 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+757.117 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+757.117 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+757.117 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+757.117 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+764.834 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+764.834 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+764.834 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+764.834 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+764.834 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+764.834 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+764.834 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+767.128 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+767.128 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+767.128 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+767.128 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+774.837 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+774.837 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+774.837 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+774.837 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+774.837 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+774.837 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+774.837 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+777.131 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+777.132 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+777.132 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+777.132 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+784.839 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+784.839 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+784.84 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+784.84 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+784.84 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+784.84 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+784.84 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+787.136 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+787.136 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+787.136 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+787.136 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+794.844 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+794.844 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+794.844 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+794.844 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+794.844 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+794.845 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+794.845 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+797.141 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+797.141 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+797.141 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+797.141 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+804.855 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+804.855 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+804.855 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+804.855 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+804.855 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+804.855 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+804.855 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+807.15 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+807.15 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+807.151 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+807.151 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+814.859 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+814.859 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+814.859 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+814.859 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+814.859 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+814.859 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+814.859 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+817.16 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+817.16 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+817.16 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+817.16 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+824.869 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+824.869 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+824.869 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+824.869 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+824.869 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+824.87 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+824.87 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+827.161 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+827.161 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+827.161 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+827.161 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+834.87 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+834.87 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+834.87 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+834.87 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+834.87 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+834.87 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+834.87 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+837.163 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+837.163 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+837.164 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+837.164 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+844.875 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+844.875 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+844.875 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+844.875 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+844.875 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+844.875 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+844.875 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+847.17 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+847.17 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+847.17 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+847.17 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+854.883 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+854.883 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+854.883 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+854.883 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+854.883 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+854.883 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+854.883 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+857.18 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+857.18 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+857.18 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+857.18 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+864.89 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+864.89 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+864.89 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+864.89 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+864.89 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+864.89 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+864.89 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+867.184 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+867.184 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+867.184 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+867.184 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+874.894 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+874.894 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+874.894 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+874.894 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+874.894 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+874.894 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+874.894 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+877.191 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+877.191 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+877.191 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+877.191 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+884.9 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+884.9 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+884.9 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+884.9 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+884.9 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+884.901 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+884.901 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+887.194 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+887.194 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+887.194 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+887.194 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+894.902 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+894.902 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+894.902 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+894.902 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+894.902 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+894.902 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+894.902 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+897.195 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+897.195 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+897.196 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+897.196 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+904.907 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+904.907 <c-14#4:0> DynamicCubeCommunicator: Started sendMessageToParent
+904.907 <c-14#4:0> Before getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+904.907 <c-14#4:0> After getCubes(), Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+904.907 <c-14#4:0> DynamicCubeCommunicator: There are 3 requester and 0 free cubes before satisfying
+904.907 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+904.907 <c-14#4:0> FailedAssumptionCommunicator: Started gather
+907.202 <c-14#4:0> DynamicCubeCommunicator: Received all good while active
+907.202 <c-14#4:0> DynamicCubeCommunicator: Received 1 messages and has 2 children
+907.202 <c-14#4:0> FailedAssumptionCommunicator: Received gather while active
+907.202 <c-14#4:0> FailedAssumptionCommunicator: Received 1 messages and has 2 children
+910.406 <c-14#4:0> DynamicCubeSolverThread 1: Found a solution: UNSAT
+910.406 <c-14#4:0> DynamicCubeSolverThread 1: Used cube has size 0
+910.406 <c-14#4:0> DynamicCubeSolverThread 1: Size of added buffer from failed assumptions: 0
+910.406 <c-14#4:0> DynamicCubeSolverThread 1: Leaving the main loop
+910.406 <c-14#4:0> Found result UNSAT
+910.407 <c-14#4:0> appl_interrupt was called
+910.407 <c-14#4:0> DynamicCubeLib: Interrupting the dynamic cube lib
+910.407 <c-14#4:0> DynamicCubeSolverThread 3: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+910.407 <c-14#4:0> DynamicCubeSolverThread 3: resumes because a cube could be assigned
+910.407 <c-14#4:0> DynamicCubeSolverThread 3: entered cube retrieval loop
+910.407 <c-14#4:0> DynamicCubeSolverThread 3: did not get a cube because the lib is interrupted
+910.407 <c-14#4:0> DynamicCubeSolverThread 3: Skipped solving, because no cube is available
+910.407 <c-14#4:0> DynamicCubeSolverThread 3: Leaving the main loop
+910.407 <c-14#4:0> DynamicCubeSolverThread 0: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+910.407 <c-14#4:0> DynamicCubeSolverThread 0: resumes because a cube could be assigned
+910.407 <c-14#4:0> DynamicCubeSolverThread 0: entered cube retrieval loop
+910.407 <c-14#4:0> DynamicCubeSolverThread 0: did not get a cube because the lib is interrupted
+910.407 <c-14#4:0> DynamicCubeSolverThread 0: Skipped solving, because no cube is available
+910.407 <c-14#4:0> DynamicCubeSolverThread 0: Leaving the main loop
+910.407 <c-14#4:0> DynamicCubeSolverThread 2: was notified, Dynamic Cubes: There are 1 cubes of which 1 are solved and 1 are split
+910.407 <c-14#4:0> Started withdraw thread
+910.407 <c-14#4:0> DynamicCubeSolverThread 2: resumes because a cube could be assigned
+910.407 <c-14#4:0> DynamicCubeSolverThread 2: entered cube retrieval loop
+910.407 <c-14#4:0> DynamicCubeSolverThread 2: did not get a cube because the lib is interrupted
+910.407 <c-14#4:0> DynamicCubeSolverThread 2: Skipped solving, because no cube is available
+910.407 <c-14#4:0> DynamicCubeSolverThread 2: Leaving the main loop
+910.407 <c-14#4:0> appl_interrupt was called
+910.407 <c-14#4:0> appl_withdraw was called
+910.407 <c-14#4:0> DynamicCubeLib: Joining the dynamic cube lib
+910.408 <c-14#4:0> DynamicCubeGeneratorThread 0: Found split literal -357935
+910.408 <c-14#4:0> DynamicCubeGeneratorThread 0: Leaving the main loop
+910.454 <c-14#4:0> Joined dynamic cube lib
+924.166 <c-14#4:0> Finished withdraw thread
+972.501 <c-14#4:0> Enter destructor
+972.501 <c-14#4:0> Joined cleanup thread
+972.501 <c-14#4:0> Exit destructor
+972.501 <c-14#4:0> Destructing logger
