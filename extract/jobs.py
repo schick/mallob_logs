@@ -164,15 +164,38 @@ def parse_mallob(jobdir):
 
     return jobs_list
 
-def get_baseline():
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@dataclass
+class Problem:
+    identifier: int
+
+    duration: float = -1.0
+
+    result: str = "UNKNOWN"
+
+def get_baseline(baseline_file):
 
     jobs = []
 
-    for line in open("baseline.txt", "r").readlines():
+    for line in open(baseline_file, "r").readlines():
         # Example: Solving of formula /global_data/schreiber/sat_instances/ex009_10.cnf with id 316 took 793 seconds and terminated with Result: s SATISFIABLE
         baseline_match = re.search(r'with id (?P<jobid>\d+) took (?P<time>\d+) seconds .* (?P<result>SATISFIABLE|UNSATISFIABLE|UNKNOWN)$', line)
 
         if baseline_match is not None:
-            jobs.append(Job(identifier=baseline_match.group("jobid"), duration=float(baseline_match.group("time")), result=baseline_match.group("result")))
+            jobs.append(Problem(identifier=baseline_match.group("jobid"), duration=float(baseline_match.group("time")), result=baseline_match.group("result")))
 
     return jobs
