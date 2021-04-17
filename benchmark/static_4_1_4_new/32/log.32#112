@@ -1,0 +1,49 @@
+18550.7 <c-32#112> Created logger
+18550.7 <c-32#112> appl_initialize was called
+18550.7 <c-32#112:9> Logger was updated
+18550.7 <c-32#112:9> Started intializing cube lib
+18550.7 <c-32#112:9> Finished intializing cube lib with worker, starting to work
+18550.8 <c-32#112:9> requestCubes => [61] Buffer size: 0
+18550.8 <c-32#112:9> Sent requestCubes signal to root
+18550.8 <c-32#112:9> Received 1 cubes from root
+18550.8 <c-32#112:9> The main loop continues
+18550.8 <c-32#112:9> Started solving a cube
+18550.8 <c-32#112:9> appl_pause was called
+18550.8 <c-32#112:9> Set suspended
+18550.8 <c-32#112:9> Suspending worker
+18550.8 <c-32#112:9> SUSPEND (0.02s since last cb)
+18551 <c-32#112:9> appl_unpause was called
+18551 <c-32#112:9> Set unsuspended
+18551 <c-32#112:9> Resuming worker
+18551 <c-32#112:9> RESUME
+18583.7 <c-32#112:9> Cube failed
+18583.7 <c-32#112:9> Added failed cube
+18583.7 <c-32#112:9> returnFailedCubes => [61] Buffer size: 3
+18583.7 <c-32#112:9> Sent 1 failed cubes to root
+18583.7 <c-32#112:9> Received receivedFailedCubes signal from root
+18583.8 <c-32#112:9> requestCubes => [61] Buffer size: 0
+18583.8 <c-32#112:9> Sent requestCubes signal to root
+18583.8 <c-32#112:9> Received 1 cubes from root
+18583.8 <c-32#112:9> The main loop continues
+18583.8 <c-32#112:9> Started solving a cube
+19528.7 <c-32#112:9> appl_interrupt was called
+19528.7 <c-32#112:9> Interrupting worker
+19528.7 <c-32#112:9> appl_interrupt was called
+19528.7 <c-32#112:9> appl_withdraw was called
+19528.7 <c-32#112:9> Started withdraw thread
+19528.7 <c-32#112:9> STOP (0.00s since last cb)
+19528.7 <c-32#112:9> Solving interrupted
+19528.7 <c-32#112:9> The main loop continues
+19528.7 <c-32#112:9> Leaving the main loop due to an interruption
+19528.7 <c-32#112:9> Finished withdrawing lib
+19528.7 <c-32#112:9> Enter destructor of CubeWorker
+19528.7 <c-32#112:9> Time waiting for messages: 0.002
+19528.8 <c-32#112:9> Enter destructor of CubeWorkerInterface
+19528.8 <c-32#112:9> Enter destructor of CubeRoot
+19528.8 <c-32#112:9> Finished withdraw thread
+19589.9 <c-32#112:9> Enter destructor
+19589.9 <c-32#112:9> Time working: 977.740
+19589.9 <c-32#112:9> Time suspended: 0.186
+19589.9 <c-32#112:9> Joined cleanup thread
+19589.9 <c-32#112:9> Exit destructor
+19589.9 <c-32#112:9> Destructing logger

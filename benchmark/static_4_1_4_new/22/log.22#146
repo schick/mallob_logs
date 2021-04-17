@@ -1,0 +1,45 @@
+25155 <c-22#146> Created logger
+25155 <c-22#146> appl_initialize was called
+25155 <c-22#146:35> Logger was updated
+25155 <c-22#146:35> Started intializing cube lib
+25155 <c-22#146:35> Finished intializing cube lib with worker, starting to work
+25155.1 <c-22#146:35> requestCubes => [3] Buffer size: 0
+25155.1 <c-22#146:35> Sent requestCubes signal to root
+25155.1 <c-22#146:35> Received 1 cubes from root
+25155.1 <c-22#146:35> The main loop continues
+25155.1 <c-22#146:35> Started solving a cube
+25207.4 <c-22#146:35> appl_pause was called
+25207.4 <c-22#146:35> Set suspended
+25207.4 <c-22#146:35> Suspending worker
+25207.4 <c-22#146:35> SUSPEND (0.00s since last cb)
+25449.5 <c-22#146:35> appl_unpause was called
+25449.5 <c-22#146:35> Set unsuspended
+25449.5 <c-22#146:35> Resuming worker
+25449.5 <c-22#146:35> RESUME
+25472 <c-22#146:35> appl_pause was called
+25472 <c-22#146:35> Set suspended
+25472 <c-22#146:35> Suspending worker
+25472 <c-22#146:35> SUSPEND (0.00s since last cb)
+25779.7 <c-22#146:35> appl_interrupt was called
+25779.7 <c-22#146:35> Interrupting worker
+25779.7 <c-22#146:35> Resuming worker to allow interruption
+25779.7 <c-22#146:35> RESUME
+25779.7 <c-22#146:35> STOP after suspension
+25779.7 <c-22#146:35> appl_interrupt was called
+25779.7 <c-22#146:35> appl_withdraw was called
+25779.7 <c-22#146:35> Started withdraw thread
+25779.7 <c-22#146:35> Solving interrupted
+25779.7 <c-22#146:35> The main loop continues
+25779.7 <c-22#146:35> Leaving the main loop due to an interruption
+25779.7 <c-22#146:35> Finished withdrawing lib
+25779.7 <c-22#146:35> Enter destructor of CubeWorker
+25779.7 <c-22#146:35> Time waiting for messages: 0.000
+25779.7 <c-22#146:35> Enter destructor of CubeWorkerInterface
+25779.7 <c-22#146:35> Enter destructor of CubeRoot
+25779.7 <c-22#146:35> Finished withdraw thread
+25839.9 <c-22#146:35> Enter destructor
+25839.9 <c-22#146:35> Time working: 22.486
+25839.9 <c-22#146:35> Time suspended: 307.684
+25839.9 <c-22#146:35> Joined cleanup thread
+25839.9 <c-22#146:35> Exit destructor
+25839.9 <c-22#146:35> Destructing logger

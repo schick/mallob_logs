@@ -1,0 +1,41 @@
+30450.9 <c-57#175> Created logger
+30451 <c-57#175> appl_initialize was called
+30451 <c-57#175:13> Logger was updated
+30451 <c-57#175:13> Started intializing cube lib
+30451 <c-57#175:13> Finished intializing cube lib with worker, starting to work
+30455.5 <c-57#175:13> requestCubes => [62] Buffer size: 0
+30455.5 <c-57#175:13> Sent requestCubes signal to root
+30455.5 <c-57#175:13> Received 1 cubes from root
+30455.5 <c-57#175:13> The main loop continues
+30455.5 <c-57#175:13> Started solving a cube
+30698.1 <c-57#175:13> Cube failed
+30698.1 <c-57#175:13> Added failed cube
+30698.1 <c-57#175:13> returnFailedCubes => [62] Buffer size: 5
+30698.1 <c-57#175:13> Sent 1 failed cubes to root
+30698.1 <c-57#175:13> Received receivedFailedCubes signal from root
+30698.1 <c-57#175:13> requestCubes => [62] Buffer size: 0
+30698.1 <c-57#175:13> Sent requestCubes signal to root
+30698.1 <c-57#175:13> Received 1 cubes from root
+30698.1 <c-57#175:13> The main loop continues
+30698.1 <c-57#175:13> Started solving a cube
+30722.2 <c-57#175:13> appl_interrupt was called
+30722.2 <c-57#175:13> Interrupting worker
+30722.2 <c-57#175:13> appl_interrupt was called
+30722.2 <c-57#175:13> appl_withdraw was called
+30722.3 <c-57#175:13> Started withdraw thread
+30722.4 <c-57#175:13> STOP (0.17s since last cb)
+30722.4 <c-57#175:13> Solving interrupted
+30722.4 <c-57#175:13> The main loop continues
+30722.4 <c-57#175:13> Leaving the main loop due to an interruption
+30722.4 <c-57#175:13> Finished withdrawing lib
+30722.4 <c-57#175:13> Enter destructor of CubeWorker
+30722.4 <c-57#175:13> Time waiting for messages: 0.000
+30723.5 <c-57#175:13> Enter destructor of CubeWorkerInterface
+30723.5 <c-57#175:13> Enter destructor of CubeRoot
+30723.6 <c-57#175:13> Finished withdraw thread
+30784.8 <c-57#175:13> Enter destructor
+30784.8 <c-57#175:13> Time working: 271.197
+30784.8 <c-57#175:13> Time suspended: 0.000
+30784.8 <c-57#175:13> Joined cleanup thread
+30784.8 <c-57#175:13> Exit destructor
+30784.8 <c-57#175:13> Destructing logger

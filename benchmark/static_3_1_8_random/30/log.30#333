@@ -1,0 +1,88 @@
+28262.7 <c-30#333> Created logger
+28262.7 <c-30#333> appl_initialize was called
+28262.7 <c-30#333:0> Logger was updated
+28262.7 <c-30#333:0> Started intializing cube lib
+28262.7 <c-30#333:0> Cube generation has started
+28263.5 <c-30#333:0> Cube generation has finished
+28263.5 <c-30#333:0> Shuffling created cubes
+28263.5 <c-30#333:0> Finished intializing cube lib with root and worker, starting to work
+28263.5 <c-30#333:0> requestCubes => [30] Buffer size: 0
+28263.5 <c-30#333:0> Sent requestCubes signal to root
+28263.5 <c-30#333:0> Received requestCubes signal from 30
+28263.5 <c-30#333:0> sendCubes => [30] Buffer size: 4
+28263.5 <c-30#333:0> Sent 1 cubes to 30
+28263.5 <c-30#333:0> Received 1 cubes from root
+28263.5 <c-30#333:0> The main loop continues
+28263.5 <c-30#333:0> Started solving a cube
+28263.5 <c-30#333:0> Cube failed
+28263.5 <c-30#333:0> Added failed cube
+28263.6 <c-30#333:0> returnFailedCubes => [30] Buffer size: 3
+28263.6 <c-30#333:0> Sent 1 failed cubes to root
+28263.6 <c-30#333:0> Received 1 failed cubes from 30
+28263.6 <c-30#333:0> Pruned 2 root cubes
+28263.6 <c-30#333:0> receivedFailedCubes => [30] Buffer size: 0
+28263.6 <c-30#333:0> Sent receivedFailedCubes signal to 30
+28263.6 <c-30#333:0> Received receivedFailedCubes signal from root
+28263.6 <c-30#333:0> requestCubes => [30] Buffer size: 0
+28263.6 <c-30#333:0> Sent requestCubes signal to root
+28263.6 <c-30#333:0> Received requestCubes signal from 30
+28263.6 <c-30#333:0> sendCubes => [30] Buffer size: 4
+28263.6 <c-30#333:0> Sent 1 cubes to 30
+28263.6 <c-30#333:0> Received 1 cubes from root
+28263.6 <c-30#333:0> The main loop continues
+28263.6 <c-30#333:0> Started solving a cube
+28270.3 <c-30#333:0> Received requestCubes signal from 22
+28270.3 <c-30#333:0> sendCubes => [22] Buffer size: 4
+28270.3 <c-30#333:0> Sent 1 cubes to 22
+28270.3 <c-30#333:0> Received 1 failed cubes from 22
+28270.3 <c-30#333:0> Pruned 1 root cubes
+28270.3 <c-30#333:0> receivedFailedCubes => [22] Buffer size: 0
+28270.3 <c-30#333:0> Sent receivedFailedCubes signal to 22
+28270.3 <c-30#333:0> Received requestCubes signal from 22
+28270.3 <c-30#333:0> sendCubes => [22] Buffer size: 4
+28270.3 <c-30#333:0> Sent 1 cubes to 22
+28277.1 <c-30#333:0> Received requestCubes signal from 4
+28277.1 <c-30#333:0> sendCubes => [4] Buffer size: 4
+28277.1 <c-30#333:0> Sent 1 cubes to 4
+28279.5 <c-30#333:0> Received requestCubes signal from 34
+28279.5 <c-30#333:0> sendCubes => [34] Buffer size: 4
+28279.5 <c-30#333:0> Sent 1 cubes to 34
+28283.2 <c-30#333:0> Received requestCubes signal from 38
+28283.2 <c-30#333:0> sendCubes => [38] Buffer size: 4
+28283.2 <c-30#333:0> Sent 1 cubes to 38
+28284.2 <c-30#333:0> Received requestCubes signal from 19
+28284.2 <c-30#333:0> sendCubes => [19] Buffer size: 4
+28284.2 <c-30#333:0> Sent 1 cubes to 19
+28286.6 <c-30#333:0> Received requestCubes signal from 10
+28286.6 <c-30#333:0> sendCubes => [10] Buffer size: 4
+28286.6 <c-30#333:0> Sent 1 cubes to 10
+28287.7 <c-30#333:0> Received requestCubes signal from 57
+28287.7 <c-30#333:0> sendCubes => [57] Buffer size: 4
+28287.7 <c-30#333:0> Sent 1 cubes to 57
+28288.7 <c-30#333:0> Received 1 failed cubes from 34
+28288.7 <c-30#333:0> Pruned 1 root cubes
+28288.7 <c-30#333:0> receivedFailedCubes => [34] Buffer size: 0
+28288.7 <c-30#333:0> Sent receivedFailedCubes signal to 34
+28288.7 <c-30#333:0> Received requestCubes signal from 34
+28288.7 <c-30#333:0> sendCubes => [34] Buffer size: 4
+28288.7 <c-30#333:0> Sent 1 cubes to 34
+28309.8 <c-30#333:0> Found a solution: SAT
+28309.8 <c-30#333:0> Leaving the main loop because a solution was found
+28309.8 <c-30#333:0> Found result SAT
+28309.8 <c-30#333:0> appl_interrupt was called
+28309.8 <c-30#333:0> Interrupting worker
+28309.8 <c-30#333:0> appl_interrupt was called
+28309.8 <c-30#333:0> appl_withdraw was called
+28309.8 <c-30#333:0> Started withdraw thread
+28309.8 <c-30#333:0> Finished withdrawing lib
+28309.8 <c-30#333:0> Enter destructor of CubeWorker
+28309.8 <c-30#333:0> Time waiting for messages: 0.002
+28309.8 <c-30#333:0> Enter destructor of CubeWorkerInterface
+28309.8 <c-30#333:0> Enter destructor of CubeRoot
+28309.8 <c-30#333:0> Finished withdraw thread
+28372.5 <c-30#333:0> Enter destructor
+28372.5 <c-30#333:0> Time working: 46.256
+28372.5 <c-30#333:0> Time suspended: 0.000
+28372.5 <c-30#333:0> Joined cleanup thread
+28372.5 <c-30#333:0> Exit destructor
+28372.5 <c-30#333:0> Destructing logger

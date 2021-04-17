@@ -1,0 +1,55 @@
+15701.6 <c-52#185> Created logger
+15701.6 <c-52#185> appl_initialize was called
+15701.6 <c-52#185:9> Logger was updated
+15701.6 <c-52#185:9> Started intializing cube lib
+15701.6 <c-52#185:9> Finished intializing cube lib with worker, starting to work
+15702.2 <c-52#185:9> requestCubes => [4] Buffer size: 0
+15702.2 <c-52#185:9> Sent requestCubes signal to root
+15702.2 <c-52#185:9> Received 1 cubes from root
+15702.2 <c-52#185:9> The main loop continues
+15702.2 <c-52#185:9> Started solving a cube
+15748.3 <c-52#185:9> Cube failed
+15748.3 <c-52#185:9> Added failed cube
+15748.3 <c-52#185:9> returnFailedCubes => [4] Buffer size: 3
+15748.3 <c-52#185:9> Sent 1 failed cubes to root
+15748.3 <c-52#185:9> Received receivedFailedCubes signal from root
+15748.3 <c-52#185:9> requestCubes => [4] Buffer size: 0
+15748.3 <c-52#185:9> Sent requestCubes signal to root
+15748.3 <c-52#185:9> Received 1 cubes from root
+15748.3 <c-52#185:9> The main loop continues
+15748.3 <c-52#185:9> Started solving a cube
+15846.5 <c-52#185:9> appl_pause was called
+15846.5 <c-52#185:9> Set suspended
+15846.5 <c-52#185:9> Suspending worker
+15846.5 <c-52#185:9> SUSPEND (0.02s since last cb)
+15846.6 <c-52#185:9> appl_unpause was called
+15846.6 <c-52#185:9> Set unsuspended
+15846.6 <c-52#185:9> Resuming worker
+15846.6 <c-52#185:9> RESUME
+15861.9 <c-52#185:9> appl_pause was called
+15861.9 <c-52#185:9> Set suspended
+15861.9 <c-52#185:9> Suspending worker
+15861.9 <c-52#185:9> SUSPEND (0.07s since last cb)
+16310.3 <c-52#185:9> appl_interrupt was called
+16310.3 <c-52#185:9> Interrupting worker
+16310.3 <c-52#185:9> Resuming worker to allow interruption
+16310.3 <c-52#185:9> RESUME
+16310.3 <c-52#185:9> STOP after suspension
+16310.3 <c-52#185:9> Solving interrupted
+16310.3 <c-52#185:9> The main loop continues
+16310.3 <c-52#185:9> Leaving the main loop due to an interruption
+16310.3 <c-52#185:9> appl_interrupt was called
+16310.3 <c-52#185:9> appl_withdraw was called
+16310.3 <c-52#185:9> Started withdraw thread
+16310.3 <c-52#185:9> Finished withdrawing lib
+16310.3 <c-52#185:9> Enter destructor of CubeWorker
+16310.3 <c-52#185:9> Time waiting for messages: 0.002
+16310.4 <c-52#185:9> Enter destructor of CubeWorkerInterface
+16310.4 <c-52#185:9> Enter destructor of CubeRoot
+16310.4 <c-52#185:9> Finished withdraw thread
+16372.6 <c-52#185:9> Enter destructor
+16372.6 <c-52#185:9> Time working: 15.307
+16372.6 <c-52#185:9> Time suspended: 448.432
+16372.6 <c-52#185:9> Joined cleanup thread
+16372.6 <c-52#185:9> Exit destructor
+16372.6 <c-52#185:9> Destructing logger

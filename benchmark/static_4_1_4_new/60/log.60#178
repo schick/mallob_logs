@@ -1,0 +1,45 @@
+30447 <c-60#178> Created logger
+30447 <c-60#178> appl_initialize was called
+30447 <c-60#178:29> Logger was updated
+30447 <c-60#178:29> Started intializing cube lib
+30447 <c-60#178:29> Finished intializing cube lib with worker, starting to work
+30447.1 <c-60#178:29> requestCubes => [45] Buffer size: 0
+30447.1 <c-60#178:29> Sent requestCubes signal to root
+30447.1 <c-60#178:29> Received 1 cubes from root
+30447.1 <c-60#178:29> The main loop continues
+30447.1 <c-60#178:29> Started solving a cube
+30459.3 <c-60#178:29> appl_pause was called
+30459.3 <c-60#178:29> Set suspended
+30459.3 <c-60#178:29> Suspending worker
+30459.3 <c-60#178:29> SUSPEND (0.00s since last cb)
+30598.8 <c-60#178:29> appl_unpause was called
+30598.8 <c-60#178:29> Set unsuspended
+30598.8 <c-60#178:29> Resuming worker
+30598.8 <c-60#178:29> RESUME
+30599.1 <c-60#178:29> appl_pause was called
+30599.1 <c-60#178:29> Set suspended
+30599.1 <c-60#178:29> Suspending worker
+30599.2 <c-60#178:29> SUSPEND (0.00s since last cb)
+30630.5 <c-60#178:29> appl_interrupt was called
+30630.5 <c-60#178:29> Interrupting worker
+30630.5 <c-60#178:29> Resuming worker to allow interruption
+30630.5 <c-60#178:29> RESUME
+30630.5 <c-60#178:29> STOP after suspension
+30630.5 <c-60#178:29> Solving interrupted
+30630.5 <c-60#178:29> The main loop continues
+30630.5 <c-60#178:29> Leaving the main loop due to an interruption
+30630.5 <c-60#178:29> appl_interrupt was called
+30630.5 <c-60#178:29> appl_withdraw was called
+30630.5 <c-60#178:29> Started withdraw thread
+30630.5 <c-60#178:29> Finished withdrawing lib
+30630.5 <c-60#178:29> Enter destructor of CubeWorker
+30630.5 <c-60#178:29> Time waiting for messages: 0.000
+30630.5 <c-60#178:29> Enter destructor of CubeWorkerInterface
+30630.5 <c-60#178:29> Enter destructor of CubeRoot
+30630.5 <c-60#178:29> Finished withdraw thread
+30692.5 <c-60#178:29> Enter destructor
+30692.5 <c-60#178:29> Time working: 0.322
+30692.5 <c-60#178:29> Time suspended: 31.322
+30692.5 <c-60#178:29> Joined cleanup thread
+30692.5 <c-60#178:29> Exit destructor
+30692.5 <c-60#178:29> Destructing logger

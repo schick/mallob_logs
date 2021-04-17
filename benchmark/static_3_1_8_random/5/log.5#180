@@ -1,0 +1,47 @@
+15543.6 <c-5#180> Created logger
+15543.8 <c-5#180> appl_initialize was called
+15543.8 <c-5#180:10> Logger was updated
+15543.8 <c-5#180:10> Started intializing cube lib
+15543.8 <c-5#180:10> Finished intializing cube lib with worker, starting to work
+15546.2 <c-5#180:10> requestCubes => [60] Buffer size: 0
+15546.2 <c-5#180:10> Sent requestCubes signal to root
+15546.2 <c-5#180:10> Received 1 cubes from root
+15546.2 <c-5#180:10> The main loop continues
+15546.2 <c-5#180:10> Started solving a cube
+15565.1 <c-5#180:10> appl_pause was called
+15565.1 <c-5#180:10> Set suspended
+15565.1 <c-5#180:10> Suspending worker
+15565.1 <c-5#180:10> SUSPEND (0.01s since last cb)
+15584.2 <c-5#180:10> appl_unpause was called
+15584.2 <c-5#180:10> Set unsuspended
+15584.2 <c-5#180:10> Resuming worker
+15584.2 <c-5#180:10> RESUME
+15605.6 <c-5#180:10> appl_pause was called
+15605.6 <c-5#180:10> Set suspended
+15605.6 <c-5#180:10> Suspending worker
+15605.6 <c-5#180:10> SUSPEND (0.00s since last cb)
+15607.4 <c-5#180:10> appl_unpause was called
+15607.4 <c-5#180:10> Set unsuspended
+15607.4 <c-5#180:10> Resuming worker
+15607.4 <c-5#180:10> RESUME
+15625.2 <c-5#180:10> appl_interrupt was called
+15625.2 <c-5#180:10> Interrupting worker
+15625.2 <c-5#180:10> appl_interrupt was called
+15625.2 <c-5#180:10> appl_withdraw was called
+15625.2 <c-5#180:10> Started withdraw thread
+15625.2 <c-5#180:10> STOP (0.05s since last cb)
+15625.4 <c-5#180:10> Solving interrupted
+15625.4 <c-5#180:10> The main loop continues
+15625.4 <c-5#180:10> Leaving the main loop due to an interruption
+15625.4 <c-5#180:10> Finished withdrawing lib
+15625.4 <c-5#180:10> Enter destructor of CubeWorker
+15625.4 <c-5#180:10> Time waiting for messages: 0.000
+15625.5 <c-5#180:10> Enter destructor of CubeWorkerInterface
+15625.5 <c-5#180:10> Enter destructor of CubeRoot
+15625.5 <c-5#180:10> Finished withdraw thread
+15688.2 <c-5#180:10> Enter destructor
+15688.2 <c-5#180:10> Time working: 17.779
+15688.2 <c-5#180:10> Time suspended: 20.807
+15688.2 <c-5#180:10> Joined cleanup thread
+15688.2 <c-5#180:10> Exit destructor
+15688.2 <c-5#180:10> Destructing logger

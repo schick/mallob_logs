@@ -1,0 +1,45 @@
+25155 <c-42#146> Created logger
+25155 <c-42#146> appl_initialize was called
+25155 <c-42#146:42> Logger was updated
+25155 <c-42#146:42> Started intializing cube lib
+25155 <c-42#146:42> Finished intializing cube lib with worker, starting to work
+25155.1 <c-42#146:42> requestCubes => [3] Buffer size: 0
+25155.1 <c-42#146:42> Sent requestCubes signal to root
+25155.1 <c-42#146:42> Received 1 cubes from root
+25155.1 <c-42#146:42> The main loop continues
+25155.1 <c-42#146:42> Started solving a cube
+25203.8 <c-42#146:42> appl_pause was called
+25203.8 <c-42#146:42> Set suspended
+25203.8 <c-42#146:42> Suspending worker
+25203.8 <c-42#146:42> SUSPEND (0.00s since last cb)
+25449.5 <c-42#146:42> appl_unpause was called
+25449.5 <c-42#146:42> Set unsuspended
+25449.5 <c-42#146:42> Resuming worker
+25449.5 <c-42#146:42> RESUME
+25468.8 <c-42#146:42> appl_pause was called
+25468.8 <c-42#146:42> Set suspended
+25468.8 <c-42#146:42> Suspending worker
+25468.8 <c-42#146:42> SUSPEND (0.01s since last cb)
+25779.7 <c-42#146:42> appl_interrupt was called
+25779.7 <c-42#146:42> Interrupting worker
+25779.7 <c-42#146:42> Resuming worker to allow interruption
+25779.7 <c-42#146:42> RESUME
+25779.7 <c-42#146:42> STOP after suspension
+25779.7 <c-42#146:42> Solving interrupted
+25779.7 <c-42#146:42> The main loop continues
+25779.7 <c-42#146:42> Leaving the main loop due to an interruption
+25779.7 <c-42#146:42> appl_interrupt was called
+25779.7 <c-42#146:42> appl_withdraw was called
+25779.7 <c-42#146:42> Started withdraw thread
+25779.7 <c-42#146:42> Finished withdrawing lib
+25779.7 <c-42#146:42> Enter destructor of CubeWorker
+25779.7 <c-42#146:42> Time waiting for messages: 0.000
+25779.7 <c-42#146:42> Enter destructor of CubeWorkerInterface
+25779.7 <c-42#146:42> Enter destructor of CubeRoot
+25779.7 <c-42#146:42> Finished withdraw thread
+25840.1 <c-42#146:42> Enter destructor
+25840.1 <c-42#146:42> Time working: 19.283
+25840.1 <c-42#146:42> Time suspended: 310.855
+25840.1 <c-42#146:42> Joined cleanup thread
+25840.1 <c-42#146:42> Exit destructor
+25840.1 <c-42#146:42> Destructing logger

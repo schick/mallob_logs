@@ -1,0 +1,45 @@
+19673 <c-26#238> Created logger
+19673.2 <c-26#238> appl_initialize was called
+19673.2 <c-26#238:7> Logger was updated
+19673.2 <c-26#238:7> Started intializing cube lib
+19673.2 <c-26#238:7> Finished intializing cube lib with worker, starting to work
+19677.9 <c-26#238:7> requestCubes => [19] Buffer size: 0
+19677.9 <c-26#238:7> Sent requestCubes signal to root
+19677.9 <c-26#238:7> Received 1 cubes from root
+19677.9 <c-26#238:7> The main loop continues
+19677.9 <c-26#238:7> Started solving a cube
+20012.9 <c-26#238:7> appl_pause was called
+20012.9 <c-26#238:7> Set suspended
+20012.9 <c-26#238:7> Suspending worker
+20013 <c-26#238:7> SUSPEND (0.01s since last cb)
+20310.7 <c-26#238:7> appl_unpause was called
+20310.7 <c-26#238:7> Set unsuspended
+20310.7 <c-26#238:7> Resuming worker
+20310.7 <c-26#238:7> RESUME
+20311 <c-26#238:7> appl_pause was called
+20311 <c-26#238:7> Set suspended
+20311 <c-26#238:7> Suspending worker
+20311 <c-26#238:7> SUSPEND (0.00s since last cb)
+20575.5 <c-26#238:7> appl_interrupt was called
+20575.5 <c-26#238:7> Interrupting worker
+20575.5 <c-26#238:7> Resuming worker to allow interruption
+20575.5 <c-26#238:7> RESUME
+20575.5 <c-26#238:7> STOP after suspension
+20575.5 <c-26#238:7> Solving interrupted
+20575.5 <c-26#238:7> The main loop continues
+20575.5 <c-26#238:7> Leaving the main loop due to an interruption
+20575.5 <c-26#238:7> appl_interrupt was called
+20575.5 <c-26#238:7> appl_withdraw was called
+20575.5 <c-26#238:7> Started withdraw thread
+20575.5 <c-26#238:7> Finished withdrawing lib
+20575.5 <c-26#238:7> Enter destructor of CubeWorker
+20575.5 <c-26#238:7> Time waiting for messages: 0.000
+20575.8 <c-26#238:7> Enter destructor of CubeWorkerInterface
+20575.8 <c-26#238:7> Enter destructor of CubeRoot
+20575.8 <c-26#238:7> Finished withdraw thread
+20636.9 <c-26#238:7> Enter destructor
+20636.9 <c-26#238:7> Time working: 0.334
+20636.9 <c-26#238:7> Time suspended: 264.467
+20636.9 <c-26#238:7> Joined cleanup thread
+20636.9 <c-26#238:7> Exit destructor
+20636.9 <c-26#238:7> Destructing logger

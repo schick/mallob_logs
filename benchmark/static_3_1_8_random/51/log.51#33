@@ -1,0 +1,45 @@
+3009.04 <c-51#33> Created logger
+3009.04 <c-51#33> appl_initialize was called
+3009.04 <c-51#33:10> Logger was updated
+3009.04 <c-51#33:10> Started intializing cube lib
+3009.04 <c-51#33:10> Finished intializing cube lib with worker, starting to work
+3009.13 <c-51#33:10> requestCubes => [50] Buffer size: 0
+3009.13 <c-51#33:10> Sent requestCubes signal to root
+3009.13 <c-51#33:10> Received 1 cubes from root
+3009.13 <c-51#33:10> The main loop continues
+3009.13 <c-51#33:10> Started solving a cube
+3028.39 <c-51#33:10> appl_pause was called
+3028.39 <c-51#33:10> Set suspended
+3028.39 <c-51#33:10> Suspending worker
+3028.39 <c-51#33:10> SUSPEND (0.00s since last cb)
+3031.08 <c-51#33:10> appl_unpause was called
+3031.08 <c-51#33:10> Set unsuspended
+3031.08 <c-51#33:10> Resuming worker
+3031.08 <c-51#33:10> RESUME
+3038.9 <c-51#33:10> appl_pause was called
+3038.9 <c-51#33:10> Set suspended
+3038.9 <c-51#33:10> Suspending worker
+3038.9 <c-51#33:10> SUSPEND (0.00s since last cb)
+3176.02 <c-51#33:10> appl_interrupt was called
+3176.02 <c-51#33:10> Interrupting worker
+3176.02 <c-51#33:10> Resuming worker to allow interruption
+3176.02 <c-51#33:10> RESUME
+3176.02 <c-51#33:10> STOP after suspension
+3176.02 <c-51#33:10> Solving interrupted
+3176.02 <c-51#33:10> The main loop continues
+3176.02 <c-51#33:10> Leaving the main loop due to an interruption
+3176.02 <c-51#33:10> appl_interrupt was called
+3176.02 <c-51#33:10> appl_withdraw was called
+3176.02 <c-51#33:10> Started withdraw thread
+3176.02 <c-51#33:10> Finished withdrawing lib
+3176.02 <c-51#33:10> Enter destructor of CubeWorker
+3176.02 <c-51#33:10> Time waiting for messages: 0.000
+3176.04 <c-51#33:10> Enter destructor of CubeWorkerInterface
+3176.04 <c-51#33:10> Enter destructor of CubeRoot
+3176.04 <c-51#33:10> Finished withdraw thread
+3238.41 <c-51#33:10> Enter destructor
+3238.41 <c-51#33:10> Time working: 7.822
+3238.41 <c-51#33:10> Time suspended: 137.122
+3238.41 <c-51#33:10> Joined cleanup thread
+3238.41 <c-51#33:10> Exit destructor
+3238.41 <c-51#33:10> Destructing logger

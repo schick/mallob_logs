@@ -1,0 +1,45 @@
+15872 <c-57#197> Created logger
+15872 <c-57#197> appl_initialize was called
+15872 <c-57#197:7> Logger was updated
+15872 <c-57#197:7> Started intializing cube lib
+15872 <c-57#197:7> Finished intializing cube lib with worker, starting to work
+15872.1 <c-57#197:7> requestCubes => [33] Buffer size: 0
+15872.1 <c-57#197:7> Sent requestCubes signal to root
+15872.1 <c-57#197:7> Received 1 cubes from root
+15872.1 <c-57#197:7> The main loop continues
+15872.1 <c-57#197:7> Started solving a cube
+15918.5 <c-57#197:7> appl_pause was called
+15918.5 <c-57#197:7> Set suspended
+15918.5 <c-57#197:7> Suspending worker
+15918.5 <c-57#197:7> SUSPEND (0.00s since last cb)
+16310.3 <c-57#197:7> appl_unpause was called
+16310.3 <c-57#197:7> Set unsuspended
+16310.3 <c-57#197:7> Resuming worker
+16310.3 <c-57#197:7> RESUME
+16333.2 <c-57#197:7> appl_pause was called
+16333.2 <c-57#197:7> Set suspended
+16333.2 <c-57#197:7> Suspending worker
+16333.2 <c-57#197:7> SUSPEND (0.00s since last cb)
+16846.6 <c-57#197:7> appl_interrupt was called
+16846.6 <c-57#197:7> Interrupting worker
+16846.6 <c-57#197:7> Resuming worker to allow interruption
+16846.6 <c-57#197:7> RESUME
+16846.6 <c-57#197:7> STOP after suspension
+16846.6 <c-57#197:7> appl_interrupt was called
+16846.6 <c-57#197:7> appl_withdraw was called
+16846.6 <c-57#197:7> Started withdraw thread
+16846.6 <c-57#197:7> Solving interrupted
+16846.6 <c-57#197:7> The main loop continues
+16846.6 <c-57#197:7> Leaving the main loop due to an interruption
+16846.6 <c-57#197:7> Finished withdrawing lib
+16846.6 <c-57#197:7> Enter destructor of CubeWorker
+16846.6 <c-57#197:7> Time waiting for messages: 0.001
+16846.6 <c-57#197:7> Enter destructor of CubeWorkerInterface
+16846.6 <c-57#197:7> Enter destructor of CubeRoot
+16846.6 <c-57#197:7> Finished withdraw thread
+16908.9 <c-57#197:7> Enter destructor
+16908.9 <c-57#197:7> Time working: 22.903
+16908.9 <c-57#197:7> Time suspended: 513.340
+16909 <c-57#197:7> Joined cleanup thread
+16909 <c-57#197:7> Exit destructor
+16909 <c-57#197:7> Destructing logger

@@ -1,0 +1,45 @@
+22960 <c-28#132> Created logger
+22960.8 <c-28#132> appl_initialize was called
+22960.8 <c-28#132:24> Logger was updated
+22960.8 <c-28#132:24> Started intializing cube lib
+22960.8 <c-28#132:24> Finished intializing cube lib with worker, starting to work
+22964.9 <c-28#132:24> requestCubes => [60] Buffer size: 0
+22964.9 <c-28#132:24> Sent requestCubes signal to root
+22964.9 <c-28#132:24> Received 1 cubes from root
+22964.9 <c-28#132:24> The main loop continues
+22964.9 <c-28#132:24> Started solving a cube
+22980.7 <c-28#132:24> appl_pause was called
+22980.7 <c-28#132:24> Set suspended
+22980.7 <c-28#132:24> Suspending worker
+22980.8 <c-28#132:24> SUSPEND (1.52s since last cb)
+23023.1 <c-28#132:24> appl_unpause was called
+23023.1 <c-28#132:24> Set unsuspended
+23023.1 <c-28#132:24> Resuming worker
+23023.1 <c-28#132:24> RESUME
+23083.5 <c-28#132:24> appl_pause was called
+23083.5 <c-28#132:24> Set suspended
+23083.5 <c-28#132:24> Suspending worker
+23087.1 <c-28#132:24> SUSPEND (15.61s since last cb)
+23179.8 <c-28#132:24> appl_interrupt was called
+23179.8 <c-28#132:24> Interrupting worker
+23179.8 <c-28#132:24> Resuming worker to allow interruption
+23179.8 <c-28#132:24> RESUME
+23179.8 <c-28#132:24> STOP after suspension
+23179.8 <c-28#132:24> appl_interrupt was called
+23179.8 <c-28#132:24> appl_withdraw was called
+23179.9 <c-28#132:24> Started withdraw thread
+23180.9 <c-28#132:24> Solving interrupted
+23180.9 <c-28#132:24> The main loop continues
+23180.9 <c-28#132:24> Leaving the main loop due to an interruption
+23180.9 <c-28#132:24> Finished withdrawing lib
+23180.9 <c-28#132:24> Enter destructor of CubeWorker
+23180.9 <c-28#132:24> Time waiting for messages: 0.000
+23181 <c-28#132:24> Enter destructor of CubeWorkerInterface
+23181 <c-28#132:24> Enter destructor of CubeRoot
+23181.1 <c-28#132:24> Finished withdraw thread
+23240.5 <c-28#132:24> Enter destructor
+23240.5 <c-28#132:24> Time working: 60.418
+23240.5 <c-28#132:24> Time suspended: 96.316
+23240.5 <c-28#132:24> Joined cleanup thread
+23240.5 <c-28#132:24> Exit destructor
+23240.5 <c-28#132:24> Destructing logger

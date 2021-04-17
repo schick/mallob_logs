@@ -1,0 +1,45 @@
+22311 <c-32#261> Created logger
+22311 <c-32#261> appl_initialize was called
+22311 <c-32#261:8> Logger was updated
+22311 <c-32#261:8> Started intializing cube lib
+22311 <c-32#261:8> Finished intializing cube lib with worker, starting to work
+22311.1 <c-32#261:8> requestCubes => [35] Buffer size: 0
+22311.1 <c-32#261:8> Sent requestCubes signal to root
+22311.1 <c-32#261:8> Received 1 cubes from root
+22311.1 <c-32#261:8> The main loop continues
+22311.1 <c-32#261:8> Started solving a cube
+22325 <c-32#261:8> appl_pause was called
+22325 <c-32#261:8> Set suspended
+22325 <c-32#261:8> Suspending worker
+22325 <c-32#261:8> SUSPEND (0.00s since last cb)
+22393.8 <c-32#261:8> appl_unpause was called
+22393.8 <c-32#261:8> Set unsuspended
+22393.8 <c-32#261:8> Resuming worker
+22393.8 <c-32#261:8> RESUME
+22410.2 <c-32#261:8> appl_pause was called
+22410.2 <c-32#261:8> Set suspended
+22410.2 <c-32#261:8> Suspending worker
+22410.2 <c-32#261:8> SUSPEND (0.00s since last cb)
+22616.7 <c-32#261:8> appl_interrupt was called
+22616.7 <c-32#261:8> Interrupting worker
+22616.7 <c-32#261:8> Resuming worker to allow interruption
+22616.7 <c-32#261:8> RESUME
+22616.7 <c-32#261:8> STOP after suspension
+22616.7 <c-32#261:8> Solving interrupted
+22616.7 <c-32#261:8> The main loop continues
+22616.7 <c-32#261:8> Leaving the main loop due to an interruption
+22616.7 <c-32#261:8> appl_interrupt was called
+22616.7 <c-32#261:8> appl_withdraw was called
+22616.7 <c-32#261:8> Started withdraw thread
+22616.7 <c-32#261:8> Finished withdrawing lib
+22616.7 <c-32#261:8> Enter destructor of CubeWorker
+22616.7 <c-32#261:8> Time waiting for messages: 0.000
+22616.7 <c-32#261:8> Enter destructor of CubeWorkerInterface
+22616.7 <c-32#261:8> Enter destructor of CubeRoot
+22616.7 <c-32#261:8> Finished withdraw thread
+22679.2 <c-32#261:8> Enter destructor
+22679.2 <c-32#261:8> Time working: 16.395
+22679.2 <c-32#261:8> Time suspended: 206.453
+22679.2 <c-32#261:8> Joined cleanup thread
+22679.2 <c-32#261:8> Exit destructor
+22679.2 <c-32#261:8> Destructing logger

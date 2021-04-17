@@ -1,0 +1,45 @@
+26067 <c-42#303> Created logger
+26067.2 <c-42#303> appl_initialize was called
+26067.2 <c-42#303:7> Logger was updated
+26067.2 <c-42#303:7> Started intializing cube lib
+26067.2 <c-42#303:7> Finished intializing cube lib with worker, starting to work
+26072.5 <c-42#303:7> requestCubes => [60] Buffer size: 0
+26072.5 <c-42#303:7> Sent requestCubes signal to root
+26072.5 <c-42#303:7> Received 1 cubes from root
+26072.5 <c-42#303:7> The main loop continues
+26072.5 <c-42#303:7> Started solving a cube
+26128 <c-42#303:7> appl_pause was called
+26128 <c-42#303:7> Set suspended
+26128 <c-42#303:7> Suspending worker
+26128 <c-42#303:7> SUSPEND (0.00s since last cb)
+26187.6 <c-42#303:7> appl_unpause was called
+26187.6 <c-42#303:7> Set unsuspended
+26187.6 <c-42#303:7> Resuming worker
+26187.6 <c-42#303:7> RESUME
+26213.3 <c-42#303:7> appl_pause was called
+26213.3 <c-42#303:7> Set suspended
+26213.3 <c-42#303:7> Suspending worker
+26213.3 <c-42#303:7> SUSPEND (0.00s since last cb)
+26436.5 <c-42#303:7> appl_interrupt was called
+26436.5 <c-42#303:7> Interrupting worker
+26436.5 <c-42#303:7> Resuming worker to allow interruption
+26436.5 <c-42#303:7> RESUME
+26436.5 <c-42#303:7> STOP after suspension
+26436.5 <c-42#303:7> appl_interrupt was called
+26436.5 <c-42#303:7> appl_withdraw was called
+26436.5 <c-42#303:7> Started withdraw thread
+26441.4 <c-42#303:7> Solving interrupted
+26441.4 <c-42#303:7> The main loop continues
+26441.4 <c-42#303:7> Leaving the main loop due to an interruption
+26441.6 <c-42#303:7> Finished withdrawing lib
+26441.6 <c-42#303:7> Enter destructor of CubeWorker
+26441.6 <c-42#303:7> Time waiting for messages: 0.000
+26444.4 <c-42#303:7> Enter destructor of CubeWorkerInterface
+26444.4 <c-42#303:7> Enter destructor of CubeRoot
+26444.4 <c-42#303:7> Finished withdraw thread
+26498.2 <c-42#303:7> Enter destructor
+26498.2 <c-42#303:7> Time working: 25.730
+26498.2 <c-42#303:7> Time suspended: 223.174
+26498.2 <c-42#303:7> Joined cleanup thread
+26498.2 <c-42#303:7> Exit destructor
+26498.2 <c-42#303:7> Destructing logger

@@ -1,0 +1,45 @@
+5304.09 <c-48#64> Created logger
+5304.15 <c-48#64> appl_initialize was called
+5304.15 <c-48#64:7> Logger was updated
+5304.15 <c-48#64:7> Started intializing cube lib
+5304.15 <c-48#64:7> Finished intializing cube lib with worker, starting to work
+5305.15 <c-48#64:7> requestCubes => [40] Buffer size: 0
+5305.15 <c-48#64:7> Sent requestCubes signal to root
+5305.15 <c-48#64:7> Received 1 cubes from root
+5305.15 <c-48#64:7> The main loop continues
+5305.15 <c-48#64:7> Started solving a cube
+5362.29 <c-48#64:7> appl_pause was called
+5362.29 <c-48#64:7> Set suspended
+5362.29 <c-48#64:7> Suspending worker
+5362.29 <c-48#64:7> SUSPEND (0.00s since last cb)
+5519.51 <c-48#64:7> appl_unpause was called
+5519.51 <c-48#64:7> Set unsuspended
+5519.51 <c-48#64:7> Resuming worker
+5519.51 <c-48#64:7> RESUME
+5519.62 <c-48#64:7> appl_pause was called
+5519.62 <c-48#64:7> Set suspended
+5519.62 <c-48#64:7> Suspending worker
+5519.62 <c-48#64:7> SUSPEND (0.00s since last cb)
+5779.01 <c-48#64:7> appl_interrupt was called
+5779.01 <c-48#64:7> Interrupting worker
+5779.01 <c-48#64:7> Resuming worker to allow interruption
+5779.01 <c-48#64:7> RESUME
+5779.01 <c-48#64:7> STOP after suspension
+5779.01 <c-48#64:7> Solving interrupted
+5779.01 <c-48#64:7> The main loop continues
+5779.01 <c-48#64:7> Leaving the main loop due to an interruption
+5779.01 <c-48#64:7> appl_interrupt was called
+5779.01 <c-48#64:7> appl_withdraw was called
+5779.02 <c-48#64:7> Started withdraw thread
+5779.02 <c-48#64:7> Finished withdrawing lib
+5779.02 <c-48#64:7> Enter destructor of CubeWorker
+5779.02 <c-48#64:7> Time waiting for messages: 0.000
+5779.2 <c-48#64:7> Enter destructor of CubeWorkerInterface
+5779.2 <c-48#64:7> Enter destructor of CubeRoot
+5779.2 <c-48#64:7> Finished withdraw thread
+5839.66 <c-48#64:7> Enter destructor
+5839.66 <c-48#64:7> Time working: 0.108
+5839.66 <c-48#64:7> Time suspended: 259.389
+5839.66 <c-48#64:7> Joined cleanup thread
+5839.66 <c-48#64:7> Exit destructor
+5839.66 <c-48#64:7> Destructing logger

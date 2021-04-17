@@ -27,6 +27,9 @@ class Job:
     number_send_cubes: int = 0
     number_returned_cubes: int = 0
 
+    size_of_used_cube: int = -1
+    size_of_added_buffer: int = -1
+
     # https://stackoverflow.com/questions/60713703/better-way-to-iterate-over-python-dataclass-keys-and-values
     def __str__(self):
         return " ".join([str(getattr(self, field.name)) for field in fields(self)])
@@ -98,8 +101,23 @@ def parse_mallob(jobdir):
                 # Cube generation means we found the root node
                 jobs[jobid].root_node = node
 
+            # Example: 1.99917 <c-25#2:0> Cube generation has started
+            start_cube_match = re.search(r'^(?P<time>\d+.\d+) .* Cube generation has started$', line)
+
+            if start_cube_match is not None:
+                jobs[jobid].start_generate_cubes = float(start_cube_match.group("time"))
+                # Cube generation means we found the root node
+                jobs[jobid].root_node = node
+
             # Example: 1022.32 <c-1#9:0> Finished generating cubes
             end_cube_match = re.search(r'^(?P<time>\d+.\d+) .* Finished generating cubes$', line)
+
+            if end_cube_match is not None:
+                jobs[jobid].end_generate_cubes = float(end_cube_match.group("time"))
+                jobs[jobid].generate_duration = jobs[jobid].end_generate_cubes - jobs[jobid].start_generate_cubes
+
+            # 19.7803 <c-25#2:0> Cube generation has finished
+            end_cube_match = re.search(r'^(?P<time>\d+.\d+) .* Cube generation has finished$', line)
 
             if end_cube_match is not None:
                 jobs[jobid].end_generate_cubes = float(end_cube_match.group("time"))
@@ -122,6 +140,24 @@ def parse_mallob(jobdir):
 
             if created_cube_match is not None:
                 jobs[jobid].cube_count += 1
+
+            # Example: 85208.8 <c-13#285:0> DynamicCubeGeneratorThread 204: Used cube has size 0
+            used_cube_match = re.search(r'Used cube has size (?P<size>\d+)', line)
+
+            if used_cube_match is not None:
+                if jobs[jobid].size_of_used_cube == -1:
+                    jobs[jobid].size_of_used_cube = int(used_cube_match.group("size"))
+                elif int(used_cube_match.group("size")) < jobs[jobid].size_of_used_cube:
+                    jobs[jobid].size_of_used_cube = int(used_cube_match.group("size"))
+
+            # Example: 85208.8 <c-13#285:0> DynamicCubeGeneratorThread 204: Size of added buffer from failed assumptions: 0
+            used_failed_match = re.search(r'Size of added buffer from failed assumptions: (?P<size>\d+)', line)
+
+            if used_failed_match is not None:
+                if jobs[jobid].size_of_added_buffer == -1:
+                    jobs[jobid].size_of_added_buffer = int(used_failed_match.group("size"))
+                elif int(used_failed_match.group("size")) < jobs[jobid].size_of_added_buffer:
+                    jobs[jobid].size_of_added_buffer = int(used_failed_match.group("size"))
 
     jobs_list = list(jobs.values())
     jobs_list.sort(key=getID)

@@ -1,0 +1,46 @@
+61892.1 <c-43#357> Created logger
+61892.1 <c-43#357> appl_initialize was called
+61892.1 <c-43#357:7> Logger was updated
+61892.1 <c-43#357:7> Started intializing cube lib
+61892.1 <c-43#357:7> Finished intializing cube lib with worker, starting to work
+61892.1 <c-43#357:7> requestCubes => [29] Buffer size: 0
+61892.1 <c-43#357:7> Sent requestCubes signal to root
+61892.1 <c-43#357:7> Received 1 cubes from root
+61892.1 <c-43#357:7> The main loop continues
+61892.1 <c-43#357:7> Started solving a cube
+61892.3 <c-43#357:7> appl_pause was called
+61892.3 <c-43#357:7> Set suspended
+61892.3 <c-43#357:7> Suspending worker
+61892.3 <c-43#357:7> SUSPEND (0.00s since last cb)
+61892.4 <c-43#357:7> appl_unpause was called
+61892.4 <c-43#357:7> Set unsuspended
+61892.4 <c-43#357:7> Resuming worker
+61892.4 <c-43#357:7> RESUME
+61892.5 <c-43#357:7> appl_pause was called
+61892.5 <c-43#357:7> Set suspended
+61892.5 <c-43#357:7> Suspending worker
+61892.5 <c-43#357:7> SUSPEND (0.00s since last cb)
+61892.8 <c-43#357:7> appl_unpause was called
+61892.8 <c-43#357:7> Set unsuspended
+61892.8 <c-43#357:7> Resuming worker
+61892.8 <c-43#357:7> RESUME
+61929.2 <c-43#357:7> Found a solution: SAT
+61929.2 <c-43#357:7> Leaving the main loop because a solution was found
+61929.2 <c-43#357:7> Found result SAT
+61929.2 <c-43#357:7> appl_interrupt was called
+61929.2 <c-43#357:7> Interrupting worker
+61929.2 <c-43#357:7> appl_interrupt was called
+61929.2 <c-43#357:7> appl_withdraw was called
+61929.2 <c-43#357:7> Started withdraw thread
+61929.2 <c-43#357:7> Finished withdrawing lib
+61929.2 <c-43#357:7> Enter destructor of CubeWorker
+61929.2 <c-43#357:7> Time waiting for messages: 0.000
+61929.2 <c-43#357:7> Enter destructor of CubeWorkerInterface
+61929.2 <c-43#357:7> Enter destructor of CubeRoot
+61929.2 <c-43#357:7> Finished withdraw thread
+61990.5 <c-43#357:7> Enter destructor
+61990.5 <c-43#357:7> Time working: 36.430
+61990.5 <c-43#357:7> Time suspended: 0.328
+61990.5 <c-43#357:7> Joined cleanup thread
+61990.5 <c-43#357:7> Exit destructor
+61990.5 <c-43#357:7> Destructing logger

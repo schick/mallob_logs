@@ -1,0 +1,53 @@
+1081.2 <c-29#18> Created logger
+1081.23 <c-29#18> appl_initialize was called
+1081.23 <c-29#18:0> Logger was updated
+1081.23 <c-29#18:0> Started intializing cube lib
+1081.23 <c-29#18:0> Cube generation has started
+1086.34 <c-29#18:0> Cube generation has finished
+1086.34 <c-29#18:0> Shuffling created cubes
+1086.34 <c-29#18:0> Finished intializing cube lib with root and worker, starting to work
+1086.47 <c-29#18:0> requestCubes => [29] Buffer size: 0
+1086.47 <c-29#18:0> Sent requestCubes signal to root
+1086.47 <c-29#18:0> Received requestCubes signal from 29
+1086.47 <c-29#18:0> sendCubes => [29] Buffer size: 4
+1086.47 <c-29#18:0> Sent 1 cubes to 29
+1086.47 <c-29#18:0> Received 1 cubes from root
+1086.47 <c-29#18:0> The main loop continues
+1086.47 <c-29#18:0> Started solving a cube
+1088.87 <c-29#18:0> Cube failed
+1088.87 <c-29#18:0> Added failed cube
+1088.88 <c-29#18:0> returnFailedCubes => [29] Buffer size: 2
+1088.88 <c-29#18:0> Sent 1 failed cubes to root
+1088.88 <c-29#18:0> Received 1 failed cubes from 29
+1088.89 <c-29#18:0> Pruned 4 root cubes
+1088.89 <c-29#18:0> receivedFailedCubes => [29] Buffer size: 0
+1088.89 <c-29#18:0> Sent receivedFailedCubes signal to 29
+1088.89 <c-29#18:0> Received receivedFailedCubes signal from root
+1088.9 <c-29#18:0> requestCubes => [29] Buffer size: 0
+1088.9 <c-29#18:0> Sent requestCubes signal to root
+1088.9 <c-29#18:0> Received requestCubes signal from 29
+1088.9 <c-29#18:0> sendCubes => [29] Buffer size: 4
+1088.9 <c-29#18:0> Sent 1 cubes to 29
+1088.9 <c-29#18:0> Received 1 cubes from root
+1088.9 <c-29#18:0> The main loop continues
+1088.9 <c-29#18:0> Started solving a cube
+1089.67 <c-29#18:0> Found a solution: SAT
+1089.67 <c-29#18:0> Leaving the main loop because a solution was found
+1089.68 <c-29#18:0> Found result SAT
+1089.68 <c-29#18:0> appl_interrupt was called
+1089.68 <c-29#18:0> Interrupting worker
+1089.68 <c-29#18:0> appl_interrupt was called
+1089.68 <c-29#18:0> Started withdraw thread
+1089.68 <c-29#18:0> appl_withdraw was called
+1089.68 <c-29#18:0> Finished withdrawing lib
+1089.68 <c-29#18:0> Enter destructor of CubeWorker
+1089.68 <c-29#18:0> Time waiting for messages: 0.002
+1089.69 <c-29#18:0> Enter destructor of CubeWorkerInterface
+1089.69 <c-29#18:0> Enter destructor of CubeRoot
+1089.7 <c-29#18:0> Finished withdraw thread
+1149.82 <c-29#18:0> Enter destructor
+1149.82 <c-29#18:0> Time working: 3.340
+1149.82 <c-29#18:0> Time suspended: 0.000
+1149.82 <c-29#18:0> Joined cleanup thread
+1149.82 <c-29#18:0> Exit destructor
+1149.82 <c-29#18:0> Destructing logger

@@ -1,0 +1,41 @@
+52813.8 <c-11#303> Created logger
+52814 <c-11#303> appl_initialize was called
+52814 <c-11#303:12> Logger was updated
+52814 <c-11#303:12> Started intializing cube lib
+52814 <c-11#303:12> Finished intializing cube lib with worker, starting to work
+52818.8 <c-11#303:12> requestCubes => [23] Buffer size: 0
+52818.8 <c-11#303:12> Sent requestCubes signal to root
+52818.8 <c-11#303:12> Received 1 cubes from root
+52818.8 <c-11#303:12> The main loop continues
+52818.8 <c-11#303:12> Started solving a cube
+52848.3 <c-11#303:12> Cube failed
+52848.3 <c-11#303:12> Added failed cube
+52848.3 <c-11#303:12> returnFailedCubes => [23] Buffer size: 2
+52848.3 <c-11#303:12> Sent 1 failed cubes to root
+52848.3 <c-11#303:12> Received receivedFailedCubes signal from root
+52848.3 <c-11#303:12> requestCubes => [23] Buffer size: 0
+52848.3 <c-11#303:12> Sent requestCubes signal to root
+52848.3 <c-11#303:12> Received 1 cubes from root
+52848.3 <c-11#303:12> The main loop continues
+52848.3 <c-11#303:12> Started solving a cube
+52954.6 <c-11#303:12> appl_interrupt was called
+52954.6 <c-11#303:12> Interrupting worker
+52954.6 <c-11#303:12> appl_interrupt was called
+52954.6 <c-11#303:12> appl_withdraw was called
+52954.6 <c-11#303:12> Started withdraw thread
+52954.7 <c-11#303:12> STOP (0.07s since last cb)
+52954.7 <c-11#303:12> Solving interrupted
+52954.7 <c-11#303:12> The main loop continues
+52954.7 <c-11#303:12> Leaving the main loop due to an interruption
+52954.7 <c-11#303:12> Finished withdrawing lib
+52954.7 <c-11#303:12> Enter destructor of CubeWorker
+52954.7 <c-11#303:12> Time waiting for messages: 0.000
+52957 <c-11#303:12> Enter destructor of CubeWorkerInterface
+52957 <c-11#303:12> Enter destructor of CubeRoot
+52957 <c-11#303:12> Finished withdraw thread
+53015 <c-11#303:12> Enter destructor
+53015 <c-11#303:12> Time working: 140.555
+53015 <c-11#303:12> Time suspended: 0.000
+53015 <c-11#303:12> Joined cleanup thread
+53015 <c-11#303:12> Exit destructor
+53015 <c-11#303:12> Destructing logger

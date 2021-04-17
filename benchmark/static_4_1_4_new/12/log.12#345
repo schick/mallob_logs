@@ -1,0 +1,45 @@
+60726.8 <c-12#345> Created logger
+60726.9 <c-12#345> appl_initialize was called
+60726.9 <c-12#345:40> Logger was updated
+60726.9 <c-12#345:40> Started intializing cube lib
+60726.9 <c-12#345:40> Finished intializing cube lib with worker, starting to work
+60727.8 <c-12#345:40> requestCubes => [34] Buffer size: 0
+60727.8 <c-12#345:40> Sent requestCubes signal to root
+60727.8 <c-12#345:40> Received 1 cubes from root
+60727.8 <c-12#345:40> The main loop continues
+60727.8 <c-12#345:40> Started solving a cube
+60737.4 <c-12#345:40> appl_pause was called
+60737.4 <c-12#345:40> Set suspended
+60737.4 <c-12#345:40> Suspending worker
+60737.4 <c-12#345:40> SUSPEND (0.00s since last cb)
+60752.8 <c-12#345:40> appl_unpause was called
+60752.8 <c-12#345:40> Set unsuspended
+60752.8 <c-12#345:40> Resuming worker
+60752.8 <c-12#345:40> RESUME
+60766.7 <c-12#345:40> appl_pause was called
+60766.7 <c-12#345:40> Set suspended
+60766.7 <c-12#345:40> Suspending worker
+60766.7 <c-12#345:40> SUSPEND (0.00s since last cb)
+61130.4 <c-12#345:40> appl_interrupt was called
+61130.4 <c-12#345:40> Interrupting worker
+61130.4 <c-12#345:40> Resuming worker to allow interruption
+61130.4 <c-12#345:40> RESUME
+61130.4 <c-12#345:40> STOP after suspension
+61130.4 <c-12#345:40> Solving interrupted
+61130.4 <c-12#345:40> The main loop continues
+61130.4 <c-12#345:40> Leaving the main loop due to an interruption
+61130.4 <c-12#345:40> appl_interrupt was called
+61130.4 <c-12#345:40> appl_withdraw was called
+61130.4 <c-12#345:40> Started withdraw thread
+61130.4 <c-12#345:40> Finished withdrawing lib
+61130.4 <c-12#345:40> Enter destructor of CubeWorker
+61130.4 <c-12#345:40> Time waiting for messages: 0.000
+61130.5 <c-12#345:40> Enter destructor of CubeWorkerInterface
+61130.5 <c-12#345:40> Enter destructor of CubeRoot
+61130.5 <c-12#345:40> Finished withdraw thread
+61190.4 <c-12#345:40> Enter destructor
+61190.4 <c-12#345:40> Time working: 13.902
+61190.4 <c-12#345:40> Time suspended: 363.641
+61190.4 <c-12#345:40> Joined cleanup thread
+61190.4 <c-12#345:40> Exit destructor
+61190.4 <c-12#345:40> Destructing logger

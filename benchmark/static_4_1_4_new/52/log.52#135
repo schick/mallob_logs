@@ -1,0 +1,45 @@
+22960.3 <c-52#135> Created logger
+22960.4 <c-52#135> appl_initialize was called
+22960.4 <c-52#135:25> Logger was updated
+22960.4 <c-52#135:25> Started intializing cube lib
+22960.4 <c-52#135:25> Finished intializing cube lib with worker, starting to work
+22961.1 <c-52#135:25> requestCubes => [7] Buffer size: 0
+22961.1 <c-52#135:25> Sent requestCubes signal to root
+22961.1 <c-52#135:25> Received 1 cubes from root
+22961.1 <c-52#135:25> The main loop continues
+22961.1 <c-52#135:25> Started solving a cube
+22978.3 <c-52#135:25> appl_pause was called
+22978.3 <c-52#135:25> Set suspended
+22978.3 <c-52#135:25> Suspending worker
+22978.3 <c-52#135:25> SUSPEND (0.00s since last cb)
+23023.1 <c-52#135:25> appl_unpause was called
+23023.1 <c-52#135:25> Set unsuspended
+23023.1 <c-52#135:25> Resuming worker
+23023.1 <c-52#135:25> RESUME
+23079.5 <c-52#135:25> appl_pause was called
+23079.5 <c-52#135:25> Set suspended
+23079.5 <c-52#135:25> Suspending worker
+23079.5 <c-52#135:25> SUSPEND (0.05s since last cb)
+23729.6 <c-52#135:25> appl_interrupt was called
+23729.6 <c-52#135:25> Interrupting worker
+23729.6 <c-52#135:25> Resuming worker to allow interruption
+23729.6 <c-52#135:25> RESUME
+23729.6 <c-52#135:25> STOP after suspension
+23729.6 <c-52#135:25> appl_interrupt was called
+23729.6 <c-52#135:25> appl_withdraw was called
+23729.6 <c-52#135:25> Started withdraw thread
+23730 <c-52#135:25> Solving interrupted
+23730 <c-52#135:25> The main loop continues
+23730 <c-52#135:25> Leaving the main loop due to an interruption
+23730 <c-52#135:25> Finished withdrawing lib
+23730 <c-52#135:25> Enter destructor of CubeWorker
+23730 <c-52#135:25> Time waiting for messages: 0.000
+23730.1 <c-52#135:25> Enter destructor of CubeWorkerInterface
+23730.1 <c-52#135:25> Enter destructor of CubeRoot
+23730.1 <c-52#135:25> Finished withdraw thread
+23791.6 <c-52#135:25> Enter destructor
+23791.6 <c-52#135:25> Time working: 56.432
+23791.6 <c-52#135:25> Time suspended: 650.111
+23791.6 <c-52#135:25> Joined cleanup thread
+23791.6 <c-52#135:25> Exit destructor
+23791.6 <c-52#135:25> Destructing logger

@@ -1,0 +1,41 @@
+18802.1 <c-42#113> Created logger
+18802.1 <c-42#113> appl_initialize was called
+18802.1 <c-42#113:10> Logger was updated
+18802.1 <c-42#113:10> Started intializing cube lib
+18802.1 <c-42#113:10> Finished intializing cube lib with worker, starting to work
+18802.2 <c-42#113:10> requestCubes => [29] Buffer size: 0
+18802.2 <c-42#113:10> Sent requestCubes signal to root
+18802.2 <c-42#113:10> Received 1 cubes from root
+18802.2 <c-42#113:10> The main loop continues
+18802.2 <c-42#113:10> Started solving a cube
+18825 <c-42#113:10> Cube failed
+18825 <c-42#113:10> Added failed cube
+18825 <c-42#113:10> returnFailedCubes => [29] Buffer size: 5
+18825 <c-42#113:10> Sent 1 failed cubes to root
+18825 <c-42#113:10> Received receivedFailedCubes signal from root
+18825 <c-42#113:10> requestCubes => [29] Buffer size: 0
+18825 <c-42#113:10> Sent requestCubes signal to root
+18825 <c-42#113:10> Received 1 cubes from root
+18825 <c-42#113:10> The main loop continues
+18825 <c-42#113:10> Started solving a cube
+18996.4 <c-42#113:10> appl_interrupt was called
+18996.4 <c-42#113:10> Interrupting worker
+18996.4 <c-42#113:10> appl_interrupt was called
+18996.4 <c-42#113:10> appl_withdraw was called
+18996.4 <c-42#113:10> Started withdraw thread
+18996.5 <c-42#113:10> STOP (0.08s since last cb)
+18996.5 <c-42#113:10> Solving interrupted
+18996.5 <c-42#113:10> The main loop continues
+18996.5 <c-42#113:10> Leaving the main loop due to an interruption
+18996.5 <c-42#113:10> Finished withdrawing lib
+18996.5 <c-42#113:10> Enter destructor of CubeWorker
+18996.5 <c-42#113:10> Time waiting for messages: 0.000
+18996.5 <c-42#113:10> Enter destructor of CubeWorkerInterface
+18996.5 <c-42#113:10> Enter destructor of CubeRoot
+18996.5 <c-42#113:10> Finished withdraw thread
+19058.6 <c-42#113:10> Enter destructor
+19058.6 <c-42#113:10> Time working: 194.354
+19058.6 <c-42#113:10> Time suspended: 0.000
+19058.6 <c-42#113:10> Joined cleanup thread
+19058.6 <c-42#113:10> Exit destructor
+19058.6 <c-42#113:10> Destructing logger

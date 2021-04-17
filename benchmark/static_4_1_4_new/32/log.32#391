@@ -1,0 +1,42 @@
+67335.8 <c-32#391> Created logger
+67335.9 <c-32#391> appl_initialize was called
+67335.9 <c-32#391:0> Logger was updated
+67335.9 <c-32#391:0> Started intializing cube lib
+67335.9 <c-32#391:0> Cube generation has started
+67336.2 <c-32#391:0> Cube generation has finished
+67336.2 <c-32#391:0> Shuffling created cubes
+67336.2 <c-32#391:0> Finished intializing cube lib with root and worker, starting to work
+67336.3 <c-32#391:0> requestCubes => [32] Buffer size: 0
+67336.3 <c-32#391:0> Sent requestCubes signal to root
+67336.3 <c-32#391:0> Received requestCubes signal from 32
+67336.3 <c-32#391:0> sendCubes => [32] Buffer size: 5
+67336.3 <c-32#391:0> Sent 1 cubes to 32
+67336.3 <c-32#391:0> Received 1 cubes from root
+67336.3 <c-32#391:0> The main loop continues
+67336.3 <c-32#391:0> Started solving a cube
+67341.3 <c-32#391:0> Received requestCubes signal from 1
+67341.3 <c-32#391:0> sendCubes => [1] Buffer size: 5
+67341.3 <c-32#391:0> Sent 1 cubes to 1
+67344.2 <c-32#391:0> Received requestCubes signal from 30
+67344.2 <c-32#391:0> sendCubes => [30] Buffer size: 5
+67344.2 <c-32#391:0> Sent 1 cubes to 30
+67344.8 <c-32#391:0> Found a solution: SAT
+67344.8 <c-32#391:0> Leaving the main loop because a solution was found
+67344.8 <c-32#391:0> Found result SAT
+67344.8 <c-32#391:0> appl_interrupt was called
+67344.8 <c-32#391:0> Interrupting worker
+67344.8 <c-32#391:0> appl_interrupt was called
+67344.8 <c-32#391:0> Started withdraw thread
+67344.8 <c-32#391:0> Finished withdrawing lib
+67344.8 <c-32#391:0> Enter destructor of CubeWorker
+67344.8 <c-32#391:0> Time waiting for messages: 0.000
+67344.8 <c-32#391:0> appl_withdraw was called
+67344.8 <c-32#391:0> Enter destructor of CubeWorkerInterface
+67344.8 <c-32#391:0> Enter destructor of CubeRoot
+67344.8 <c-32#391:0> Finished withdraw thread
+67407.7 <c-32#391:0> Enter destructor
+67407.7 <c-32#391:0> Time working: 8.594
+67407.7 <c-32#391:0> Time suspended: 0.000
+67407.7 <c-32#391:0> Joined cleanup thread
+67407.7 <c-32#391:0> Exit destructor
+67407.7 <c-32#391:0> Destructing logger

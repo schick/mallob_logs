@@ -1,0 +1,45 @@
+11103.6 <c-60#130> Created logger
+11103.7 <c-60#130> appl_initialize was called
+11103.7 <c-60#130:10> Logger was updated
+11103.7 <c-60#130:10> Started intializing cube lib
+11103.8 <c-60#130:10> Finished intializing cube lib with worker, starting to work
+11104.8 <c-60#130:10> requestCubes => [15] Buffer size: 0
+11104.8 <c-60#130:10> Sent requestCubes signal to root
+11104.8 <c-60#130:10> Received 1 cubes from root
+11104.8 <c-60#130:10> The main loop continues
+11104.8 <c-60#130:10> Started solving a cube
+11110.2 <c-60#130:10> appl_pause was called
+11110.2 <c-60#130:10> Set suspended
+11110.2 <c-60#130:10> Suspending worker
+11110.2 <c-60#130:10> SUSPEND (0.01s since last cb)
+11264 <c-60#130:10> appl_unpause was called
+11264 <c-60#130:10> Set unsuspended
+11264 <c-60#130:10> Resuming worker
+11264 <c-60#130:10> RESUME
+11265.5 <c-60#130:10> appl_pause was called
+11265.5 <c-60#130:10> Set suspended
+11265.5 <c-60#130:10> Suspending worker
+11265.5 <c-60#130:10> SUSPEND (0.00s since last cb)
+11295.3 <c-60#130:10> appl_interrupt was called
+11295.3 <c-60#130:10> Interrupting worker
+11295.3 <c-60#130:10> Resuming worker to allow interruption
+11295.3 <c-60#130:10> RESUME
+11295.3 <c-60#130:10> STOP after suspension
+11295.3 <c-60#130:10> Solving interrupted
+11295.3 <c-60#130:10> The main loop continues
+11295.3 <c-60#130:10> Leaving the main loop due to an interruption
+11295.3 <c-60#130:10> appl_interrupt was called
+11295.3 <c-60#130:10> appl_withdraw was called
+11295.3 <c-60#130:10> Started withdraw thread
+11295.3 <c-60#130:10> Finished withdrawing lib
+11295.3 <c-60#130:10> Enter destructor of CubeWorker
+11295.3 <c-60#130:10> Time waiting for messages: 0.001
+11295.4 <c-60#130:10> Enter destructor of CubeWorkerInterface
+11295.4 <c-60#130:10> Enter destructor of CubeRoot
+11295.4 <c-60#130:10> Finished withdraw thread
+11356.6 <c-60#130:10> Enter destructor
+11356.6 <c-60#130:10> Time working: 1.565
+11356.6 <c-60#130:10> Time suspended: 29.761
+11356.6 <c-60#130:10> Joined cleanup thread
+11356.6 <c-60#130:10> Exit destructor
+11356.6 <c-60#130:10> Destructing logger

@@ -1,0 +1,45 @@
+58474 <c-13#335> Created logger
+58474.1 <c-13#335> appl_initialize was called
+58474.1 <c-13#335:18> Logger was updated
+58474.1 <c-13#335:18> Started intializing cube lib
+58474.1 <c-13#335:18> Finished intializing cube lib with worker, starting to work
+58476.6 <c-13#335:18> requestCubes => [39] Buffer size: 0
+58476.6 <c-13#335:18> Sent requestCubes signal to root
+58476.6 <c-13#335:18> Received 1 cubes from root
+58476.6 <c-13#335:18> The main loop continues
+58476.6 <c-13#335:18> Started solving a cube
+58491.3 <c-13#335:18> appl_pause was called
+58491.3 <c-13#335:18> Set suspended
+58491.3 <c-13#335:18> Suspending worker
+58491.3 <c-13#335:18> SUSPEND (0.00s since last cb)
+58725.6 <c-13#335:18> appl_unpause was called
+58725.6 <c-13#335:18> Set unsuspended
+58725.6 <c-13#335:18> Resuming worker
+58725.6 <c-13#335:18> RESUME
+58740.4 <c-13#335:18> appl_pause was called
+58740.4 <c-13#335:18> Set suspended
+58740.4 <c-13#335:18> Suspending worker
+58741.2 <c-13#335:18> SUSPEND (0.75s since last cb)
+58952 <c-13#335:18> appl_interrupt was called
+58952 <c-13#335:18> Interrupting worker
+58952 <c-13#335:18> Resuming worker to allow interruption
+58952 <c-13#335:18> RESUME
+58952 <c-13#335:18> STOP after suspension
+58952 <c-13#335:18> Solving interrupted
+58952 <c-13#335:18> The main loop continues
+58952 <c-13#335:18> Leaving the main loop due to an interruption
+58952 <c-13#335:18> appl_interrupt was called
+58952 <c-13#335:18> appl_withdraw was called
+58952 <c-13#335:18> Started withdraw thread
+58952 <c-13#335:18> Finished withdrawing lib
+58952 <c-13#335:18> Enter destructor of CubeWorker
+58952 <c-13#335:18> Time waiting for messages: 0.000
+58952.2 <c-13#335:18> Enter destructor of CubeWorkerInterface
+58952.2 <c-13#335:18> Enter destructor of CubeRoot
+58952.2 <c-13#335:18> Finished withdraw thread
+59014.2 <c-13#335:18> Enter destructor
+59014.2 <c-13#335:18> Time working: 14.832
+59014.2 <c-13#335:18> Time suspended: 211.594
+59014.2 <c-13#335:18> Joined cleanup thread
+59014.2 <c-13#335:18> Exit destructor
+59014.2 <c-13#335:18> Destructing logger

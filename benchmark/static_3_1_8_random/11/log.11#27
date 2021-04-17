@@ -1,0 +1,45 @@
+2031.37 <c-11#27> Created logger
+2031.37 <c-11#27> appl_initialize was called
+2031.37 <c-11#27:22> Logger was updated
+2031.37 <c-11#27:22> Started intializing cube lib
+2031.37 <c-11#27:22> Finished intializing cube lib with worker, starting to work
+2031.46 <c-11#27:22> requestCubes => [39] Buffer size: 0
+2031.46 <c-11#27:22> Sent requestCubes signal to root
+2031.47 <c-11#27:22> Received 1 cubes from root
+2031.47 <c-11#27:22> The main loop continues
+2031.47 <c-11#27:22> Started solving a cube
+2044.57 <c-11#27:22> appl_pause was called
+2044.57 <c-11#27:22> Set suspended
+2044.57 <c-11#27:22> Suspending worker
+2044.57 <c-11#27:22> SUSPEND (0.00s since last cb)
+2508.83 <c-11#27:22> appl_unpause was called
+2508.83 <c-11#27:22> Set unsuspended
+2508.83 <c-11#27:22> Resuming worker
+2508.83 <c-11#27:22> RESUME
+2548.75 <c-11#27:22> appl_pause was called
+2548.75 <c-11#27:22> Set suspended
+2548.75 <c-11#27:22> Suspending worker
+2548.75 <c-11#27:22> SUSPEND (0.00s since last cb)
+3006.51 <c-11#27:22> appl_interrupt was called
+3006.51 <c-11#27:22> Interrupting worker
+3006.51 <c-11#27:22> Resuming worker to allow interruption
+3006.51 <c-11#27:22> RESUME
+3006.51 <c-11#27:22> STOP after suspension
+3006.51 <c-11#27:22> appl_interrupt was called
+3006.51 <c-11#27:22> appl_withdraw was called
+3006.51 <c-11#27:22> Started withdraw thread
+3006.53 <c-11#27:22> Solving interrupted
+3006.53 <c-11#27:22> The main loop continues
+3006.53 <c-11#27:22> Leaving the main loop due to an interruption
+3006.53 <c-11#27:22> Finished withdrawing lib
+3006.53 <c-11#27:22> Enter destructor of CubeWorker
+3006.53 <c-11#27:22> Time waiting for messages: 0.000
+3006.53 <c-11#27:22> Enter destructor of CubeWorkerInterface
+3006.54 <c-11#27:22> Enter destructor of CubeRoot
+3006.54 <c-11#27:22> Finished withdraw thread
+3067.73 <c-11#27:22> Enter destructor
+3067.73 <c-11#27:22> Time working: 39.916
+3067.73 <c-11#27:22> Time suspended: 457.757
+3067.73 <c-11#27:22> Joined cleanup thread
+3067.73 <c-11#27:22> Exit destructor
+3067.73 <c-11#27:22> Destructing logger

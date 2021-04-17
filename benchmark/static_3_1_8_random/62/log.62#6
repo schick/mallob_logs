@@ -1,0 +1,51 @@
+22.3646 <c-62#6> Created logger
+22.3695 <c-62#6> appl_initialize was called
+22.3695 <c-62#6:2> Logger was updated
+22.3695 <c-62#6:2> Started intializing cube lib
+22.3696 <c-62#6:2> Finished intializing cube lib with worker, starting to work
+22.4644 <c-62#6:2> requestCubes => [20] Buffer size: 0
+22.4645 <c-62#6:2> Sent requestCubes signal to root
+22.4649 <c-62#6:2> Received 1 cubes from root
+22.4649 <c-62#6:2> The main loop continues
+22.4649 <c-62#6:2> Started solving a cube
+22.9836 <c-62#6:2> appl_pause was called
+22.9836 <c-62#6:2> Set suspended
+22.9836 <c-62#6:2> Suspending worker
+22.9849 <c-62#6:2> appl_unpause was called
+22.9849 <c-62#6:2> Set unsuspended
+22.9849 <c-62#6:2> Resuming worker
+23.0962 <c-62#6:2> appl_pause was called
+23.0963 <c-62#6:2> Set suspended
+23.0963 <c-62#6:2> Suspending worker
+23.0963 <c-62#6:2> SUSPEND (0.00s since last cb)
+23.2032 <c-62#6:2> appl_unpause was called
+23.2033 <c-62#6:2> Set unsuspended
+23.2033 <c-62#6:2> Resuming worker
+23.2033 <c-62#6:2> RESUME
+23.3036 <c-62#6:2> appl_pause was called
+23.3037 <c-62#6:2> Set suspended
+23.3037 <c-62#6:2> Suspending worker
+23.3316 <c-62#6:2> SUSPEND (0.08s since last cb)
+127.996 <c-62#6:2> appl_interrupt was called
+127.996 <c-62#6:2> Interrupting worker
+127.996 <c-62#6:2> Resuming worker to allow interruption
+127.996 <c-62#6:2> RESUME
+127.996 <c-62#6:2> STOP after suspension
+127.996 <c-62#6:2> Solving interrupted
+127.996 <c-62#6:2> The main loop continues
+127.996 <c-62#6:2> Leaving the main loop due to an interruption
+127.996 <c-62#6:2> appl_interrupt was called
+127.996 <c-62#6:2> appl_withdraw was called
+127.996 <c-62#6:2> Started withdraw thread
+127.996 <c-62#6:2> Finished withdrawing lib
+127.996 <c-62#6:2> Enter destructor of CubeWorker
+127.996 <c-62#6:2> Time waiting for messages: 0.000
+128.019 <c-62#6:2> Enter destructor of CubeWorkerInterface
+128.019 <c-62#6:2> Enter destructor of CubeRoot
+128.019 <c-62#6:2> Finished withdraw thread
+189.551 <c-62#6:2> Enter destructor
+189.551 <c-62#6:2> Time working: 0.100
+189.551 <c-62#6:2> Time suspended: 104.692
+189.551 <c-62#6:2> Joined cleanup thread
+189.551 <c-62#6:2> Exit destructor
+189.551 <c-62#6:2> Destructing logger

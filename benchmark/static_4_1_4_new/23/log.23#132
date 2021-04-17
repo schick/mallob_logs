@@ -1,0 +1,45 @@
+22960 <c-23#132> Created logger
+22960.8 <c-23#132> appl_initialize was called
+22960.8 <c-23#132:28> Logger was updated
+22960.8 <c-23#132:28> Started intializing cube lib
+22960.8 <c-23#132:28> Finished intializing cube lib with worker, starting to work
+22965 <c-23#132:28> requestCubes => [60] Buffer size: 0
+22965 <c-23#132:28> Sent requestCubes signal to root
+22965 <c-23#132:28> Received 1 cubes from root
+22965 <c-23#132:28> The main loop continues
+22965 <c-23#132:28> Started solving a cube
+22972 <c-23#132:28> appl_pause was called
+22972 <c-23#132:28> Set suspended
+22972 <c-23#132:28> Suspending worker
+22972 <c-23#132:28> SUSPEND (0.00s since last cb)
+23023.1 <c-23#132:28> appl_unpause was called
+23023.1 <c-23#132:28> Set unsuspended
+23023.1 <c-23#132:28> Resuming worker
+23023.1 <c-23#132:28> RESUME
+23074.9 <c-23#132:28> appl_pause was called
+23074.9 <c-23#132:28> Set suspended
+23074.9 <c-23#132:28> Suspending worker
+23075.9 <c-23#132:28> SUSPEND (1.76s since last cb)
+23179.8 <c-23#132:28> appl_interrupt was called
+23179.8 <c-23#132:28> Interrupting worker
+23179.8 <c-23#132:28> Resuming worker to allow interruption
+23179.8 <c-23#132:28> RESUME
+23179.8 <c-23#132:28> STOP after suspension
+23179.8 <c-23#132:28> Solving interrupted
+23179.8 <c-23#132:28> The main loop continues
+23179.8 <c-23#132:28> Leaving the main loop due to an interruption
+23179.8 <c-23#132:28> appl_interrupt was called
+23179.8 <c-23#132:28> appl_withdraw was called
+23179.8 <c-23#132:28> Started withdraw thread
+23179.8 <c-23#132:28> Finished withdrawing lib
+23179.8 <c-23#132:28> Enter destructor of CubeWorker
+23179.8 <c-23#132:28> Time waiting for messages: 0.000
+23180.4 <c-23#132:28> Enter destructor of CubeWorkerInterface
+23180.4 <c-23#132:28> Enter destructor of CubeRoot
+23180.4 <c-23#132:28> Finished withdraw thread
+23240.1 <c-23#132:28> Enter destructor
+23240.1 <c-23#132:28> Time working: 51.805
+23240.1 <c-23#132:28> Time suspended: 104.914
+23240.1 <c-23#132:28> Joined cleanup thread
+23240.1 <c-23#132:28> Exit destructor
+23240.1 <c-23#132:28> Destructing logger

@@ -1,0 +1,45 @@
+31436.9 <c-13#368> Created logger
+31437 <c-13#368> appl_initialize was called
+31437 <c-13#368:9> Logger was updated
+31437 <c-13#368:9> Started intializing cube lib
+31437 <c-13#368:9> Finished intializing cube lib with worker, starting to work
+31438.1 <c-13#368:9> requestCubes => [54] Buffer size: 0
+31438.1 <c-13#368:9> Sent requestCubes signal to root
+31438.1 <c-13#368:9> Received 1 cubes from root
+31438.1 <c-13#368:9> The main loop continues
+31438.1 <c-13#368:9> Started solving a cube
+31457.8 <c-13#368:9> appl_pause was called
+31457.8 <c-13#368:9> Set suspended
+31457.8 <c-13#368:9> Suspending worker
+31457.8 <c-13#368:9> SUSPEND (0.00s since last cb)
+31764.6 <c-13#368:9> appl_unpause was called
+31764.6 <c-13#368:9> Set unsuspended
+31764.6 <c-13#368:9> Resuming worker
+31764.6 <c-13#368:9> RESUME
+31765.2 <c-13#368:9> appl_pause was called
+31765.2 <c-13#368:9> Set suspended
+31765.2 <c-13#368:9> Suspending worker
+31765.2 <c-13#368:9> SUSPEND (0.24s since last cb)
+32052 <c-13#368:9> appl_interrupt was called
+32052 <c-13#368:9> Interrupting worker
+32052 <c-13#368:9> Resuming worker to allow interruption
+32052 <c-13#368:9> RESUME
+32052 <c-13#368:9> STOP after suspension
+32052 <c-13#368:9> appl_interrupt was called
+32052 <c-13#368:9> appl_withdraw was called
+32052 <c-13#368:9> Started withdraw thread
+32052.3 <c-13#368:9> Solving interrupted
+32052.3 <c-13#368:9> The main loop continues
+32052.3 <c-13#368:9> Leaving the main loop due to an interruption
+32052.3 <c-13#368:9> Finished withdrawing lib
+32052.3 <c-13#368:9> Enter destructor of CubeWorker
+32052.3 <c-13#368:9> Time waiting for messages: 0.000
+32052.3 <c-13#368:9> Enter destructor of CubeWorkerInterface
+32052.3 <c-13#368:9> Enter destructor of CubeRoot
+32052.3 <c-13#368:9> Finished withdraw thread
+32113.4 <c-13#368:9> Enter destructor
+32113.4 <c-13#368:9> Time working: 0.607
+32113.4 <c-13#368:9> Time suspended: 286.789
+32113.4 <c-13#368:9> Joined cleanup thread
+32113.4 <c-13#368:9> Exit destructor
+32113.4 <c-13#368:9> Destructing logger

@@ -1,0 +1,45 @@
+25155 <c-51#146> Created logger
+25155 <c-51#146> appl_initialize was called
+25155 <c-51#146:54> Logger was updated
+25155 <c-51#146:54> Started intializing cube lib
+25155 <c-51#146:54> Finished intializing cube lib with worker, starting to work
+25155.1 <c-51#146:54> requestCubes => [3] Buffer size: 0
+25155.1 <c-51#146:54> Sent requestCubes signal to root
+25155.1 <c-51#146:54> Received 1 cubes from root
+25155.1 <c-51#146:54> The main loop continues
+25155.1 <c-51#146:54> Started solving a cube
+25195 <c-51#146:54> appl_pause was called
+25195 <c-51#146:54> Set suspended
+25195 <c-51#146:54> Suspending worker
+25195 <c-51#146:54> SUSPEND (0.02s since last cb)
+25449.5 <c-51#146:54> appl_unpause was called
+25449.5 <c-51#146:54> Set unsuspended
+25449.5 <c-51#146:54> Resuming worker
+25449.5 <c-51#146:54> RESUME
+25460.9 <c-51#146:54> appl_pause was called
+25460.9 <c-51#146:54> Set suspended
+25460.9 <c-51#146:54> Suspending worker
+25460.9 <c-51#146:54> SUSPEND (0.00s since last cb)
+25779.6 <c-51#146:54> appl_interrupt was called
+25779.6 <c-51#146:54> Interrupting worker
+25779.6 <c-51#146:54> Resuming worker to allow interruption
+25779.6 <c-51#146:54> RESUME
+25779.6 <c-51#146:54> STOP after suspension
+25779.6 <c-51#146:54> Solving interrupted
+25779.6 <c-51#146:54> The main loop continues
+25779.6 <c-51#146:54> Leaving the main loop due to an interruption
+25779.6 <c-51#146:54> appl_interrupt was called
+25779.6 <c-51#146:54> appl_withdraw was called
+25779.6 <c-51#146:54> Started withdraw thread
+25779.6 <c-51#146:54> Finished withdrawing lib
+25779.6 <c-51#146:54> Enter destructor of CubeWorker
+25779.6 <c-51#146:54> Time waiting for messages: 0.000
+25779.7 <c-51#146:54> Enter destructor of CubeWorkerInterface
+25779.7 <c-51#146:54> Enter destructor of CubeRoot
+25779.7 <c-51#146:54> Finished withdraw thread
+25840 <c-51#146:54> Enter destructor
+25840 <c-51#146:54> Time working: 11.352
+25840 <c-51#146:54> Time suspended: 318.789
+25840 <c-51#146:54> Joined cleanup thread
+25840 <c-51#146:54> Exit destructor
+25840 <c-51#146:54> Destructing logger

@@ -1,0 +1,45 @@
+33357.8 <c-37#389> Created logger
+33358 <c-37#389> appl_initialize was called
+33358 <c-37#389:7> Logger was updated
+33358 <c-37#389:7> Started intializing cube lib
+33358 <c-37#389:7> Finished intializing cube lib with worker, starting to work
+33361.8 <c-37#389:7> requestCubes => [35] Buffer size: 0
+33361.8 <c-37#389:7> Sent requestCubes signal to root
+33361.8 <c-37#389:7> Received 1 cubes from root
+33361.8 <c-37#389:7> The main loop continues
+33361.8 <c-37#389:7> Started solving a cube
+33437.1 <c-37#389:7> appl_pause was called
+33437.1 <c-37#389:7> Set suspended
+33437.1 <c-37#389:7> Suspending worker
+33439.7 <c-37#389:7> SUSPEND (4.96s since last cb)
+33447.6 <c-37#389:7> appl_unpause was called
+33447.6 <c-37#389:7> Set unsuspended
+33447.6 <c-37#389:7> Resuming worker
+33447.6 <c-37#389:7> RESUME
+33481.5 <c-37#389:7> appl_pause was called
+33481.5 <c-37#389:7> Set suspended
+33481.5 <c-37#389:7> Suspending worker
+33481.5 <c-37#389:7> SUSPEND (0.00s since last cb)
+34052.2 <c-37#389:7> appl_interrupt was called
+34052.2 <c-37#389:7> Interrupting worker
+34052.2 <c-37#389:7> Resuming worker to allow interruption
+34052.2 <c-37#389:7> RESUME
+34052.2 <c-37#389:7> STOP after suspension
+34052.2 <c-37#389:7> appl_interrupt was called
+34052.2 <c-37#389:7> appl_withdraw was called
+34052.2 <c-37#389:7> Started withdraw thread
+34055.6 <c-37#389:7> Solving interrupted
+34055.6 <c-37#389:7> The main loop continues
+34055.6 <c-37#389:7> Leaving the main loop due to an interruption
+34055.6 <c-37#389:7> Finished withdrawing lib
+34055.6 <c-37#389:7> Enter destructor of CubeWorker
+34055.6 <c-37#389:7> Time waiting for messages: 0.000
+34056.2 <c-37#389:7> Enter destructor of CubeWorkerInterface
+34056.2 <c-37#389:7> Enter destructor of CubeRoot
+34056.2 <c-37#389:7> Finished withdraw thread
+34115.1 <c-37#389:7> Enter destructor
+34115.1 <c-37#389:7> Time working: 33.914
+34115.1 <c-37#389:7> Time suspended: 570.711
+34115.1 <c-37#389:7> Joined cleanup thread
+34115.1 <c-37#389:7> Exit destructor
+34115.1 <c-37#389:7> Destructing logger

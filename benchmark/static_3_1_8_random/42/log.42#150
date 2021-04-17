@@ -1,0 +1,45 @@
+12304.7 <c-42#150> Created logger
+12305 <c-42#150> appl_initialize was called
+12305 <c-42#150:12> Logger was updated
+12305 <c-42#150:12> Started intializing cube lib
+12305 <c-42#150:12> Finished intializing cube lib with worker, starting to work
+12308.8 <c-42#150:12> requestCubes => [30] Buffer size: 0
+12308.8 <c-42#150:12> Sent requestCubes signal to root
+12308.8 <c-42#150:12> Received 1 cubes from root
+12308.8 <c-42#150:12> The main loop continues
+12308.8 <c-42#150:12> Started solving a cube
+12321.7 <c-42#150:12> appl_pause was called
+12321.7 <c-42#150:12> Set suspended
+12321.7 <c-42#150:12> Suspending worker
+12321.7 <c-42#150:12> SUSPEND (0.01s since last cb)
+12342.8 <c-42#150:12> appl_unpause was called
+12342.8 <c-42#150:12> Set unsuspended
+12342.8 <c-42#150:12> Resuming worker
+12342.8 <c-42#150:12> RESUME
+12378.2 <c-42#150:12> appl_pause was called
+12378.2 <c-42#150:12> Set suspended
+12378.2 <c-42#150:12> Suspending worker
+12379.2 <c-42#150:12> SUSPEND (1.78s since last cb)
+12574.3 <c-42#150:12> appl_interrupt was called
+12574.3 <c-42#150:12> Interrupting worker
+12574.3 <c-42#150:12> Resuming worker to allow interruption
+12574.3 <c-42#150:12> RESUME
+12574.3 <c-42#150:12> STOP after suspension
+12574.3 <c-42#150:12> Solving interrupted
+12574.3 <c-42#150:12> The main loop continues
+12574.3 <c-42#150:12> Leaving the main loop due to an interruption
+12574.3 <c-42#150:12> appl_interrupt was called
+12574.3 <c-42#150:12> appl_withdraw was called
+12574.3 <c-42#150:12> Started withdraw thread
+12574.3 <c-42#150:12> Finished withdrawing lib
+12574.3 <c-42#150:12> Enter destructor of CubeWorker
+12574.3 <c-42#150:12> Time waiting for messages: 0.000
+12574.6 <c-42#150:12> Enter destructor of CubeWorkerInterface
+12574.6 <c-42#150:12> Enter destructor of CubeRoot
+12574.7 <c-42#150:12> Finished withdraw thread
+12635.9 <c-42#150:12> Enter destructor
+12635.9 <c-42#150:12> Time working: 35.485
+12635.9 <c-42#150:12> Time suspended: 196.050
+12635.9 <c-42#150:12> Joined cleanup thread
+12635.9 <c-42#150:12> Exit destructor
+12635.9 <c-42#150:12> Destructing logger

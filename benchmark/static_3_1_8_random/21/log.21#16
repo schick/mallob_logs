@@ -1,0 +1,45 @@
+1128.05 <c-21#16> Created logger
+1128.2 <c-21#16> appl_initialize was called
+1128.2 <c-21#16:9> Logger was updated
+1128.2 <c-21#16:9> Started intializing cube lib
+1128.21 <c-21#16:9> Finished intializing cube lib with worker, starting to work
+1130.06 <c-21#16:9> requestCubes => [52] Buffer size: 0
+1130.06 <c-21#16:9> Sent requestCubes signal to root
+1130.06 <c-21#16:9> Received 1 cubes from root
+1130.06 <c-21#16:9> The main loop continues
+1130.06 <c-21#16:9> Started solving a cube
+1140.12 <c-21#16:9> appl_pause was called
+1140.12 <c-21#16:9> Set suspended
+1140.12 <c-21#16:9> Suspending worker
+1140.48 <c-21#16:9> SUSPEND (0.37s since last cb)
+1144.09 <c-21#16:9> appl_unpause was called
+1144.09 <c-21#16:9> Set unsuspended
+1144.09 <c-21#16:9> Resuming worker
+1144.09 <c-21#16:9> RESUME
+1191.94 <c-21#16:9> appl_pause was called
+1191.94 <c-21#16:9> Set suspended
+1191.94 <c-21#16:9> Suspending worker
+1191.94 <c-21#16:9> SUSPEND (0.00s since last cb)
+2006.99 <c-21#16:9> appl_interrupt was called
+2006.99 <c-21#16:9> Interrupting worker
+2006.99 <c-21#16:9> Resuming worker to allow interruption
+2006.99 <c-21#16:9> RESUME
+2006.99 <c-21#16:9> STOP after suspension
+2006.99 <c-21#16:9> Solving interrupted
+2006.99 <c-21#16:9> The main loop continues
+2006.99 <c-21#16:9> Leaving the main loop due to an interruption
+2006.99 <c-21#16:9> appl_interrupt was called
+2006.99 <c-21#16:9> appl_withdraw was called
+2007 <c-21#16:9> Started withdraw thread
+2007.01 <c-21#16:9> Finished withdrawing lib
+2007.01 <c-21#16:9> Enter destructor of CubeWorker
+2007.01 <c-21#16:9> Time waiting for messages: 0.000
+2007.13 <c-21#16:9> Enter destructor of CubeWorkerInterface
+2007.13 <c-21#16:9> Enter destructor of CubeRoot
+2007.15 <c-21#16:9> Finished withdraw thread
+2068.1 <c-21#16:9> Enter destructor
+2068.1 <c-21#16:9> Time working: 47.849
+2068.1 <c-21#16:9> Time suspended: 815.043
+2068.1 <c-21#16:9> Joined cleanup thread
+2068.1 <c-21#16:9> Exit destructor
+2068.1 <c-21#16:9> Destructing logger

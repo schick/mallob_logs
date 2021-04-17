@@ -1,0 +1,45 @@
+9308.16 <c-28#56> Created logger
+9308.5 <c-28#56> appl_initialize was called
+9308.5 <c-28#56:15> Logger was updated
+9308.5 <c-28#56:15> Started intializing cube lib
+9308.5 <c-28#56:15> Finished intializing cube lib with worker, starting to work
+9314.92 <c-28#56:15> requestCubes => [41] Buffer size: 0
+9314.92 <c-28#56:15> Sent requestCubes signal to root
+9314.92 <c-28#56:15> Received 1 cubes from root
+9314.92 <c-28#56:15> The main loop continues
+9314.92 <c-28#56:15> Started solving a cube
+9333.54 <c-28#56:15> appl_pause was called
+9333.54 <c-28#56:15> Set suspended
+9333.54 <c-28#56:15> Suspending worker
+9333.55 <c-28#56:15> SUSPEND (0.01s since last cb)
+9418.86 <c-28#56:15> appl_unpause was called
+9418.86 <c-28#56:15> Set unsuspended
+9418.86 <c-28#56:15> Resuming worker
+9418.86 <c-28#56:15> RESUME
+9444.28 <c-28#56:15> appl_pause was called
+9444.28 <c-28#56:15> Set suspended
+9444.28 <c-28#56:15> Suspending worker
+9444.28 <c-28#56:15> SUSPEND (0.00s since last cb)
+9558.55 <c-28#56:15> appl_interrupt was called
+9558.55 <c-28#56:15> Interrupting worker
+9558.55 <c-28#56:15> Resuming worker to allow interruption
+9558.55 <c-28#56:15> RESUME
+9558.55 <c-28#56:15> STOP after suspension
+9558.58 <c-28#56:15> appl_interrupt was called
+9558.58 <c-28#56:15> appl_withdraw was called
+9558.58 <c-28#56:15> Started withdraw thread
+9559.88 <c-28#56:15> Solving interrupted
+9559.88 <c-28#56:15> The main loop continues
+9559.88 <c-28#56:15> Leaving the main loop due to an interruption
+9559.88 <c-28#56:15> Finished withdrawing lib
+9559.88 <c-28#56:15> Enter destructor of CubeWorker
+9559.88 <c-28#56:15> Time waiting for messages: 0.000
+9560.09 <c-28#56:15> Enter destructor of CubeWorkerInterface
+9560.09 <c-28#56:15> Enter destructor of CubeRoot
+9560.11 <c-28#56:15> Finished withdraw thread
+9618.81 <c-28#56:15> Enter destructor
+9618.81 <c-28#56:15> Time working: 25.419
+9618.81 <c-28#56:15> Time suspended: 114.299
+9618.81 <c-28#56:15> Joined cleanup thread
+9618.81 <c-28#56:15> Exit destructor
+9618.81 <c-28#56:15> Destructing logger

@@ -1,0 +1,45 @@
+27628.3 <c-50#320> Created logger
+27629.8 <c-50#320> appl_initialize was called
+27629.8 <c-50#320:8> Logger was updated
+27629.8 <c-50#320:8> Started intializing cube lib
+27629.8 <c-50#320:8> Finished intializing cube lib with worker, starting to work
+27666.5 <c-50#320:8> requestCubes => [28] Buffer size: 0
+27666.5 <c-50#320:8> Sent requestCubes signal to root
+27666.5 <c-50#320:8> Received 1 cubes from root
+27666.5 <c-50#320:8> The main loop continues
+27666.5 <c-50#320:8> Started solving a cube
+27802 <c-50#320:8> appl_pause was called
+27802 <c-50#320:8> Set suspended
+27802 <c-50#320:8> Suspending worker
+27804 <c-50#320:8> SUSPEND (8.03s since last cb)
+27958 <c-50#320:8> appl_unpause was called
+27958 <c-50#320:8> Set unsuspended
+27958 <c-50#320:8> Resuming worker
+27958 <c-50#320:8> RESUME
+27995.6 <c-50#320:8> appl_pause was called
+27995.6 <c-50#320:8> Set suspended
+27995.6 <c-50#320:8> Suspending worker
+28004.1 <c-50#320:8> SUSPEND (10.34s since last cb)
+28188.8 <c-50#320:8> appl_interrupt was called
+28188.8 <c-50#320:8> Interrupting worker
+28188.8 <c-50#320:8> Resuming worker to allow interruption
+28188.8 <c-50#320:8> RESUME
+28188.8 <c-50#320:8> STOP after suspension
+28188.8 <c-50#320:8> appl_interrupt was called
+28188.8 <c-50#320:8> appl_withdraw was called
+28188.9 <c-50#320:8> Started withdraw thread
+28202.1 <c-50#320:8> Solving interrupted
+28202.1 <c-50#320:8> The main loop continues
+28202.1 <c-50#320:8> Leaving the main loop due to an interruption
+28202.1 <c-50#320:8> Finished withdrawing lib
+28202.1 <c-50#320:8> Enter destructor of CubeWorker
+28202.1 <c-50#320:8> Time waiting for messages: 0.000
+28202.6 <c-50#320:8> Enter destructor of CubeWorkerInterface
+28202.6 <c-50#320:8> Enter destructor of CubeRoot
+28202.7 <c-50#320:8> Finished withdraw thread
+28249.5 <c-50#320:8> Enter destructor
+28249.5 <c-50#320:8> Time working: 37.543
+28249.5 <c-50#320:8> Time suspended: 193.230
+28249.5 <c-50#320:8> Joined cleanup thread
+28249.5 <c-50#320:8> Exit destructor
+28249.5 <c-50#320:8> Destructing logger

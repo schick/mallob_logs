@@ -1,0 +1,45 @@
+31599.1 <c-6#184> Created logger
+31599.4 <c-6#184> appl_initialize was called
+31599.4 <c-6#184:20> Logger was updated
+31599.4 <c-6#184:20> Started intializing cube lib
+31599.4 <c-6#184:20> Finished intializing cube lib with worker, starting to work
+31602.7 <c-6#184:20> requestCubes => [42] Buffer size: 0
+31602.7 <c-6#184:20> Sent requestCubes signal to root
+31602.7 <c-6#184:20> Received 1 cubes from root
+31602.7 <c-6#184:20> The main loop continues
+31602.7 <c-6#184:20> Started solving a cube
+31624 <c-6#184:20> appl_pause was called
+31624 <c-6#184:20> Set suspended
+31624 <c-6#184:20> Suspending worker
+31624.5 <c-6#184:20> SUSPEND (0.83s since last cb)
+31630.5 <c-6#184:20> appl_unpause was called
+31630.5 <c-6#184:20> Set unsuspended
+31630.5 <c-6#184:20> Resuming worker
+31630.5 <c-6#184:20> RESUME
+31691.4 <c-6#184:20> appl_pause was called
+31691.4 <c-6#184:20> Set suspended
+31691.4 <c-6#184:20> Suspending worker
+31691.4 <c-6#184:20> SUSPEND (0.13s since last cb)
+32026.1 <c-6#184:20> appl_interrupt was called
+32026.1 <c-6#184:20> Interrupting worker
+32026.1 <c-6#184:20> Resuming worker to allow interruption
+32026.1 <c-6#184:20> RESUME
+32026.1 <c-6#184:20> STOP after suspension
+32026.1 <c-6#184:20> Solving interrupted
+32026.1 <c-6#184:20> The main loop continues
+32026.1 <c-6#184:20> Leaving the main loop due to an interruption
+32026.1 <c-6#184:20> appl_interrupt was called
+32026.1 <c-6#184:20> appl_withdraw was called
+32026.2 <c-6#184:20> Started withdraw thread
+32026.2 <c-6#184:20> Finished withdrawing lib
+32026.2 <c-6#184:20> Enter destructor of CubeWorker
+32026.2 <c-6#184:20> Time waiting for messages: 0.002
+32028 <c-6#184:20> Enter destructor of CubeWorkerInterface
+32028 <c-6#184:20> Enter destructor of CubeRoot
+32028 <c-6#184:20> Finished withdraw thread
+32086.9 <c-6#184:20> Enter destructor
+32086.9 <c-6#184:20> Time working: 60.893
+32086.9 <c-6#184:20> Time suspended: 334.678
+32086.9 <c-6#184:20> Joined cleanup thread
+32086.9 <c-6#184:20> Exit destructor
+32086.9 <c-6#184:20> Destructing logger

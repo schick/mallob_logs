@@ -1,0 +1,45 @@
+30457.9 <c-17#175> Created logger
+30458.1 <c-17#175> appl_initialize was called
+30458.1 <c-17#175:26> Logger was updated
+30458.1 <c-17#175:26> Started intializing cube lib
+30458.1 <c-17#175:26> Finished intializing cube lib with worker, starting to work
+30462.3 <c-17#175:26> requestCubes => [62] Buffer size: 0
+30462.3 <c-17#175:26> Sent requestCubes signal to root
+30462.3 <c-17#175:26> Received 1 cubes from root
+30462.3 <c-17#175:26> The main loop continues
+30462.3 <c-17#175:26> Started solving a cube
+30502.3 <c-17#175:26> appl_pause was called
+30502.3 <c-17#175:26> Set suspended
+30502.3 <c-17#175:26> Suspending worker
+30502.4 <c-17#175:26> SUSPEND (0.23s since last cb)
+30598.8 <c-17#175:26> appl_unpause was called
+30598.8 <c-17#175:26> Set unsuspended
+30598.8 <c-17#175:26> Resuming worker
+30598.8 <c-17#175:26> RESUME
+30626.7 <c-17#175:26> appl_pause was called
+30626.7 <c-17#175:26> Set suspended
+30626.7 <c-17#175:26> Suspending worker
+30640.2 <c-17#175:26> SUSPEND (20.84s since last cb)
+30722.3 <c-17#175:26> appl_interrupt was called
+30722.3 <c-17#175:26> Interrupting worker
+30722.3 <c-17#175:26> Resuming worker to allow interruption
+30722.3 <c-17#175:26> RESUME
+30722.3 <c-17#175:26> STOP after suspension
+30722.3 <c-17#175:26> appl_interrupt was called
+30722.3 <c-17#175:26> appl_withdraw was called
+30722.3 <c-17#175:26> Started withdraw thread
+30725.5 <c-17#175:26> Solving interrupted
+30725.5 <c-17#175:26> The main loop continues
+30725.5 <c-17#175:26> Leaving the main loop due to an interruption
+30725.5 <c-17#175:26> Finished withdrawing lib
+30725.5 <c-17#175:26> Enter destructor of CubeWorker
+30725.5 <c-17#175:26> Time waiting for messages: 0.000
+30725.7 <c-17#175:26> Enter destructor of CubeWorkerInterface
+30725.7 <c-17#175:26> Enter destructor of CubeRoot
+30725.7 <c-17#175:26> Finished withdraw thread
+30784.4 <c-17#175:26> Enter destructor
+30784.4 <c-17#175:26> Time working: 27.861
+30784.4 <c-17#175:26> Time suspended: 95.551
+30784.4 <c-17#175:26> Joined cleanup thread
+30784.4 <c-17#175:26> Exit destructor
+30784.4 <c-17#175:26> Destructing logger

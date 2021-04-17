@@ -1,0 +1,45 @@
+31327.3 <c-42#369> Created logger
+31327.5 <c-42#369> appl_initialize was called
+31327.5 <c-42#369:8> Logger was updated
+31327.5 <c-42#369:8> Started intializing cube lib
+31327.5 <c-42#369:8> Finished intializing cube lib with worker, starting to work
+31330.6 <c-42#369:8> requestCubes => [9] Buffer size: 0
+31330.6 <c-42#369:8> Sent requestCubes signal to root
+31330.6 <c-42#369:8> Received 1 cubes from root
+31330.6 <c-42#369:8> The main loop continues
+31330.6 <c-42#369:8> Started solving a cube
+31514.4 <c-42#369:8> appl_pause was called
+31514.4 <c-42#369:8> Set suspended
+31514.4 <c-42#369:8> Suspending worker
+31514.4 <c-42#369:8> SUSPEND (0.01s since last cb)
+31539.9 <c-42#369:8> appl_unpause was called
+31539.9 <c-42#369:8> Set unsuspended
+31539.9 <c-42#369:8> Resuming worker
+31539.9 <c-42#369:8> RESUME
+31554 <c-42#369:8> appl_pause was called
+31554 <c-42#369:8> Set suspended
+31554 <c-42#369:8> Suspending worker
+31554 <c-42#369:8> SUSPEND (0.00s since last cb)
+32194.2 <c-42#369:8> appl_interrupt was called
+32194.2 <c-42#369:8> Interrupting worker
+32194.2 <c-42#369:8> Resuming worker to allow interruption
+32194.2 <c-42#369:8> RESUME
+32194.2 <c-42#369:8> STOP after suspension
+32194.2 <c-42#369:8> appl_interrupt was called
+32194.2 <c-42#369:8> appl_withdraw was called
+32194.3 <c-42#369:8> Started withdraw thread
+32194.5 <c-42#369:8> Solving interrupted
+32194.5 <c-42#369:8> The main loop continues
+32194.5 <c-42#369:8> Leaving the main loop due to an interruption
+32194.5 <c-42#369:8> Finished withdrawing lib
+32194.5 <c-42#369:8> Enter destructor of CubeWorker
+32194.5 <c-42#369:8> Time waiting for messages: 0.002
+32194.5 <c-42#369:8> Enter destructor of CubeWorkerInterface
+32194.5 <c-42#369:8> Enter destructor of CubeRoot
+32194.6 <c-42#369:8> Finished withdraw thread
+32256.2 <c-42#369:8> Enter destructor
+32256.2 <c-42#369:8> Time working: 14.059
+32256.2 <c-42#369:8> Time suspended: 640.283
+32256.2 <c-42#369:8> Joined cleanup thread
+32256.2 <c-42#369:8> Exit destructor
+32256.2 <c-42#369:8> Destructing logger

@@ -1,0 +1,78 @@
+15701.6 <c-54#195> Created logger
+15701.6 <c-54#195> appl_initialize was called
+15701.6 <c-54#195:0> Logger was updated
+15701.6 <c-54#195:0> Started intializing cube lib
+15701.6 <c-54#195:0> Cube generation has started
+15832.4 <c-54#195:0> Cube generation has finished
+15832.4 <c-54#195:0> Shuffling created cubes
+15832.4 <c-54#195:0> Finished intializing cube lib with root and worker, starting to work
+15833.7 <c-54#195:0> requestCubes => [54] Buffer size: 0
+15833.7 <c-54#195:0> Sent requestCubes signal to root
+15833.7 <c-54#195:0> Received requestCubes signal from 54
+15833.7 <c-54#195:0> sendCubes => [54] Buffer size: 4
+15833.7 <c-54#195:0> Sent 1 cubes to 54
+15833.7 <c-54#195:0> Received 1 cubes from root
+15833.7 <c-54#195:0> The main loop continues
+15833.7 <c-54#195:0> Started solving a cube
+15833.8 <c-54#195:0> Cube failed
+15833.8 <c-54#195:0> Added failed cube
+15833.8 <c-54#195:0> returnFailedCubes => [54] Buffer size: 3
+15833.8 <c-54#195:0> Sent 1 failed cubes to root
+15833.8 <c-54#195:0> Received 1 failed cubes from 54
+15833.8 <c-54#195:0> Pruned 2 root cubes
+15833.8 <c-54#195:0> receivedFailedCubes => [54] Buffer size: 0
+15833.8 <c-54#195:0> Sent receivedFailedCubes signal to 54
+15833.8 <c-54#195:0> Received receivedFailedCubes signal from root
+15833.8 <c-54#195:0> requestCubes => [54] Buffer size: 0
+15833.8 <c-54#195:0> Sent requestCubes signal to root
+15833.8 <c-54#195:0> Received requestCubes signal from 54
+15833.8 <c-54#195:0> sendCubes => [54] Buffer size: 4
+15833.8 <c-54#195:0> Sent 1 cubes to 54
+15833.8 <c-54#195:0> Received 1 cubes from root
+15833.8 <c-54#195:0> The main loop continues
+15833.8 <c-54#195:0> Started solving a cube
+15843.6 <c-54#195:0> Received requestCubes signal from 50
+15843.6 <c-54#195:0> sendCubes => [50] Buffer size: 4
+15843.6 <c-54#195:0> Sent 1 cubes to 50
+15843.7 <c-54#195:0> Received 1 failed cubes from 50
+15843.7 <c-54#195:0> Pruned 1 root cubes
+15843.7 <c-54#195:0> receivedFailedCubes => [50] Buffer size: 0
+15843.7 <c-54#195:0> Sent receivedFailedCubes signal to 50
+15843.7 <c-54#195:0> Received requestCubes signal from 50
+15843.7 <c-54#195:0> sendCubes => [50] Buffer size: 4
+15843.7 <c-54#195:0> Sent 1 cubes to 50
+15843.8 <c-54#195:0> Received 1 failed cubes from 50
+15843.8 <c-54#195:0> Pruned 1 root cubes
+15843.8 <c-54#195:0> receivedFailedCubes => [50] Buffer size: 0
+15843.8 <c-54#195:0> Sent receivedFailedCubes signal to 50
+15843.8 <c-54#195:0> Received requestCubes signal from 50
+15843.8 <c-54#195:0> sendCubes => [50] Buffer size: 4
+15843.8 <c-54#195:0> Sent 1 cubes to 50
+15843.9 <c-54#195:0> Received 1 failed cubes from 50
+15843.9 <c-54#195:0> Pruned 3 root cubes
+15843.9 <c-54#195:0> receivedFailedCubes => [50] Buffer size: 0
+15843.9 <c-54#195:0> Sent receivedFailedCubes signal to 50
+15843.9 <c-54#195:0> Received requestCubes signal from 50
+15843.9 <c-54#195:0> sendCubes => [50] Buffer size: 4
+15843.9 <c-54#195:0> Sent 1 cubes to 50
+15846.6 <c-54#195:0> appl_interrupt was called
+15846.6 <c-54#195:0> Interrupting worker
+15846.6 <c-54#195:0> appl_interrupt was called
+15846.6 <c-54#195:0> appl_withdraw was called
+15846.6 <c-54#195:0> Started withdraw thread
+15849.3 <c-54#195:0> STOP (3.48s since last cb)
+15849.3 <c-54#195:0> Solving interrupted
+15849.3 <c-54#195:0> The main loop continues
+15849.3 <c-54#195:0> Leaving the main loop due to an interruption
+15849.3 <c-54#195:0> Finished withdrawing lib
+15849.3 <c-54#195:0> Enter destructor of CubeWorker
+15849.3 <c-54#195:0> Time waiting for messages: 0.002
+15849.6 <c-54#195:0> Enter destructor of CubeWorkerInterface
+15849.6 <c-54#195:0> Enter destructor of CubeRoot
+15850.8 <c-54#195:0> Finished withdraw thread
+15906.6 <c-54#195:0> Enter destructor
+15906.6 <c-54#195:0> Time working: 14.125
+15906.6 <c-54#195:0> Time suspended: 0.000
+15906.6 <c-54#195:0> Joined cleanup thread
+15906.6 <c-54#195:0> Exit destructor
+15906.6 <c-54#195:0> Destructing logger

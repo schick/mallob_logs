@@ -1,0 +1,45 @@
+29896.8 <c-59#173> Created logger
+29896.9 <c-59#173> appl_initialize was called
+29896.9 <c-59#173:32> Logger was updated
+29896.9 <c-59#173:32> Started intializing cube lib
+29896.9 <c-59#173:32> Finished intializing cube lib with worker, starting to work
+29898.1 <c-59#173:32> requestCubes => [13] Buffer size: 0
+29898.1 <c-59#173:32> Sent requestCubes signal to root
+29898.1 <c-59#173:32> Received 1 cubes from root
+29898.1 <c-59#173:32> The main loop continues
+29898.1 <c-59#173:32> Started solving a cube
+30013.3 <c-59#173:32> appl_pause was called
+30013.3 <c-59#173:32> Set suspended
+30013.3 <c-59#173:32> Suspending worker
+30013.3 <c-59#173:32> SUSPEND (0.01s since last cb)
+30213.1 <c-59#173:32> appl_unpause was called
+30213.1 <c-59#173:32> Set unsuspended
+30213.1 <c-59#173:32> Resuming worker
+30213.1 <c-59#173:32> RESUME
+30241.7 <c-59#173:32> appl_pause was called
+30241.7 <c-59#173:32> Set suspended
+30241.7 <c-59#173:32> Suspending worker
+30241.7 <c-59#173:32> SUSPEND (0.00s since last cb)
+30446.7 <c-59#173:32> appl_interrupt was called
+30446.7 <c-59#173:32> Interrupting worker
+30446.7 <c-59#173:32> Resuming worker to allow interruption
+30446.7 <c-59#173:32> RESUME
+30446.7 <c-59#173:32> STOP after suspension
+30446.7 <c-59#173:32> Solving interrupted
+30446.7 <c-59#173:32> The main loop continues
+30446.7 <c-59#173:32> Leaving the main loop due to an interruption
+30446.7 <c-59#173:32> appl_interrupt was called
+30446.7 <c-59#173:32> appl_withdraw was called
+30446.7 <c-59#173:32> Started withdraw thread
+30446.7 <c-59#173:32> Finished withdrawing lib
+30446.7 <c-59#173:32> Enter destructor of CubeWorker
+30446.7 <c-59#173:32> Time waiting for messages: 0.000
+30446.9 <c-59#173:32> Enter destructor of CubeWorkerInterface
+30446.9 <c-59#173:32> Enter destructor of CubeRoot
+30446.9 <c-59#173:32> Finished withdraw thread
+30508 <c-59#173:32> Enter destructor
+30508 <c-59#173:32> Time working: 28.561
+30508 <c-59#173:32> Time suspended: 205.010
+30508 <c-59#173:32> Joined cleanup thread
+30508 <c-59#173:32> Exit destructor
+30508 <c-59#173:32> Destructing logger

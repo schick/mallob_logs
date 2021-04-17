@@ -1,0 +1,45 @@
+10865.4 <c-56#129> Created logger
+10865.5 <c-56#129> appl_initialize was called
+10865.5 <c-56#129:9> Logger was updated
+10865.5 <c-56#129:9> Started intializing cube lib
+10865.5 <c-56#129:9> Finished intializing cube lib with worker, starting to work
+10868 <c-56#129:9> requestCubes => [57] Buffer size: 0
+10868 <c-56#129:9> Sent requestCubes signal to root
+10868 <c-56#129:9> Received 1 cubes from root
+10868 <c-56#129:9> The main loop continues
+10868 <c-56#129:9> Started solving a cube
+10880.2 <c-56#129:9> appl_pause was called
+10880.2 <c-56#129:9> Set suspended
+10880.2 <c-56#129:9> Suspending worker
+10891.2 <c-56#129:9> SUSPEND (11.37s since last cb)
+10928.5 <c-56#129:9> appl_unpause was called
+10928.5 <c-56#129:9> Set unsuspended
+10928.5 <c-56#129:9> Resuming worker
+10928.5 <c-56#129:9> RESUME
+10960.6 <c-56#129:9> appl_pause was called
+10960.6 <c-56#129:9> Set suspended
+10960.6 <c-56#129:9> Suspending worker
+10960.6 <c-56#129:9> SUSPEND (0.00s since last cb)
+11241.9 <c-56#129:9> appl_interrupt was called
+11241.9 <c-56#129:9> Interrupting worker
+11241.9 <c-56#129:9> Resuming worker to allow interruption
+11241.9 <c-56#129:9> RESUME
+11241.9 <c-56#129:9> STOP after suspension
+11241.9 <c-56#129:9> Solving interrupted
+11241.9 <c-56#129:9> appl_interrupt was called
+11241.9 <c-56#129:9> appl_withdraw was called
+11241.9 <c-56#129:9> The main loop continues
+11241.9 <c-56#129:9> Leaving the main loop due to an interruption
+11242 <c-56#129:9> Started withdraw thread
+11242 <c-56#129:9> Finished withdrawing lib
+11242 <c-56#129:9> Enter destructor of CubeWorker
+11242 <c-56#129:9> Time waiting for messages: 0.001
+11243.7 <c-56#129:9> Enter destructor of CubeWorkerInterface
+11243.7 <c-56#129:9> Enter destructor of CubeRoot
+11243.7 <c-56#129:9> Finished withdraw thread
+11302.5 <c-56#129:9> Enter destructor
+11302.5 <c-56#129:9> Time working: 32.030
+11302.5 <c-56#129:9> Time suspended: 281.371
+11302.5 <c-56#129:9> Joined cleanup thread
+11302.5 <c-56#129:9> Exit destructor
+11302.5 <c-56#129:9> Destructing logger

@@ -1,0 +1,45 @@
+56406.8 <c-42#325> Created logger
+56406.9 <c-42#325> appl_initialize was called
+56406.9 <c-42#325:27> Logger was updated
+56406.9 <c-42#325:27> Started intializing cube lib
+56406.9 <c-42#325:27> Finished intializing cube lib with worker, starting to work
+56409.2 <c-42#325:27> requestCubes => [16] Buffer size: 0
+56409.2 <c-42#325:27> Sent requestCubes signal to root
+56409.2 <c-42#325:27> Received 1 cubes from root
+56409.2 <c-42#325:27> The main loop continues
+56409.2 <c-42#325:27> Started solving a cube
+56415.4 <c-42#325:27> appl_pause was called
+56415.4 <c-42#325:27> Set suspended
+56415.4 <c-42#325:27> Suspending worker
+56415.4 <c-42#325:27> SUSPEND (0.01s since last cb)
+56474.1 <c-42#325:27> appl_unpause was called
+56474.1 <c-42#325:27> Set unsuspended
+56474.1 <c-42#325:27> Resuming worker
+56474.1 <c-42#325:27> RESUME
+56479.7 <c-42#325:27> appl_pause was called
+56479.7 <c-42#325:27> Set suspended
+56479.7 <c-42#325:27> Suspending worker
+56479.7 <c-42#325:27> SUSPEND (0.00s since last cb)
+56957 <c-42#325:27> appl_interrupt was called
+56957 <c-42#325:27> Interrupting worker
+56957 <c-42#325:27> Resuming worker to allow interruption
+56957 <c-42#325:27> RESUME
+56957 <c-42#325:27> STOP after suspension
+56957.1 <c-42#325:27> appl_interrupt was called
+56957.1 <c-42#325:27> appl_withdraw was called
+56957.1 <c-42#325:27> Started withdraw thread
+56961 <c-42#325:27> Solving interrupted
+56961 <c-42#325:27> The main loop continues
+56961 <c-42#325:27> Leaving the main loop due to an interruption
+56961.1 <c-42#325:27> Finished withdrawing lib
+56961.1 <c-42#325:27> Enter destructor of CubeWorker
+56961.1 <c-42#325:27> Time waiting for messages: 0.000
+56961.7 <c-42#325:27> Enter destructor of CubeWorkerInterface
+56961.7 <c-42#325:27> Enter destructor of CubeRoot
+56961.7 <c-42#325:27> Finished withdraw thread
+57019.3 <c-42#325:27> Enter destructor
+57019.3 <c-42#325:27> Time working: 5.668
+57019.3 <c-42#325:27> Time suspended: 477.336
+57019.3 <c-42#325:27> Joined cleanup thread
+57019.3 <c-42#325:27> Exit destructor
+57019.3 <c-42#325:27> Destructing logger

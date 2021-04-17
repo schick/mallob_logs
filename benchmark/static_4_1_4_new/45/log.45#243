@@ -1,0 +1,47 @@
+41813.7 <c-45#243> Created logger
+41813.7 <c-45#243> appl_initialize was called
+41813.7 <c-45#243:17> Logger was updated
+41813.7 <c-45#243:17> Started intializing cube lib
+41813.7 <c-45#243:17> Finished intializing cube lib with worker, starting to work
+41813.8 <c-45#243:17> requestCubes => [10] Buffer size: 0
+41813.8 <c-45#243:17> Sent requestCubes signal to root
+41813.8 <c-45#243:17> Received 1 cubes from root
+41813.8 <c-45#243:17> The main loop continues
+41813.8 <c-45#243:17> Started solving a cube
+41938.3 <c-45#243:17> Cube failed
+41938.3 <c-45#243:17> Added failed cube
+41938.3 <c-45#243:17> returnFailedCubes => [10] Buffer size: 5
+41938.3 <c-45#243:17> Sent 1 failed cubes to root
+41938.3 <c-45#243:17> Received receivedFailedCubes signal from root
+41938.3 <c-45#243:17> requestCubes => [10] Buffer size: 0
+41938.3 <c-45#243:17> Sent requestCubes signal to root
+41938.3 <c-45#243:17> Received 1 cubes from root
+41938.3 <c-45#243:17> The main loop continues
+41938.3 <c-45#243:17> Started solving a cube
+42167.8 <c-45#243:17> appl_pause was called
+42167.8 <c-45#243:17> Set suspended
+42167.8 <c-45#243:17> Suspending worker
+42167.8 <c-45#243:17> SUSPEND (0.00s since last cb)
+42789.6 <c-45#243:17> appl_interrupt was called
+42789.6 <c-45#243:17> Interrupting worker
+42789.6 <c-45#243:17> Resuming worker to allow interruption
+42789.6 <c-45#243:17> RESUME
+42789.6 <c-45#243:17> STOP after suspension
+42789.6 <c-45#243:17> Solving interrupted
+42789.6 <c-45#243:17> The main loop continues
+42789.6 <c-45#243:17> Leaving the main loop due to an interruption
+42789.6 <c-45#243:17> appl_interrupt was called
+42789.6 <c-45#243:17> appl_withdraw was called
+42789.6 <c-45#243:17> Started withdraw thread
+42789.6 <c-45#243:17> Finished withdrawing lib
+42789.6 <c-45#243:17> Enter destructor of CubeWorker
+42789.6 <c-45#243:17> Time waiting for messages: 0.000
+42789.6 <c-45#243:17> Enter destructor of CubeWorkerInterface
+42789.6 <c-45#243:17> Enter destructor of CubeRoot
+42789.6 <c-45#243:17> Finished withdraw thread
+42851.3 <c-45#243:17> Enter destructor
+42851.3 <c-45#243:17> Time working: 354.098
+42851.3 <c-45#243:17> Time suspended: 621.738
+42851.3 <c-45#243:17> Joined cleanup thread
+42851.3 <c-45#243:17> Exit destructor
+42851.3 <c-45#243:17> Destructing logger

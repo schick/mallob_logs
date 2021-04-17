@@ -1,0 +1,45 @@
+56976 <c-53#330> Created logger
+56976 <c-53#330> appl_initialize was called
+56976 <c-53#330:21> Logger was updated
+56976 <c-53#330:21> Started intializing cube lib
+56976 <c-53#330:21> Finished intializing cube lib with worker, starting to work
+56976.3 <c-53#330:21> requestCubes => [32] Buffer size: 0
+56976.3 <c-53#330:21> Sent requestCubes signal to root
+56976.3 <c-53#330:21> Received 1 cubes from root
+56976.3 <c-53#330:21> The main loop continues
+56976.3 <c-53#330:21> Started solving a cube
+57509.2 <c-53#330:21> appl_pause was called
+57509.2 <c-53#330:21> Set suspended
+57509.2 <c-53#330:21> Suspending worker
+57509.2 <c-53#330:21> SUSPEND (0.03s since last cb)
+57808.3 <c-53#330:21> appl_unpause was called
+57808.3 <c-53#330:21> Set unsuspended
+57808.3 <c-53#330:21> Resuming worker
+57808.3 <c-53#330:21> RESUME
+57832.5 <c-53#330:21> appl_pause was called
+57832.5 <c-53#330:21> Set suspended
+57832.5 <c-53#330:21> Suspending worker
+57832.5 <c-53#330:21> SUSPEND (0.00s since last cb)
+57931.2 <c-53#330:21> appl_interrupt was called
+57931.2 <c-53#330:21> Interrupting worker
+57931.2 <c-53#330:21> Resuming worker to allow interruption
+57931.2 <c-53#330:21> RESUME
+57931.2 <c-53#330:21> STOP after suspension
+57931.2 <c-53#330:21> Solving interrupted
+57931.2 <c-53#330:21> The main loop continues
+57931.2 <c-53#330:21> Leaving the main loop due to an interruption
+57931.2 <c-53#330:21> appl_interrupt was called
+57931.2 <c-53#330:21> appl_withdraw was called
+57931.2 <c-53#330:21> Started withdraw thread
+57931.2 <c-53#330:21> Finished withdrawing lib
+57931.2 <c-53#330:21> Enter destructor of CubeWorker
+57931.2 <c-53#330:21> Time waiting for messages: 0.000
+57931.3 <c-53#330:21> Enter destructor of CubeWorkerInterface
+57931.3 <c-53#330:21> Enter destructor of CubeRoot
+57931.3 <c-53#330:21> Finished withdraw thread
+57992.1 <c-53#330:21> Enter destructor
+57992.1 <c-53#330:21> Time working: 24.168
+57992.1 <c-53#330:21> Time suspended: 98.672
+57992.1 <c-53#330:21> Joined cleanup thread
+57992.1 <c-53#330:21> Exit destructor
+57992.1 <c-53#330:21> Destructing logger

@@ -1,0 +1,43 @@
+22960 <c-20#132> Created logger
+22960.7 <c-20#132> appl_initialize was called
+22960.7 <c-20#132:30> Logger was updated
+22960.7 <c-20#132:30> Started intializing cube lib
+22960.7 <c-20#132:30> Finished intializing cube lib with worker, starting to work
+22961.1 <c-20#132:30> appl_pause was called
+22964.9 <c-20#132:30> Set suspended
+22964.9 <c-20#132:30> Suspending worker
+23023.1 <c-20#132:30> appl_unpause was called
+23023.1 <c-20#132:30> Set unsuspended
+23023.1 <c-20#132:30> Resuming worker
+23023.1 <c-20#132:30> requestCubes => [60] Buffer size: 0
+23023.1 <c-20#132:30> Sent requestCubes signal to root
+23023.1 <c-20#132:30> Received 1 cubes from root
+23023.1 <c-20#132:30> The main loop continues
+23023.1 <c-20#132:30> Started solving a cube
+23023.2 <c-20#132:30> appl_pause was called
+23023.2 <c-20#132:30> Set suspended
+23023.2 <c-20#132:30> Suspending worker
+23023.2 <c-20#132:30> SUSPEND (0.00s since last cb)
+23179.8 <c-20#132:30> appl_interrupt was called
+23179.8 <c-20#132:30> Interrupting worker
+23179.8 <c-20#132:30> Resuming worker to allow interruption
+23179.8 <c-20#132:30> RESUME
+23179.8 <c-20#132:30> STOP after suspension
+23179.8 <c-20#132:30> Solving interrupted
+23179.8 <c-20#132:30> The main loop continues
+23179.8 <c-20#132:30> Leaving the main loop due to an interruption
+23179.8 <c-20#132:30> appl_interrupt was called
+23179.8 <c-20#132:30> appl_withdraw was called
+23179.8 <c-20#132:30> Started withdraw thread
+23179.8 <c-20#132:30> Finished withdrawing lib
+23179.8 <c-20#132:30> Enter destructor of CubeWorker
+23179.8 <c-20#132:30> Time waiting for messages: 0.002
+23180.7 <c-20#132:30> Enter destructor of CubeWorkerInterface
+23180.7 <c-20#132:30> Enter destructor of CubeRoot
+23180.7 <c-20#132:30> Finished withdraw thread
+23241 <c-20#132:30> Enter destructor
+23241 <c-20#132:30> Time working: 0.148
+23241 <c-20#132:30> Time suspended: 156.568
+23241 <c-20#132:30> Joined cleanup thread
+23241 <c-20#132:30> Exit destructor
+23241 <c-20#132:30> Destructing logger

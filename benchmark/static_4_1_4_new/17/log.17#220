@@ -1,0 +1,47 @@
+38152.5 <c-17#220> Created logger
+38152.6 <c-17#220> appl_initialize was called
+38152.6 <c-17#220:22> Logger was updated
+38152.6 <c-17#220:22> Started intializing cube lib
+38152.6 <c-17#220:22> Finished intializing cube lib with worker, starting to work
+38152.7 <c-17#220:22> requestCubes => [12] Buffer size: 0
+38152.7 <c-17#220:22> Sent requestCubes signal to root
+38152.7 <c-17#220:22> Received 1 cubes from root
+38152.7 <c-17#220:22> The main loop continues
+38152.7 <c-17#220:22> Started solving a cube
+38190.4 <c-17#220:22> appl_pause was called
+38190.4 <c-17#220:22> Set suspended
+38190.4 <c-17#220:22> Suspending worker
+38190.4 <c-17#220:22> SUSPEND (0.00s since last cb)
+38295.5 <c-17#220:22> appl_unpause was called
+38295.5 <c-17#220:22> Set unsuspended
+38295.5 <c-17#220:22> Resuming worker
+38295.5 <c-17#220:22> RESUME
+38319.2 <c-17#220:22> appl_pause was called
+38319.2 <c-17#220:22> Set suspended
+38319.2 <c-17#220:22> Suspending worker
+38319.2 <c-17#220:22> SUSPEND (0.00s since last cb)
+38363.6 <c-17#220:22> appl_unpause was called
+38363.6 <c-17#220:22> Set unsuspended
+38363.6 <c-17#220:22> Resuming worker
+38363.6 <c-17#220:22> RESUME
+38768.8 <c-17#220:22> appl_interrupt was called
+38768.8 <c-17#220:22> Interrupting worker
+38768.8 <c-17#220:22> appl_interrupt was called
+38768.8 <c-17#220:22> appl_withdraw was called
+38768.8 <c-17#220:22> Started withdraw thread
+38768.9 <c-17#220:22> STOP (0.25s since last cb)
+38769 <c-17#220:22> Solving interrupted
+38769 <c-17#220:22> The main loop continues
+38769 <c-17#220:22> Leaving the main loop due to an interruption
+38769 <c-17#220:22> Finished withdrawing lib
+38769 <c-17#220:22> Enter destructor of CubeWorker
+38769 <c-17#220:22> Time waiting for messages: 0.000
+38769 <c-17#220:22> Enter destructor of CubeWorkerInterface
+38769 <c-17#220:22> Enter destructor of CubeRoot
+38769 <c-17#220:22> Finished withdraw thread
+38830.5 <c-17#220:22> Enter destructor
+38830.5 <c-17#220:22> Time working: 405.160
+38830.5 <c-17#220:22> Time suspended: 149.492
+38830.5 <c-17#220:22> Joined cleanup thread
+38830.5 <c-17#220:22> Exit destructor
+38830.5 <c-17#220:22> Destructing logger
